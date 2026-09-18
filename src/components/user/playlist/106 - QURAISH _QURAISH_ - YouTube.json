@@ -1,0 +1,21 @@
+{
+  "id": 55,
+  "playlist_title": "106 - QURAISH (QURAISH) - YouTube",
+  "playlist_link": "https://www.youtube.com/playlist?list=PLM9b6uNkW8peszfLM8vScdtsjObGmVOvH",
+  "videos": [
+    {
+      "video_title": "Al Quraish verses 1 4",
+      "video_link": "https://www.youtube.com/watch?v=mUK7TjofsVY&list=PLM9b6uNkW8peszfLM8vScdtsjObGmVOvH&index=1&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/mUK7TjofsVY/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBzgWAAoAKigIMCAAQARhXIF4oZTAP&rs=AOn4CLBS8dTOvaNEkTn9geFnq3maXke0lQ",
+      "time": "16:14",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/mUK7TjofsVY?si=rXOsj9uZ9UgH_uqa\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Al Feel verses 1 5 & Al Quraish verses 1 4 Revision",
+      "video_link": "https://www.youtube.com/watch?v=gIictelmjvQ&list=PLM9b6uNkW8peszfLM8vScdtsjObGmVOvH&index=2&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/gIictelmjvQ/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBjAKAAuADigIMCAAQARhTIFwoZTAP&rs=AOn4CLCKD8bJyNSWk9zPtai9qMTr8xe_GA",
+      "time": "17:15",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/gIictelmjvQ?si=OLkZpJqzoGsj7FnT\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    }
+  ]
+}

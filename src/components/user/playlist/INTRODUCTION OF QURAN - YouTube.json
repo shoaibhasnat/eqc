@@ -1,0 +1,14 @@
+{
+  "id": 162,
+  "playlist_title": "INTRODUCTION OF QURAN - YouTube",
+  "playlist_link": "https://www.youtube.com/playlist?list=PLM9b6uNkW8pexmKLXBftzEYct0jo6N3A0",
+  "videos": [
+    {
+      "video_title": "Introduction of Quran",
+      "video_link": "https://www.youtube.com/watch?v=pGw_108LeME&list=PLM9b6uNkW8pexmKLXBftzEYct0jo6N3A0&index=1&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/pGw_108LeME/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBjAKAAuADigIMCAAQARhlIF4oTzAP&rs=AOn4CLBo9ykP_hK97RrSulgyDgirBnLDSw",
+      "time": "25:05",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/pGw_108LeME?si=NZ3Dhm8MWDyjSSrO\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    }
+  ]
+}

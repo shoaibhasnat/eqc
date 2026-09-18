@@ -1,0 +1,28 @@
+{
+  "id": 14,
+  "playlist_title": "92 - AL-LAIL (THE NIGHT) - YouTube",
+  "playlist_link": "https://www.youtube.com/playlist?list=PLM9b6uNkW8pdMFBGnYLtayT78rw1bmz9P",
+  "videos": [
+    {
+      "video_title": "Al Lail verses 1 11",
+      "video_link": "https://www.youtube.com/watch?v=SaV-TT-vgkg&list=PLM9b6uNkW8pdMFBGnYLtayT78rw1bmz9P&index=1&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/SaV-TT-vgkg/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AHOBYACgAqKAgwIABABGGUgUihWMA8=&rs=AOn4CLDsl_qhITLgRYgDd9GUCnpqfBFNhQ",
+      "time": "22:30",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SaV-TT-vgkg?si=JoKM8olGsHIt0RJt\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Al Lail verses 12 21",
+      "video_link": "https://www.youtube.com/watch?v=Y_iuVcN0C5s&list=PLM9b6uNkW8pdMFBGnYLtayT78rw1bmz9P&index=2&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/Y_iuVcN0C5s/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AHOBYACgAqKAgwIABABGFUgZShIMA8=&rs=AOn4CLDqm8HBxATFv5qLtC9-1OZOXDjcSQ",
+      "time": "24:26",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Y_iuVcN0C5s?si=XmPojPm5KG4xkaIa\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Al Lail verses 1 21 Revision",
+      "video_link": "https://www.youtube.com/watch?v=1FNHt1i35PQ&list=PLM9b6uNkW8pdMFBGnYLtayT78rw1bmz9P&index=3&pp=iAQB0gcJCQMKAYcqIYzv",
+      "image": "https://i.ytimg.com/vi/1FNHt1i35PQ/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AHOBYACgAqKAgwIABABGGUgZShlMA8=&rs=AOn4CLCa0ry2pVLPAVdnmC8Nf_VlKzM7jA",
+      "time": "26:06",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1FNHt1i35PQ?si=-iLwNrL134reuoA1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    }
+  ]
+}

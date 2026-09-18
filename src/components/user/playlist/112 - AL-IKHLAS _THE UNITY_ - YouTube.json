@@ -1,0 +1,14 @@
+{
+  "id": 111,
+  "playlist_title": "112 - AL-IKHLAS (THE UNITY) - YouTube",
+  "playlist_link": "https://www.youtube.com/playlist?list=PLM9b6uNkW8pe0aLOMPLf2MYhdqDUXCABT",
+  "videos": [
+    {
+      "video_title": "Al Ikhlaas verses 1 4",
+      "video_link": "https://www.youtube.com/watch?v=qKcGL-Mq08s&list=PLM9b6uNkW8pe0aLOMPLf2MYhdqDUXCABT&index=1&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/qKcGL-Mq08s/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBjAKAAuADigIMCAAQARhbIGAoZTAP&rs=AOn4CLDUdz8bbLJNvexZ3RMAWDCDIANSFA",
+      "time": "21:28",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qKcGL-Mq08s?si=0UvvNl7GWH2EhUJi\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    }
+  ]
+}

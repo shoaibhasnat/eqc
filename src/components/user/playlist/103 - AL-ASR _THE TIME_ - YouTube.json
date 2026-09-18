@@ -1,0 +1,14 @@
+{
+  "id": 85,
+  "playlist_title": "103 - AL-ASR (THE TIME) - YouTube",
+  "playlist_link": "https://www.youtube.com/playlist?list=PLM9b6uNkW8pfSe66APBmiQ5P4wQjwBTZz",
+  "videos": [
+    {
+      "video_title": "Al Asr verses 1 3",
+      "video_link": "https://www.youtube.com/watch?v=y85PCxXM0u4&list=PLM9b6uNkW8pfSe66APBmiQ5P4wQjwBTZz&index=1&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/y85PCxXM0u4/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AHOBYACgAqKAgwIABABGDwgTyhyMA8=&rs=AOn4CLAv0MU8MruIQ_HQPZgghMsYBDG14g",
+      "time": "25:08",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/y85PCxXM0u4?si=JElaXrq0af19dOeX\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    }
+  ]
+}

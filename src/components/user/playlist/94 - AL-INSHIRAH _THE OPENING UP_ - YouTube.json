@@ -1,0 +1,21 @@
+{
+  "id": 80,
+  "playlist_title": "94 - AL-INSHIRAH (THE OPENING UP) - YouTube",
+  "playlist_link": "https://www.youtube.com/playlist?list=PLM9b6uNkW8pdznZ9bbGrU2I_oihjrgy5y",
+  "videos": [
+    {
+      "video_title": "Al Inshirah verses 1 8",
+      "video_link": "https://www.youtube.com/watch?v=iX8jb7lrp6Y&list=PLM9b6uNkW8pdznZ9bbGrU2I_oihjrgy5y&index=1&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/iX8jb7lrp6Y/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBzgWAAoAKigIMCAAQARhZIGUoSjAP&rs=AOn4CLCn15-C3Zoc5aEvTgZhegmv0ChCww",
+      "time": "19:08",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/iX8jb7lrp6Y?si=U0wNU7ffjogKtGxM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Al Dhuha verses 1 11 & Al Inshirah verses 1 8 Revision",
+      "video_link": "https://www.youtube.com/watch?v=ofrgNdkFmV0&list=PLM9b6uNkW8pdznZ9bbGrU2I_oihjrgy5y&index=2&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/ofrgNdkFmV0/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBjAKAAuADigIMCAAQARhHIE8ocjAP&rs=AOn4CLBGvSe6S_EWjHY26Vt40ijQTr8RLQ",
+      "time": "25:24",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ofrgNdkFmV0?si=Vv70K3M0v1VMuz_h\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    }
+  ]
+}

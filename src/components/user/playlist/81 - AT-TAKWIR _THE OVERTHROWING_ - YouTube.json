@@ -1,0 +1,35 @@
+{
+  "id": 20,
+  "playlist_title": "81 - AT-TAKWIR (THE OVERTHROWING) - YouTube",
+  "playlist_link": "https://www.youtube.com/playlist?list=PLM9b6uNkW8pepns9fPVzEoc7z0CEMmjh-",
+  "videos": [
+    {
+      "video_title": "Al Takweer verses 1 14",
+      "video_link": "https://www.youtube.com/watch?v=jO7jx2_MxdY&list=PLM9b6uNkW8pepns9fPVzEoc7z0CEMmjh-&index=1&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/jO7jx2_MxdY/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBzgWAAoAKigIMCAAQARhDIFYoZTAP&rs=AOn4CLC9z0Uz8hijFEe8udq6J61X9kPbNw",
+      "time": "24:54",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jO7jx2_MxdY?si=wAif848-SjoA0c7K\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Al Takweer verses 15 23",
+      "video_link": "https://www.youtube.com/watch?v=cSaWGDpB9fI&list=PLM9b6uNkW8pepns9fPVzEoc7z0CEMmjh-&index=2&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/cSaWGDpB9fI/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBzgWAAoAKigIMCAAQARhbIFwoZTAP&rs=AOn4CLAtX531RDWVMflqXTQ7Ivz8KoRCKw",
+      "time": "18:58",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/cSaWGDpB9fI?si=WGdTqANZ8mCFwdkh\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Al Takweer verses 24 29",
+      "video_link": "https://www.youtube.com/watch?v=nxkGRDpBMWw&list=PLM9b6uNkW8pepns9fPVzEoc7z0CEMmjh-&index=3&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/nxkGRDpBMWw/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBzgWAAoAKigIMCAAQARhlIFYoXjAP&rs=AOn4CLB-12znqaf8h76gavIhSikCtWSfAA",
+      "time": "17:17",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/nxkGRDpBMWw?si=qcSrErr0dK1buJe6\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Al Takweer verses 1 29 Revision",
+      "video_link": "https://www.youtube.com/watch?v=8QWRQ4uYbMg&list=PLM9b6uNkW8pepns9fPVzEoc7z0CEMmjh-&index=4&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/8QWRQ4uYbMg/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBzgWAAoAKigIMCAAQARhlIGUoZTAP&rs=AOn4CLDprdgdSe2AItYAXL5yqV9O3qsFdA",
+      "time": "26:48",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/8QWRQ4uYbMg?si=GPahDCyEJWd5CSGv\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    }
+  ]
+}

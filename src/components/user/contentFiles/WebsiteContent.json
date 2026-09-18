@@ -1,0 +1,878 @@
+{
+    "en": {
+        "home": {
+            "banner": {
+                "tagline": "ONLINE QURAN ACADEMY",
+                "title": "Quran Pak For All Person Of World",
+                "description": "Online Quran Academy is a trusted global platform for learning the Holy Quran with certified tutors. We deliver interactive one-to-one online classes, complete Tajweed training, and personalized guidance for learners of all levels.", 
+                "ctaBtnText": "Contact Us"
+            },
+            "introSection": {
+                "featureChips": [
+                    {
+                        "icon": "AutoStoriesRounded",
+                        "label": "Tajwīd & Understanding"
+                    },
+                    {
+                        "icon": "LanguageRounded",
+                        "label": "English • Urdu"
+                    },
+                    {
+                        "icon": "ShieldRounded",
+                        "label": "Authentic Sources"
+                    }
+                ],
+                "title": "Introduction to Quran Class",
+                "subtitle": "An introductory lecture by Muhammad Amjad Chaudhry",
+                "description": "Easy Quran Class is an online Quran academy that teaches Quran recitation, Tajweed, Tafsir, and Arabic to kids and adults through live classes you can join from anywhere.",
+                "youtubeIframeLink": "https://www.youtube.com/embed/wj_cCz6BmVw?si=r_R9o6lI-kmdUXkq"
+            },
+            "ourLectures": {
+                "title": "Our Lectures",
+                "subtitle": "Watch Arabic grammar, Tajweed, namaz, and short Islamic lectures from Easy Quran Class to support your online Quran studies.",
+                "lectures": [
+                    {
+                        "icon": "MenuBookIcon",
+                        "title": "Foundations of Arabic Grammar",
+                        "description": "Learn foundational Arabic grammar to understand Quranic verses and daily Islamic phrases with clarity."
+                    },
+                    {
+                        "icon": "LibraryBooksIcon",
+                        "title": "Quran Recitation with Tajweed",
+                        "description": "Learn Quran recitation with proper Tajweed rules, taught in a simple and easy-to-understand manner."
+                    },
+                    {
+                        "icon": "PersonIcon",
+                        "title": "Short Islamic Video Lessons",
+                        "description": "Engaging short videos covering Islamic teachings, reminders, dua, ethics, and daily life guidance."
+                    },
+                    {
+                        "icon": "ImportContactsIcon",
+                        "title": "Salah (Namaz) Guidance",
+                        "description": "Step-by-step guidance on performing Salah correctly, including meanings, rules, and spiritual benefits."
+                    }
+                ],
+                "ctaBtnText": "View All Lectures"
+            },
+            "SocialPlatforms": {
+                "title": "Connect With Us",
+                "subtitle": "Join our community across different platforms to stay updated with the latest Quran lessons, Islamic content, and educational resources.",
+                "socialPlatforms": [
+                    {
+                        "name": "WhatsApp",
+                        "icon": "WhatsApp",
+                        "description": "Get instant updates and connect with us directly",
+                        "buttonText": "Chat",
+                        "buttonIcon": "Chat",
+                        "link": "https://wa.me/your-number"
+                    },
+                    {
+                        "name": "Facebook",
+                        "icon": "Facebook",
+                        "description": "Join our community and watch live sessions",
+                        "buttonText": "Follow",
+                        "buttonIcon": "FollowTheSigns",
+                        "link": "https://facebook.com/your-page"
+                    },
+                    {
+                        "name": "YouTube",
+                        "icon": "YouTube",
+                        "description": "Subscribe now for Quran lessons and tutorials",
+                        "buttonText": "Subscribe",
+                        "buttonIcon": "Subscriptions",
+                        "link": "https://youtube.com/your-channel"
+                    },
+                    {
+                        "name": "Instagram",
+                        "icon": "Instagram",
+                        "description": "Follow for daily Islamic reminders and content",
+                        "buttonText": "Follow",
+                        "buttonIcon": "FollowTheSigns",
+                        "link": "https://instagram.com/your-profile"
+                    }
+                ],
+                "AdditionalInfo": "Stay connected and never miss an update from Easy Quran Class"
+            },
+            "askQuestion": {
+                "title": "Have a Question?",
+                "description": "We're here to help! Drop us your question and we'll get back to you with a thoughtful response as soon as possible.",
+                "features": [
+                    {
+                        "icon": "CheckCircleIcon",
+                        "title": "Quick Response",
+                        "subtitle": "We typically respond within 24 hours"
+                    },
+                    {
+                        "icon": "LockIcon",
+                        "title": "Secure & Private",
+                        "subtitle": "Your information is always protected"
+                    }
+                ],
+                "buttonText": "Ask a Question"
+            },
+            "zakatCalculator": {
+                "title": "Zakat Calculator",
+                "subtitle": "Calculate your Zakat obligation based on your assets and liabilities",
+                "assetsTitle": "Your Assets",
+                "liabilitiesTitle": "Your Liabilities",
+                "summaryTitle": "Summary",
+                "assetFields": [
+                    "Cash in Hand",
+                    "Bank Balance",
+                    "Gold Value",
+                    "Silver Value",
+                    "Investments & Stocks",
+                    "Business Assets",
+                    "Investment Property",
+                    "Other Assets"
+                ],
+                "liabilityFields": [
+                    "Outstanding Debts",
+                    "Loans Payable"
+                ],
+                "summaryLabels": {
+                    "totalAssets": "Total Assets",
+                    "totalLiabilities": "Total Liabilities",
+                    "netAssets": "Net Assets",
+                    "nisabThreshold": "Nisab Threshold",
+                    "zakatPayable": "Zakat Payable"
+                },
+                "resetButtonText": "Reset Calculator",
+                "nisabThreshold": 5000
+            },
+            "inheritenceCalculator": {
+                "title": "Inheritance Calculator",
+                "subtitle": "Calculate inheritance distribution among heirs based on Islamic law",
+                "estateSection": {
+                    "title": "Total Estate Value",
+                    "label": "Estate Amount",
+                    "placeholder": "$ 0.00"
+                },
+                "heirsSection": {
+                    "title": "Add Heirs",
+                    "nameLabel": "Name",
+                    "namePlaceholder": "Enter name",
+                    "relationLabel": "Relation",
+                    "genderLabel": "Gender",
+                    "addButtonText": "+ Add Heir"
+                },
+                "relationOptions": ["Son", "Daughter", "Other"],
+                "genderOptions": [
+                    { "label": "Male", "weight": 2 },
+                    { "label": "Female", "weight": 1 }
+                ],
+                "summarySection": {
+                    "title": "Distribution Summary",
+                    "totalEstate": "Total Estate",
+                    "totalHeirs": "Total Heirs",
+                    "totalDistributed": "Total Distributed",
+                    "perHeirDistribution": "Per Heir Distribution",
+                    "resetButtonText": "Reset Calculator"
+                }
+            }
+        },
+        "navbar":{
+            "navbarTitle": "Easy Quran Class",
+            "navItems": [
+                {
+                    "name": "Home",
+                    "path": "/"
+                },
+                {
+                    "name": "About",
+                    "path": "/about"
+                },
+                {
+                    "name": "Surah",
+                    "path": "/surah"
+                },
+                {
+                    "name": "Notes",
+                    "path": "/notes"
+                },
+                {
+                    "name": "Contact",
+                    "path": "/contact"
+                }
+            ],
+            "lecturesDropdown": {
+                "title": "Lectures",
+                "lecturesOptions": {
+                    "title": ["Foundations of Arabic Grammar",
+                    "Salah (Namaz) Guidance",
+                    "Quran Recitation with Tajweed",
+                    "Short Islamic Video Lessons"],
+                    "urlMapping": {
+                        "Foundations of Arabic Grammar": "grammar-lectures",
+                        "Salah (Namaz) Guidance": "namaz-lectures",
+                        "Quran Recitation with Tajweed": "tajweed-lectures",
+                        "Short Islamic Video Lessons": "short-lectures"
+                    }
+                },
+                "seeAll": "See All"
+            }
+        },
+
+        "footer":{
+            "footerTitle": "Easy Quran Class",
+            "footerSubtitle": "Empowering Muslims worldwide to connect with the Quran and strengthen their faith through quality Islamic education.",
+            "quickLinks": [
+                {
+                    "name": "Home",
+                    "path": "/"
+                },
+                {
+                    "name": "About",
+                    "path": "/about"
+                },
+                {
+                    "name": "Surah",
+                    "path": "/surah"
+                },
+                {
+                    "name": "Contact",
+                    "path": "/contact"
+                },
+                {
+                    "name": "Lectures",
+                    "path": "/lectures"
+                },
+                {
+                    "name": "Notes",
+                    "path": "/notes"
+                },
+                {
+                    "name": "FAQ",
+                    "path": "/faq"
+                }
+            ],
+            "contactInfo": [
+                {
+                    "name": "Phone",
+                    "value": "0301 8477994",
+                    "link": "tel:03018477994"
+                },
+                {
+                    "name": "Email",
+                    "value": "info@easyquranclass.com",
+                    "link": "mailto:info@easyquranclass.com"
+                },
+                {
+                    "name": "Address",
+                    "value": "Valencia Town, Block H, Lahore",
+                    "link": "https://www.google.com/maps/search/?api=1&query=Valencia+Town+Block+H+Lahore"
+                }
+            ],
+            "additionalInfo":{
+                "copyrightText": " Easy Quran Class © 2025 Quran For All Academy. Made With Love For The Ummah.",
+                "quoteText": "Seek knowledge from the cradle to the grave"
+            },
+            "sectionTitles": {
+                "quickLinks": "Quick Links",
+                "contactUs": "Contact Us"
+            }
+        },
+
+        "contact":{
+            "contactForm":{
+                "sectionTitle": "Get In Touch",
+                "sectionSubtitle": "Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+                "contactTitle": "Connect With Us",
+                "contactSubtitle": "We're here to help you on your Quran learning journey. Reach out anytime!",
+                "chipTexts": ["24/7 Support","Quick Response"],
+                "formTitle": "Send Us a Message", 
+                "formFields": {
+                    "name": "Full Name",
+                    "email": "Email Address",
+                    "message": "Your Message",
+                    "submit": "Send Message"
+                },
+                "validationMessages": {
+                    "nameRequired": "Full name is required",
+                    "emailRequired": "Email is required",
+                    "emailInvalid": "Enter a valid email address",
+                    "messageRequired": "Message cannot be empty",
+                    "messageTooShort": "Message should be at least 10 characters"
+                },
+                "successMessage": "Your message has been sent successfully! We'll get back to you soon."
+            },
+
+            "contactInfo":{
+                "heading": "Easy Quran Class",
+                "description": "Learn Quran in Quranic language — Your trusted online Quran academy for authentic Islamic education.",
+                "contactItems": [
+                    {
+                        "icon": "LocationOnRoundedIcon",
+                        "title": "Our Address",
+                        "line1": "Valencia Town, Block H, Lahore",
+                        "color": "#FF6B6B",
+                        "gradient": "linear-gradient(135deg, #FF6B6B 0%, #EE5A6F 100%)",
+                        "link": "https://www.google.com/maps/search/?api=1&query=Valencia+Town+Block+H+Lahore"
+                    },
+                    {
+                        "icon": "PhoneRoundedIcon",
+                        "title": "Our Phone",
+                        "line1": "0301 8477994",
+                        "color": "#25D366",
+                        "gradient": "linear-gradient(135deg, #25D366 0%, #128C7E 100%)",
+                        "link": "tel:03018477994"
+                    },
+                    {
+                        "icon": "EmailRoundedIcon",
+                        "title": "Email Address",
+                        "line1": "info@easyquranclass.com",
+                        "color": "#1877F2",
+                        "gradient": "linear-gradient(135deg, #1877F2 0%, #0C5A9E 100%)",
+                        "link": "mailto:info@easyquranclass.com"
+                    },
+                    {
+                        "icon": "YouTubeIcon",
+                        "title": "YouTube",
+                        "line1": "@easyquranclass",
+                        "color": "#FF0000",
+                        "gradient": "linear-gradient(135deg, #FF0000 0%, #CC0000 100%)",
+                        "link": "https://www.youtube.com/@easyquranclass"
+                    },
+                    {
+                        "icon": "LanguageRoundedIcon",
+                        "title": "Website",
+                        "line1": "easyquranclass.com",
+                        "color": "#b8702f",
+                        "gradient": "linear-gradient(135deg, #b8702f 0%, #a25e26 100%)",
+                        "link": "https://www.easyquranclass.com"
+                    }
+                ]
+            }
+        },
+
+        "about":{
+            "visionSection": {
+                "heading": "About Easy Quran Class",
+                "intro": "Easy Quran Class is an online Quran academy that helps kids and adults learn Quran recitation, Tajweed, Tafsir, Arabic grammar, and namaz with qualified teachers.",
+                "cards": [
+                    {
+                        "title": "Our Mission",
+                        "desc": "Our mission is to make Quranic learning accessible and meaningful for everyone, everywhere. Through experienced teachers and personalized lessons, we help students understand the message of the Quran with tajwīd, tafsir, and reflection.",
+                        "icon": "FlagRoundedIcon"
+                    },
+                    {
+                        "title": "Our Vision",
+                        "desc": "We envision a world where every Muslim—young or old—can connect with the Quran confidently, recite beautifully, and embody its teachings in daily life.",
+                        "icon": "VisibilityRoundedIcon"
+                    },
+                    {
+                        "title": "Our Values",
+                        "desc": "Integrity, Compassion, Excellence, Inclusivity, and Spiritual Growth guide everything we do as we support our students on their Quranic journey.",
+                        "icon": "FavoriteRoundedIcon"
+                    }
+                ]
+            },
+
+            "whyChooseUsSection": {
+                "heading":"Why Choose Easy Quran Class?",
+                "cards": [
+                    {
+                        "title": "Qualified Instructors",
+                        "desc": "Learn from certified teachers with years of experience in Quranic education and tajwīd.",
+                        "icon": "SchoolRoundedIcon"
+                    },
+                    {
+                        "title": "Personalized Learning",
+                        "desc": "One-on-one and group classes tailored for every student's pace, age, and level.",
+                        "icon": "PersonRoundedIcon"
+                    },
+                    {
+                        "title": "Flexible & Interactive",
+                        "desc": "Join classes from anywhere, anytime — interact, ask questions, and enjoy guided recitation.",
+                        "icon": "SelfImprovementRoundedIcon"
+                    },
+                    {
+                        "title": "Trusted Worldwide",
+                        "desc": "Thousands of students across the globe trust Easy Quran Class for authentic learning.",
+                        "icon": "StarRoundedIcon"
+                    }
+                ]
+            },
+
+            "aboutUsSection":{
+                "tagline": "About Us",
+                "title": "Best Online Quran Academy",
+                "description": "Online Quran Academy is a trusted platform where children and adults can learn the Holy Quran from the comfort of their home. Our qualified teachers provide personalized classes designed to help each student read, recite, and understand the Quran correctly. We focus on creating a positive and supportive learning environment, ensuring that every learner progresses at their own pace. From basic Noorani Qaida to advanced Tajweed and Tafseer, we offer complete Quranic education for everyone. Join us and let your family grow spiritually with expert guidance.",
+                "ctaBtnText": "Contact Us"
+            },
+
+            "statsSection":{
+                "stats": [
+                    { "icon": "SchoolIcon", "end": 1920, "suffix": "+", "label": "Happy Students" },
+                    { "icon": "PeopleIcon", "end": 250, "suffix": "+", "label": "Professional Teachers" },
+                    { "icon": "PublicIcon", "end": 100, "suffix": "+", "label": "Countries" },
+                    { "icon": "StarIcon", "end": 10, "suffix": "+", "label": "Years of Experience" }
+                ]
+            }
+        },
+
+        "notes":{
+            "notesSection":{
+                "title": "Our Notes",
+                "subtitle": "Access helpful notes and guidance documents for learning the Quran.",
+                "notes": [
+                    {
+                        "id": 1,
+                        "title": "Arabic Notes",
+                        "description": "Comprehensive Arabic grammar and language notes for Quranic understanding.", 
+                        "pdfUrl": "https://drive.google.com/file/d/1JbbvXB25250eLp0LfJ81R02ssR1JceVx/preview"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Namaz Notes",
+                        "description": "Step-by-step guide for performing Salah (Prayer) correctly with meanings and rules.", 
+                        "pdfUrl": "https://drive.google.com/file/d/1JbbvXB25250eLp0LfJ81R02ssR1JceVx/preview"
+                    }
+                ]
+            }
+        }
+    },
+
+    "ur": {
+        "home": {
+            "banner": {
+                "tagline": "آن لائن قرآن اکیڈمی",
+                "title": "قرآن پاک تمام دنیا کے لوگوں کے لیے",
+                "description": "آن لائن قرآن اکیڈمی قرآن پاک سیکھنے کے لیے ایک قابل اعتماد عالمی پلیٹ فارم ہے جس میں سرٹیفائیڈ ٹیوٹرز موجود ہیں۔ ہم تمام سطحوں کے طلباء کے لیے انٹرایکٹو ایک سے ایک آن لائن کلاسز، مکمل تجوید کی تربیت، اور ذاتی رہنمائی فراہم کرتے ہیں۔",
+                "ctaBtnText": "ہم سے رابطہ کریں"
+            },
+            "introSection": {
+                "featureChips": [
+                    {
+                        "icon": "AutoStoriesRounded",
+                        "label": "تجوید اور تفہیم"
+                    },
+                    {
+                        "icon": "LanguageRounded",
+                        "label": "انگریزی • اردو"
+                    },
+                    {
+                        "icon": "ShieldRounded",
+                        "label": "مستند ذرائع"
+                    }
+                ],
+                "title": "قرآن کلاس کا تعارف",
+                "subtitle": "محمد امجد چوہدری کی تعارفی تقریر",
+                "description": "ایزی قرآن کلاس ایک آن لائن قرآن اکیڈمی ہے جہاں بچے اور بڑے زندہ کلاسز کے ذریعے قرآن، تجوید، تفسیر اور عربی سیکھتے ہیں۔",
+                "youtubeIframeLink": "https://www.youtube.com/embed/wj_cCz6BmVw?si=r_R9o6lI-kmdUXkq"
+            },
+            "ourLectures": {
+                "title": "ہماری لیکچرز",
+                "subtitle": "ایزی قرآن کلاس سے عربی گرامر، تجوید، نماز اور مختصر اسلامی لیکچرز دیکھیں اور اپنے قرآن کے مطالعے کو مضبوط بنائیں۔",
+                "lectures": [
+                    {
+                        "icon": "MenuBookIcon",
+                        "title": "عربی گرامر کی بنیادیں",
+                        "description": "قرآنی آیات اور روزمرہ اسلامی جملوں کو واضح طور پر سمجھنے کے لیے بنیادی عربی گرامر سیکھیں۔"
+                    },
+                    {
+                        "icon": "LibraryBooksIcon",
+                        "title": "تجوید کے ساتھ قرآن کی تلاوت",
+                        "description": "تجوید کے صحیح قواعد کے ساتھ قرآن کی تلاوت سیکھیں، جو آسان اور سمجھنے میں آسان طریقے سے پڑھائی جاتی ہے۔"
+                    },
+                    {
+                        "icon": "PersonIcon",
+                        "title": "مختصر اسلامی ویڈیو اسباق",
+                        "description": "اسلامی تعلیمات، یاد دہانیاں، دعائیں، اخلاقیات، اور روزمرہ زندگی کی رہنمائی کا احاطہ کرنے والی دلچسپ مختصر ویڈیوز۔"
+                    },
+                    {
+                        "icon": "ImportContactsIcon",
+                        "title": "نماز کی رہنمائی",
+                        "description": "نماز کو صحیح طریقے سے پڑھنے کے لیے قدم بہ قدم رہنمائی، جس میں معانی، قواعد، اور روحانی فوائد شامل ہیں۔"
+                    }
+                ],
+                "ctaBtnText": "تمام لیکچرز دیکھیں"
+            },
+            "SocialPlatforms": {
+                "title": "ہم سے رابطہ کریں",
+                "subtitle": "مختلف پلیٹ فارمز پر ہماری کمیونٹی میں شامل ہوں تاکہ تازہ ترین قرآن کے اسباق، اسلامی مواد، اور تعلیمی وسائل سے اپ ڈیٹ رہیں۔",
+                "socialPlatforms": [
+                    {
+                        "name": "WhatsApp",
+                        "icon": "WhatsApp",
+                        "description": "فوری اپ ڈیٹس حاصل کریں اور براہ راست ہم سے رابطہ کریں",
+                        "buttonText": "چیٹ",
+                        "buttonIcon": "Chat",
+                        "link": "https://wa.me/your-number"
+                    },
+                    {
+                        "name": "Facebook",
+                        "icon": "Facebook",
+                        "description": "ہماری کمیونٹی میں شامل ہوں اور لائیو سیشنز دیکھیں",
+                        "buttonText": "فالو کریں",
+                        "buttonIcon": "FollowTheSigns",
+                        "link": "https://facebook.com/your-page"
+                    },
+                    {
+                        "name": "YouTube",
+                        "icon": "YouTube",
+                        "description": "قرآن کے اسباق اور ٹیوٹوریلز کے لیے ابھی سبسکرائب کریں",
+                        "buttonText": "سبسکرائب کریں",
+                        "buttonIcon": "Subscriptions",
+                        "link": "https://youtube.com/your-channel"
+                    },
+                    {
+                        "name": "Instagram",
+                        "icon": "Instagram",
+                        "description": "روزانہ اسلامی یاد دہانیوں اور مواد کے لیے فالو کریں",
+                        "buttonText": "فالو کریں",
+                        "buttonIcon": "FollowTheSigns",
+                        "link": "https://instagram.com/your-profile"
+                    }
+                ],
+                "AdditionalInfo": "جڑے رہیں اور ایزی قرآن کلاس سے کوئی اپ ڈیٹ مت چھوڑیں"
+            },
+            "askQuestion": {
+                "title": "کیا آپ کا کوئی سوال ہے؟",
+                "description": "ہم آپ کی مدد کے لیے یہاں موجود ہیں! ہمیں اپنا سوال بھیجیں اور ہم جلد از جلد آپ کو ایک سوچا سمجھا جواب دیں گے۔",
+                "features": [
+                    {
+                        "icon": "CheckCircleIcon",
+                        "title": "فوری جواب",
+                        "subtitle": "ہم عام طور پر 24 گھنٹوں کے اندر جواب دیتے ہیں"
+                    },
+                    {
+                        "icon": "LockIcon",
+                        "title": "محفوظ اور نجی",
+                        "subtitle": "آپ کی معلومات ہمیشہ محفوظ رہتی ہیں"
+                    }
+                ],
+                "buttonText": "سوال پوچھیں"
+            },
+            "zakatCalculator": {
+                "title": "زکوٰۃ کیلکولیٹر",
+                "subtitle": "اپنی جائداد اور قرضوں کی بنیاد پر اپنی زکوٰۃ کی ذمہ داری کا حساب لگائیں",
+                "assetsTitle": "آپ کی جائداد",
+                "liabilitiesTitle": "آپ کے قرضے",
+                "summaryTitle": "خلاصہ",
+                "assetFields": [
+                    "نقد رقم",
+                    "بینک بیلنس",
+                    "سونے کی قیمت",
+                    "چاندی کی قیمت",
+                    "سرمایہ کاری اور اسٹاک",
+                    "کاروباری اثاثے",
+                    "سرمایہ کاری کی جائداد",
+                    "دیگر اثاثے"
+                ],
+                "liabilityFields": [
+                    "باقی قرضے",
+                    "قابل ادائیگی قرضے"
+                ],
+                "summaryLabels": {
+                    "totalAssets": "کل جائداد",
+                    "totalLiabilities": "کل قرضے",
+                    "netAssets": "خالص جائداد",
+                    "nisabThreshold": "نصاب کی حد",
+                    "zakatPayable": "زکوٰۃ قابل ادائیگی"
+                },
+                "resetButtonText": "کیلکولیٹر ری سیٹ کریں",
+                "nisabThreshold": 5000
+            },
+            "inheritenceCalculator": {
+                "title": "وراثت کیلکولیٹر",
+                "subtitle": "اسلامی قانون کی بنیاد پر وارثین میں وراثت کی تقسیم کا حساب لگائیں",
+                "estateSection": {
+                    "title": "کل جائداد کی قیمت",
+                    "label": "جائداد کی رقم",
+                    "placeholder": "$ 0.00"
+                },
+                "heirsSection": {
+                    "title": "وارث شامل کریں",
+                    "nameLabel": "نام",
+                    "namePlaceholder": "نام درج کریں",
+                    "relationLabel": "رشتہ",
+                    "genderLabel": "جنس",
+                    "addButtonText": "+ وارث شامل کریں"
+                },
+                "relationOptions": ["بیٹا", "بیٹی", "دیگر"],
+                "genderOptions": [
+                    { "label": "مرد", "weight": 2 },
+                    { "label": "عورت", "weight": 1 }
+                ],
+                "summarySection": {
+                    "title": "تقسیم کا خلاصہ",
+                    "totalEstate": "کل جائداد",
+                    "totalHeirs": "کل وارثین",
+                    "totalDistributed": "کل تقسیم شدہ",
+                    "perHeirDistribution": "فی وارث تقسیم",
+                    "resetButtonText": "کیلکولیٹر ری سیٹ کریں"
+                }
+            }
+        },
+        "navbar":{
+            "navbarTitle": "Easy Quran Class",
+            "navItems": [
+                {
+                    "name": "ہوم",
+                    "path": "/"
+                },
+                {
+                    "name": "ہمارے بارے میں",
+                    "path": "/about"
+                },
+                {
+                    "name": "سورہ",
+                    "path": "/surah"
+                },
+                {
+                    "name": "نوٹس",
+                    "path": "/notes"
+                },
+                {
+                    "name": "رابطہ",
+                    "path": "/contact"
+                }
+            ],
+            "notesDropdown": {
+                "title": "نوٹس",
+                "notesOptions": {
+                    "title": ["عربی نوٹس","نماز نوٹس"]
+                },
+                "pdfDialogs": {
+                    "arabicNotes": "عربی نوٹس",
+                    "namazNotes": "نماز نوٹس"
+                }
+            },
+            "lecturesDropdown": {
+                "title": "لیکچرز",
+                "lecturesOptions": {
+                    "title": ["عربی گرامر کی بنیادیں",
+                    "نماز کی رہنمائی",
+                    "تجوید کے ساتھ قرآن کی تلاوت",
+                    "مختصر اسلامی ویڈیو اسباق"],
+                    "urlMapping": {
+                        "عربی گرامر کی بنیادیں": "grammar-lectures",
+                        "نماز کی رہنمائی": "namaz-lectures",
+                        "تجوید کے ساتھ قرآن کی تلاوت": "tajweed-lectures",
+                        "مختصر اسلامی ویڈیو اسباق": "short-lectures"
+                    }
+                },
+                "seeAll": "تمام دیکھیں"
+            }
+        },
+        "footer":{
+            "footerTitle": "Easy Quran Class",
+            "footerSubtitle": "دنیا بھر کے مسلمانوں کو قرآن سے جوڑنے اور معیاری اسلامی تعلیم کے ذریعے اپنے ایمان کو مضبوط بنانے کے لیے بااختیار بنانا۔",
+            "quickLinks": [
+                {
+                    "name": "ہوم",
+                    "path": "/"
+                },
+                {
+                    "name": "ہمارے بارے میں",
+                    "path": "/about"
+                },
+                {
+                    "name": "سورہ",
+                    "path": "/surah"
+                },
+                {
+                    "name": "رابطہ",
+                    "path": "/contact"
+                },
+                {
+                    "name": "لیکچرز",
+                    "path": "/lectures"
+                },
+                {
+                    "name": "نوٹس",
+                    "path": "/notes"
+                },
+                {
+                    "name": "سوالات",
+                    "path": "/faq"
+                }
+            ],
+            "contactInfo": [
+                {
+                    "name": "فون",
+                    "value": "0301 8477994",
+                    "link": "tel:03018477994"
+                },
+                {
+                    "name": "ای میل",
+                    "value": "info@easyquranclass.com",
+                    "link": "mailto:info@easyquranclass.com"
+                },
+                {
+                    "name": "پتہ",
+                    "value": "ویلنسیا ٹاؤن، بلاک ایچ، لاہور",
+                    "link": "https://www.google.com/maps/search/?api=1&query=Valencia+Town+Block+H+Lahore"
+                }
+            ],
+            "additionalInfo":{
+                "copyrightText": "ایزی قرآن کلاس © 2025 قرآن فار آل اکیڈمی۔ امت کے لیے محبت کے ساتھ بنایا گیا۔",
+                "quoteText": "گہوارے سے قبر تک علم حاصل کرو"
+            },
+            "sectionTitles": {
+                "quickLinks": "فوری لنکس",
+                "contactUs": "ہم سے رابطہ کریں"
+            }
+        },
+
+        "about":{
+            "visionSection": {
+                "heading": "ایزی قرآن کلاس کے بارے میں",
+                "intro": "ایزی قرآن کلاس ایک آن لائن قرآن اکیڈمی ہے جہاں بچے اور بڑے تجوید، تفسیر، عربی گرامر اور نماز کے ساتھ قرآن سیکھتے ہیں۔",
+                "cards": [
+                    {
+                        "title": "ہمارا مشن",
+                        "desc": "ہمارا مشن یہ ہے کہ قرآن کی تعلیم کو ہر کسی کے لیے، ہر جگہ قابل رسائی اور معنی خیز بنایا جائے۔ تجربہ کار اساتذہ اور ذاتی اسباق کے ذریعے، ہم طلباء کو تجوید، تفسیر، اور غور و فکر کے ساتھ قرآن کے پیغام کو سمجھنے میں مدد کرتے ہیں۔",
+                        "icon": "FlagRoundedIcon"
+                    },
+                    {
+                        "title": "ہمارا وژن",
+                        "desc": "ہم ایک ایسی دنیا کا تصور کرتے ہیں جہاں ہر مسلمان—چاہے جوان ہو یا بوڑھا—اعتماد کے ساتھ قرآن سے جڑ سکے، خوبصورتی سے تلاوت کر سکے، اور روزمرہ زندگی میں اس کی تعلیمات کو اپنا سکے۔",
+                        "icon": "VisibilityRoundedIcon"
+                    },
+                    {
+                        "title": "ہماری اقدار",
+                        "desc": "دیانتداری، ہمدردی، فضیلت، شمولیت، اور روحانی ترقی ہر اس کام کی رہنمائی کرتی ہے جو ہم اپنے طلباء کی قرآنی سفر میں مدد کرتے ہوئے کرتے ہیں۔",
+                        "icon": "FavoriteRoundedIcon"
+                    }
+                ]
+            },
+
+            "whyChooseUsSection": {
+                "heading": "ایزی قرآن کلاس کیوں منتخب کریں؟",
+                "cards": [
+                    {
+                        "title": "قابل اساتذہ",
+                        "desc": "سرٹیفائیڈ اساتذہ سے سیکھیں جن کے پاس قرآن کی تعلیم اور تجوید میں سالوں کا تجربہ ہے۔",
+                        "icon": "SchoolRoundedIcon"
+                    },
+                    {
+                        "title": "ذاتی تعلیم",
+                        "desc": "ہر طالب علم کی رفتار، عمر، اور سطح کے مطابق ایک سے ایک اور گروپ کلاسز۔",
+                        "icon": "PersonRoundedIcon"
+                    },
+                    {
+                        "title": "لچکدار اور انٹرایکٹو",
+                        "desc": "کہیں سے بھی، کسی بھی وقت کلاسز میں شامل ہوں — بات چیت کریں، سوالات پوچھیں، اور رہنمائی شدہ تلاوت سے لطف اٹھائیں۔",
+                        "icon": "SelfImprovementRoundedIcon"
+                    },
+                    {
+                        "title": "دنیا بھر میں قابل اعتماد",
+                        "desc": "دنیا بھر کے ہزاروں طلباء مستند تعلیم کے لیے ایزی قرآن کلاس پر اعتماد کرتے ہیں۔",
+                        "icon": "StarRoundedIcon"
+                    }
+                ]
+            },
+
+            "aboutUsSection":{
+                "tagline": "ہمارے بارے میں",
+                "title": "بہترین آن لائن قرآن اکیڈمی",
+                "description": "آن لائن قرآن اکیڈمی ایک قابل اعتماد پلیٹ فارم ہے جہاں بچے اور بڑے اپنے گھر کے آرام سے قرآن پاک سیکھ سکتے ہیں۔ ہمارے قابل اساتذہ ذاتی کلاسز فراہم کرتے ہیں جو ہر طالب علم کو قرآن کو صحیح طریقے سے پڑھنے، تلاوت کرنے، اور سمجھنے میں مدد کرنے کے لیے ڈیزائن کی گئی ہیں۔ ہم ایک مثبت اور معاون تعلیمی ماحول بنانے پر توجہ دیتے ہیں، یہ یقینی بناتے ہوئے کہ ہر سیکھنے والا اپنی رفتار سے ترقی کرے۔ بنیادی نورانی قاعدہ سے لے کر اعلیٰ تجوید اور تفسیر تک، ہم سب کے لیے مکمل قرآنی تعلیم پیش کرتے ہیں۔ ہمارے ساتھ شامل ہوں اور ماہر رہنمائی کے ساتھ اپنے خاندان کو روحانی طور پر بڑھنے دیں۔",
+                "ctaBtnText": "ہم سے رابطہ کریں"
+            },
+
+            "statsSection":{
+                "stats": [
+                    { "icon": "SchoolIcon", "end": 1920, "suffix": "+", "label": "خوش طلباء" },
+                    { "icon": "PeopleIcon", "end": 250, "suffix": "+", "label": "پیشہ ور اساتذہ" },
+                    { "icon": "PublicIcon", "end": 100, "suffix": "+", "label": "ممالک" },
+                    { "icon": "StarIcon", "end": 10, "suffix": "+", "label": "سال کا تجربہ" }
+                ]
+            }
+        },
+
+        "contact":{
+            "contactForm":{
+                "sectionTitle": "رابطہ کریں",
+                "sectionSubtitle": "کیا آپ کے ذہن میں کوئی سوال ہے؟ ہم آپ کی بات سننے کے لیے ہمیشہ تیار ہیں۔ ہمیں پیغام بھیجیں، ہم جلد از جلد جواب دیں گے۔",
+                "contactTitle": "ہم سے رابطہ کریں",
+                "contactSubtitle": "ہم آپ کی قرآن سیکھنے کے سفر میں مدد کے لیے یہاں موجود ہیں۔ کسی بھی سوال یا رہنمائی کے لیے ہم سے رابطہ کریں۔",
+                "chipTexts": ["24/7 سپورٹ","فوری جواب"],
+                "formTitle": "ہمیں پیغام بھیجیں", 
+                "formFields": {
+                    "name": "نام",
+                    "email": "ای میل",
+                    "message": "آپ کا پیغام",
+                    "submit": "پیغام بھیجیں"
+                },
+                "validationMessages": {
+                    "nameRequired": "نام لکھنا ضروری ہے",
+                    "emailRequired": "ای میل لکھنا ضروری ہے",
+                    "emailInvalid": "درست ای میل ایڈریس درج کریں",
+                    "messageRequired": "پیغام خالی نہیں ہو سکتا",
+                    "messageTooShort": "پیغام کم از کم 10 حروف پر مشتمل ہونا چاہیے"
+                },
+                "successMessage": "آپ کا پیغام کامیابی کے ساتھ بھیج دیا گیا ہے! ہم جلد آپ سے رابطہ کریں گے۔"
+            },
+
+            "contactInfo":{
+                "heading": "Easy Quran Class",
+                "description": "قرآن کی زبان میں قرآن سیکھیں — مستند اسلامی تعلیم کے لیے آپ کا قابل اعتماد آن لائن قرآن اکیڈمی۔",
+                "contactItems": [
+                    {
+                        "icon": "LocationOnRoundedIcon",
+                        "title": "ہمارا پتہ",
+                        "line1": "ویلنسیا ٹاؤن، بلاک ایچ، لاہور",
+                        "color": "#FF6B6B",
+                        "gradient": "linear-gradient(135deg, #FF6B6B 0%, #EE5A6F 100%)",
+                        "link": "https://www.google.com/maps/search/?api=1&query=Valencia+Town+Block+H+Lahore"
+                    },
+                    {
+                        "icon": "PhoneRoundedIcon",
+                        "title": "ہمارا فون",
+                        "line1": "0301 8477994",
+                        "color": "#25D366",
+                        "gradient": "linear-gradient(135deg, #25D366 0%, #128C7E 100%)",
+                        "link": "tel:03018477994"
+                    },
+                    {
+                        "icon": "EmailRoundedIcon",
+                        "title": "ای میل ایڈریس",
+                        "line1": "info@easyquranclass.com",
+                        "color": "#1877F2",
+                        "gradient": "linear-gradient(135deg, #1877F2 0%, #0C5A9E 100%)",
+                        "link": "mailto:info@easyquranclass.com"
+                    },
+                    {
+                        "icon": "YouTubeIcon",
+                        "title": "یوٹیوب",
+                        "line1": "@easyquranclass",
+                        "color": "#FF0000",
+                        "gradient": "linear-gradient(135deg, #FF0000 0%, #CC0000 100%)",
+                        "link": "https://www.youtube.com/@easyquranclass"
+                    },
+                    {
+                        "icon": "LanguageRoundedIcon",
+                        "title": "ویب سائٹ",
+                        "line1": "easyquranclass.com",
+                        "color": "#b8702f",
+                        "gradient": "linear-gradient(135deg, #b8702f 0%, #a25e26 100%)",
+                        "link": "https://www.easyquranclass.com"
+                    }
+                ]
+            }
+        },
+
+        "notes":{
+            "notesSection":{
+                "title": "ہمارے نوٹس",
+                "subtitle": "قرآن سیکھنے کے لیے مفید نوٹس اور رہنمائی دستاویزات تک رسائی حاصل کریں۔",
+                "notes": [
+                    {
+                        "id": 1,
+                        "title": "عربی نوٹس",
+                        "description": "قرآنی تفہیم کے لیے جامع عربی گرامر اور زبان کے نوٹس۔", 
+                        "pdfUrl": "https://drive.google.com/file/d/1JbbvXB25250eLp0LfJ81R02ssR1JceVx/preview"
+                    },
+                    {
+                        "id": 2,
+                        "title": "نماز نوٹس",
+                        "description": "نماز (صلوٰۃ) کو صحیح طریقے سے پڑھنے کے لیے قدم بہ قدم رہنمائی، معانی اور قواعد کے ساتھ۔", 
+                        "pdfUrl": "https://drive.google.com/file/d/1JbbvXB25250eLp0LfJ81R02ssR1JceVx/preview"
+                    }
+                ]
+            }
+        }
+    }
+}

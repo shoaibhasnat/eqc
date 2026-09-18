@@ -1,0 +1,21 @@
+{
+  "id": 86,
+  "playlist_title": "113 - AL-FALAQ (THE DAWN) - YouTube",
+  "playlist_link": "https://www.youtube.com/playlist?list=PLM9b6uNkW8pdBw8iFMZVmVNkE_WSk0vSz",
+  "videos": [
+    {
+      "video_title": "Al Falaq verses 1 5",
+      "video_link": "https://www.youtube.com/watch?v=0PKkJfAPU30&list=PLM9b6uNkW8pdBw8iFMZVmVNkE_WSk0vSz&index=1&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/0PKkJfAPU30/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AGMAoAC4AOKAgwIABABGGUgXyhUMA8=&rs=AOn4CLA4GZ3qO5r3W2Etr0_b1EGVDDeHXA",
+      "time": "30:07",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/0PKkJfAPU30?si=3frPqAfcP2ydqN05\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Al Falaq verses 1 5 & Al Naas verses 1 6 Revision",
+      "video_link": "https://www.youtube.com/watch?v=IJVZPyaDVOo&list=PLM9b6uNkW8pdBw8iFMZVmVNkE_WSk0vSz&index=2&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/IJVZPyaDVOo/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AGMAoAC4AOKAgwIABABGGUgVihaMA8=&rs=AOn4CLA-5RuM52spEBYUTwMtEf_tJ7bZew",
+      "time": "31:36",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/IJVZPyaDVOo?si=i8a9LBFBiXCyNKj1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    }
+  ]
+}

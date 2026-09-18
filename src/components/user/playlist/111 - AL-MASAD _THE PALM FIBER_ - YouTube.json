@@ -1,0 +1,14 @@
+{
+  "id": 21,
+  "playlist_title": "111 - AL-MASAD (THE PALM FIBER) - YouTube",
+  "playlist_link": "https://www.youtube.com/playlist?list=PLM9b6uNkW8pezqO-KdAq-6jG4KQj__Ut0",
+  "videos": [
+    {
+      "video_title": "Al Lahab verses 1 5",
+      "video_link": "https://www.youtube.com/watch?v=7kX1Bg_6pOw&list=PLM9b6uNkW8pezqO-KdAq-6jG4KQj__Ut0&index=1&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/7kX1Bg_6pOw/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4AYwCgALgA4oCDAgAEAEYViBcKGUwDw==&rs=AOn4CLArP6mXMsu_JVVyIWGnsx_2aSiy_Q",
+      "time": "19:54",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/7kX1Bg_6pOw?si=OpbHFvA3Ds1LCQM9\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    }
+  ]
+}

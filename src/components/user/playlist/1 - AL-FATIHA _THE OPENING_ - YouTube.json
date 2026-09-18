@@ -1,0 +1,35 @@
+{
+  "id": 67,
+  "playlist_title": "1 - AL-FATIHA (THE OPENING) - YouTube",
+  "playlist_link": "https://www.youtube.com/playlist?list=PLM9b6uNkW8pfTYDQuEKn0ZqRffznuMv0P",
+  "videos": [
+    {
+      "video_title": "Introduction of Fatiha",
+      "video_link": "https://www.youtube.com/watch?v=hIX8rAX1BGk&list=PLM9b6uNkW8pfTYDQuEKn0ZqRffznuMv0P&index=1&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/hIX8rAX1BGk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAG2yYXZ7GcWRDtbm2wIfHopxzZQA",
+      "time": "24:11",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/hIX8rAX1BGk?si=ekRWt10MZww0WM15\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Al Fatiha verses 1 4",
+      "video_link": "https://www.youtube.com/watch?v=K3UllvsRuMA&list=PLM9b6uNkW8pfTYDQuEKn0ZqRffznuMv0P&index=2&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/K3UllvsRuMA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCos3y5B_3QTJWEnChHMs0H3N9r-A",
+      "time": "29:17",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/K3UllvsRuMA?si=AfeoupAabfxLVc8S\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Al Fatiha verses 5 7",
+      "video_link": "https://www.youtube.com/watch?v=WhnPJqqRMm4&list=PLM9b6uNkW8pfTYDQuEKn0ZqRffznuMv0P&index=3&pp=iAQB0gcJCQMKAYcqIYzv",
+      "image": "https://i.ytimg.com/vi/WhnPJqqRMm4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCi5Fg5i1WGh5rk7czScdllImp35Q",
+      "time": "24:56",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WhnPJqqRMm4?si=9fLLQuaHY8vBnP6l\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Al Fatiha verses 1 7 Revision",
+      "video_link": "https://www.youtube.com/watch?v=H8-LTz3u9MU&list=PLM9b6uNkW8pfTYDQuEKn0ZqRffznuMv0P&index=4&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/H8-LTz3u9MU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAhx0MHpo3SwHg2VRTsUgP3nfeydQ",
+      "time": "26:22",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/H8-LTz3u9MU?si=44A-AT6f7uaN6LSE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    }
+  ]
+}

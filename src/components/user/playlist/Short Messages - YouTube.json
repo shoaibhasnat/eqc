@@ -1,0 +1,21 @@
+{
+  "id": 47,
+  "playlist_title": "Short Messages - YouTube",
+  "playlist_link": "https://www.youtube.com/playlist?list=PLM9b6uNkW8pfCQKjmPWGLkbdfBhgSCeC_",
+  "videos": [
+    {
+      "video_title": "QURAN KA PAIGHAM | TAHA VERSES 14-16 | EASY QURAN CLASS | MUHAMMAH AMJAD",
+      "video_link": "https://www.youtube.com/watch?v=fbkIRVrN5sE&list=PLM9b6uNkW8pfCQKjmPWGLkbdfBhgSCeC_&index=1&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/fbkIRVrN5sE/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCTrWGsV37wteREbo-LaFd-NWZKrQ",
+      "time": "2:52",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/fbkIRVrN5sE?si=OA6qhk7QTqbVPaKS\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "AKHIRAT KI YAD | Ash-Shuara verses 1-5 | EASY QURAN CLASS | MUHAMMAH AMJAD",
+      "video_link": "https://www.youtube.com/watch?v=CIjF1hcwlJk&list=PLM9b6uNkW8pfCQKjmPWGLkbdfBhgSCeC_&index=2&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/CIjF1hcwlJk/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAJE3dH7pL6aaxjlZvH-7ENBgmsyA",
+      "time": "4:08",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/CIjF1hcwlJk?si=ft-j0DHJj_c1prxz\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    }
+  ]
+}

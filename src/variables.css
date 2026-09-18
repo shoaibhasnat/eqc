@@ -1,0 +1,42 @@
+
+:root {
+    /* Colors */
+    /* body color (light grey) */
+    --light-grey-bg: #faf6f2;
+     --icon-bg: rgba(184,112,47,0.1);
+    --text-light: #515151;
+    --text-dark: #000000;
+
+    /* Blue */
+    --color-primary: #b8702f;
+    --color-primary-hover: #a25e26;
+    --color-primary-light: #e6ae23;
+
+    /* Lime Yeloow  */
+    --color-secondary: ;
+    --color-secondary-hover: #cbff1f;
+    --color-secondary-light: ;
+
+    /* Gray */
+    --color-success: #28A745;
+    /* Green */
+    --color-danger: #DC3545;
+    /* Red */
+    --color-warning: #FFC107;
+    /* Yellow */
+    --color-info: #17A2B8;
+    /* Teal */
+    --color-light: #F8F9FA;
+    /* Light Gray */
+    --color-dark: #343A40;
+    /* Dark Gray */
+
+
+    /* Borders and Shadows */
+
+    --grey-border: #E0E0E0;
+
+    --radius: 6px;
+    --rounded: 100px;
+    --box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}

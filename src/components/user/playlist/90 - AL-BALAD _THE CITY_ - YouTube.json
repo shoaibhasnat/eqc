@@ -1,0 +1,28 @@
+{
+  "id": 138,
+  "playlist_title": "90 - AL-BALAD (THE CITY) - YouTube",
+  "playlist_link": "https://www.youtube.com/playlist?list=PLM9b6uNkW8pc4CU9bP4eWLxaUkga4wyRY",
+  "videos": [
+    {
+      "video_title": "Al Balad verses 1 10",
+      "video_link": "https://www.youtube.com/watch?v=LRhj_CTkPUk&list=PLM9b6uNkW8pc4CU9bP4eWLxaUkga4wyRY&index=1&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/LRhj_CTkPUk/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Ac4FgAKACooCDAgAEAEYRSBTKGUwDw==&rs=AOn4CLBCbCEt8MeSU1EMJpiZP5yhj_tKHg",
+      "time": "25:26",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/LRhj_CTkPUk?si=SnXZq943IPEyuEDY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Al Balad verses 11 20",
+      "video_link": "https://www.youtube.com/watch?v=ltotJd2qj9k&list=PLM9b6uNkW8pc4CU9bP4eWLxaUkga4wyRY&index=2&pp=iAQB0gcJCQMKAYcqIYzv",
+      "image": "https://i.ytimg.com/vi/ltotJd2qj9k/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Ac4FgAKACooCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLBuFfs2-BWMPThXAMHwLvwXbgwu5w",
+      "time": "15:04",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ltotJd2qj9k?si=IWAe-gCxwSJlPmyG\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Al Balad verses 1 20 Revision",
+      "video_link": "https://www.youtube.com/watch?v=pQTKyomE2uE&list=PLM9b6uNkW8pc4CU9bP4eWLxaUkga4wyRY&index=3&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/pQTKyomE2uE/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Ac4FgAKACooCDAgAEAEYZSBXKFYwDw==&rs=AOn4CLDf4vyM-QBtjnPcc8rfoUEc20PITw",
+      "time": "23:05",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/pQTKyomE2uE?si=uG8KBWyGuU6HoQL4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    }
+  ]
+}

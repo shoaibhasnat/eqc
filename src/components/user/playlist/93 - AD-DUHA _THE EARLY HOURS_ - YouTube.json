@@ -1,0 +1,21 @@
+{
+  "id": 9,
+  "playlist_title": "93 - AD-DUHA (THE EARLY HOURS) - YouTube",
+  "playlist_link": "https://www.youtube.com/playlist?list=PLM9b6uNkW8pfg3Z0ZtoNIhaGXqFohlKDb",
+  "videos": [
+    {
+      "video_title": "Al Dhuha verses 1 11",
+      "video_link": "https://www.youtube.com/watch?v=dESKpKcK2UA&list=PLM9b6uNkW8pfg3Z0ZtoNIhaGXqFohlKDb&index=1&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/dESKpKcK2UA/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBzgWAAoAKigIMCAAQARhaIGUoUDAP&rs=AOn4CLDYN_FWDPc3XuycOUgT-TBslzv1vw",
+      "time": "24:31",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/dESKpKcK2UA?si=FXiO9Azirxrlob3W\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Al Dhuha verses 1 11 & Al Inshirah verses 1 8 Revision",
+      "video_link": "https://www.youtube.com/watch?v=ofrgNdkFmV0&list=PLM9b6uNkW8pfg3Z0ZtoNIhaGXqFohlKDb&index=2&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/ofrgNdkFmV0/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBjAKAAuADigIMCAAQARhHIE8ocjAP&rs=AOn4CLBGvSe6S_EWjHY26Vt40ijQTr8RLQ",
+      "time": "25:24",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ofrgNdkFmV0?si=h86rntgzxsoFyXrh\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    }
+  ]
+}

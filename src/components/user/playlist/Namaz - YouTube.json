@@ -1,0 +1,77 @@
+{
+  "id": 145,
+  "playlist_title": "Namaz - YouTube",
+  "playlist_link": "https://www.youtube.com/playlist?list=PLM9b6uNkW8pfAwo5NH-Bio38Nxz2EE1Mn",
+  "videos": [
+    {
+      "video_title": "Namaz Lecture 01",
+      "video_link": "https://www.youtube.com/watch?v=_ZFKSaDfV4k&list=PLM9b6uNkW8pfAwo5NH-Bio38Nxz2EE1Mn&index=1&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/_ZFKSaDfV4k/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBItG0nne7ICrZAKsSfo4A_C1n1gQ",
+      "time": "31:29",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/_ZFKSaDfV4k?si=6uuZWAUL9SK9L_pa\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Namaz Lecture 02",
+      "video_link": "https://www.youtube.com/watch?v=n8J7LYI-4vQ&list=PLM9b6uNkW8pfAwo5NH-Bio38Nxz2EE1Mn&index=2&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/n8J7LYI-4vQ/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgByAGAAugCigIMCAAQARh_IDUoXDAP&rs=AOn4CLDPdxWrGtqn06ZnozSq2HaYrs3fog",
+      "time": "32:14",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/n8J7LYI-4vQ?si=QPsaUymVI762mDRu\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Namaz Lecture 03",
+      "video_link": "https://www.youtube.com/watch?v=GvPNmFKTsT8&list=PLM9b6uNkW8pfAwo5NH-Bio38Nxz2EE1Mn&index=3&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/GvPNmFKTsT8/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgByAGAAugCigIMCAAQARhlIGUoZTAP&rs=AOn4CLC_NHEt3khPdx4GUc6HLfA0dPL8Hg",
+      "time": "25:34",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/GvPNmFKTsT8?si=XqOPBA0UQT7vuzLj\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Namaz Lecture 04",
+      "video_link": "https://www.youtube.com/watch?v=vj_bU5ETljM&list=PLM9b6uNkW8pfAwo5NH-Bio38Nxz2EE1Mn&index=4&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/vj_bU5ETljM/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgByAGAAugCigIMCAAQARhhIGUoSzAP&rs=AOn4CLArU0agteum0nG3--PX0wJ_mQGVqQ",
+      "time": "24:30",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/vj_bU5ETljM?si=i6ERRVk5zMrDUtoP\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Namaz Lecture 05",
+      "video_link": "https://www.youtube.com/watch?v=fWmC10HT9ZM&list=PLM9b6uNkW8pfAwo5NH-Bio38Nxz2EE1Mn&index=5&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/fWmC10HT9ZM/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgByAGAAugCigIMCAAQARhlIFooTzAP&rs=AOn4CLBrGfkVYYXu74vlLqwFGOrW-2PtKA",
+      "time": "24:24",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/fWmC10HT9ZM?si=CJguu5c8E6h3m_GH\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Namaz Lecture 06",
+      "video_link": "https://www.youtube.com/watch?v=jHD1z1gjH20&list=PLM9b6uNkW8pfAwo5NH-Bio38Nxz2EE1Mn&index=6&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/jHD1z1gjH20/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgByAGAAugCigIMCAAQARhlIF8oQjAP&rs=AOn4CLDMGFW7lvTvu-LhTI6LXNVA_0SPrw",
+      "time": "32:47",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jHD1z1gjH20?si=HDsNcFqnZn53Q7W4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Namaz Lecture 07",
+      "video_link": "https://www.youtube.com/watch?v=jiitWuWjD2k&list=PLM9b6uNkW8pfAwo5NH-Bio38Nxz2EE1Mn&index=7&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/jiitWuWjD2k/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBjAKAAuADigIMCAAQARhjIGUoLTAP&rs=AOn4CLBVhy641jPL2AtAt-9cTMOPwCsqEw",
+      "time": "37:07",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jiitWuWjD2k?si=qfSWLgSVpVDtweaO\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Namaz Lecture 08",
+      "video_link": "https://www.youtube.com/watch?v=k-7QLiic0EQ&list=PLM9b6uNkW8pfAwo5NH-Bio38Nxz2EE1Mn&index=8&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/k-7QLiic0EQ/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgByAGAAugCigIMCAAQARhyIDQoaDAP&rs=AOn4CLCRKsPxS73G0JzQEfmMQCTICuXJrQ",
+      "time": "23:01",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/k-7QLiic0EQ?si=ctLAAs-TlrGC2QWZ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Namaz Lecture 09",
+      "video_link": "https://www.youtube.com/watch?v=dwycIR6O-us&list=PLM9b6uNkW8pfAwo5NH-Bio38Nxz2EE1Mn&index=9&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/dwycIR6O-us/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgByAGAAugCigIMCAAQARhlIEsoSjAP&rs=AOn4CLB9gBudn728M_zBcHw6YcGpR0Lk1g",
+      "time": "20:45",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/dwycIR6O-us?si=zn57WqDTQ78ZylGv\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Namaz Lecture 10",
+      "video_link": "https://www.youtube.com/watch?v=CavizKUv4ak&list=PLM9b6uNkW8pfAwo5NH-Bio38Nxz2EE1Mn&index=10&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/CavizKUv4ak/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgByAGAAugCigIMCAAQARgzIDsofzAP&rs=AOn4CLA7uZkzIdTvJLKFbowiiGf4dWg9Pg",
+      "time": "37:16",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/CavizKUv4ak?si=MxDWT_nrNaX9HBXW\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    }
+  ]
+}

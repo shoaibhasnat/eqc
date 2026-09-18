@@ -1,0 +1,28 @@
+{
+  "id": 100,
+  "playlist_title": "96 - AL-ALAQ (THE CLOT) - YouTube",
+  "playlist_link": "https://www.youtube.com/playlist?list=PLM9b6uNkW8peedgN3M_YRPL7Z2NHT9S8i",
+  "videos": [
+    {
+      "video_title": "Al Alaq verses 1 8",
+      "video_link": "https://www.youtube.com/watch?v=SidjigcvwHA&list=PLM9b6uNkW8peedgN3M_YRPL7Z2NHT9S8i&index=1&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/SidjigcvwHA/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AHOBYACgAqKAgwIABABGFsgZShUMA8=&rs=AOn4CLA5GAwORnr0VV126wDEBulLrYzWKQ",
+      "time": "20:33",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SidjigcvwHA?si=R-dJyzYbboYMNKGo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Al Alaq verses 9 19",
+      "video_link": "https://www.youtube.com/watch?v=ogNovAHERu4&list=PLM9b6uNkW8peedgN3M_YRPL7Z2NHT9S8i&index=2&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/ogNovAHERu4/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AHOBYACgAqKAgwIABABGFggXyhlMA8=&rs=AOn4CLCnuHhpGihdZ4Xv9Csit2nWkOvO8g",
+      "time": "17:39",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ogNovAHERu4?si=lotj5zzqpvSmwIjw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "video_title": "Al Alaq verses 1 19 Revision",
+      "video_link": "https://www.youtube.com/watch?v=12ZwtBv44VU&list=PLM9b6uNkW8peedgN3M_YRPL7Z2NHT9S8i&index=3&pp=iAQB",
+      "image": "https://i.ytimg.com/vi/12ZwtBv44VU/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AHOBYACgAqKAgwIABABGEMgVihyMA8=&rs=AOn4CLAKiQFaXys9DY7N8PLpg6TwUXY1rw",
+      "time": "23:50",
+      "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/12ZwtBv44VU?si=uglzbI99CkhVCEb9\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    }
+  ]
+}
