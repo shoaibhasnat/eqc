@@ -15,6 +15,15 @@ export default function manifest() {
     theme_color: '#B8702F',
     lang: 'en',
     categories: ['education', 'lifestyle'],
+    launch_handler: {
+      client_mode: ['navigate-existing', 'auto'],
+    },
+    protocol_handlers: [
+      {
+        protocol: 'web+eqc',
+        url: '/?source=protocol&url=%s',
+      },
+    ],
     icons: [
       {
         src: '/favicon.svg',

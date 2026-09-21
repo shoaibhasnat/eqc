@@ -24,8 +24,6 @@ function AppShell({ children }) {
       <main id="main-content">{children}</main>
       <Footer />
       <WhatsAppFloat />
-      <PwaRegister />
-      <InstallAppPrompt />
     </>
   );
 }
@@ -34,6 +32,9 @@ export default function Providers({ children }) {
   return (
     <LanguageProvider>
       <AppShell>{children}</AppShell>
+      {/* Mount outside the language loader so iOS/Android always get the install prompt */}
+      <PwaRegister />
+      <InstallAppPrompt />
     </LanguageProvider>
   );
 }

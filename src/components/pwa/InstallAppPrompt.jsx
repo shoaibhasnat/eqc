@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import {
   Box,
   Button,
@@ -19,13 +19,15 @@ import { SITE_NAME } from '@/lib/seo';
 
 const STORAGE_DISMISS = 'eqc-pwa-dismissed-at';
 const STORAGE_INSTALLED = 'eqc-pwa-installed';
-const DISMISS_DAYS = 7;
+const DISMISS_DAYS = 3;
+const PWA_PROTOCOL = 'web+eqc://open';
 
 function isStandaloneDisplay() {
   if (typeof window === 'undefined') return false;
   return (
     window.matchMedia('(display-mode: standalone)').matches ||
     window.matchMedia('(display-mode: fullscreen)').matches ||
+    // iOS home-screen web app
     window.navigator.standalone === true
   );
 }
@@ -33,9 +35,14 @@ function isStandaloneDisplay() {
 function isIosDevice() {
   if (typeof window === 'undefined') return false;
   const ua = window.navigator.userAgent || '';
-  const iOS = /iPad|iPhone|iPod/.test(ua);
+  const iOS = /iPad|iPhone|iPod/.test(ua) || /CriOS|FxiOS|EdgiOS/.test(ua);
   const iPadOs = window.navigator.platform === 'MacIntel' && window.navigator.maxTouchPoints > 1;
   return iOS || iPadOs;
+}
+
+function isAndroidDevice() {
+  if (typeof window === 'undefined') return false;
+  return /Android/i.test(window.navigator.userAgent || '');
 }
 
 function wasDismissedRecently() {
@@ -67,24 +74,62 @@ function markInstalled() {
   }
 }
 
-function isMarkedInstalled() {
+function clearInstalledMark() {
   try {
-    return localStorage.getItem(STORAGE_INSTALLED) === '1';
+    localStorage.removeItem(STORAGE_INSTALLED);
   } catch {
+    /* ignore */
+  }
+}
+
+/**
+ * Only trust the browser API. localStorage alone is wrong after uninstall.
+ * iOS has no install-detection API → always treat as not installed in browser tabs.
+ */
+async function isAppReallyInstalled() {
+  if (typeof navigator === 'undefined') return false;
+
+  // iOS Safari/Chrome cannot report PWA install state from a browser tab
+  if (isIosDevice()) {
+    clearInstalledMark();
+    return false;
+  }
+
+  if (!navigator.getInstalledRelatedApps) {
+    clearInstalledMark();
+    return false;
+  }
+
+  try {
+    const apps = await navigator.getInstalledRelatedApps();
+    const installed = Array.isArray(apps) && apps.length > 0;
+    if (installed) {
+      markInstalled();
+      return true;
+    }
+    clearInstalledMark();
+    return false;
+  } catch {
+    clearInstalledMark();
     return false;
   }
 }
 
-async function detectInstalledRelatedApp() {
-  if (typeof navigator === 'undefined' || !navigator.getInstalledRelatedApps) {
-    return false;
-  }
-  try {
-    const apps = await navigator.getInstalledRelatedApps();
-    return Array.isArray(apps) && apps.length > 0;
-  } catch {
-    return false;
-  }
+function buildAndroidOpenIntent() {
+  if (typeof window === 'undefined') return '';
+  const { host, pathname, search } = window.location;
+  const path = `${pathname || '/'}${search || ''}`;
+  const openPath = path.includes('source=') ? path : `${pathname || '/'}?source=pwa-open`;
+  const fallback = `${window.location.origin}${openPath}`;
+
+  return (
+    `intent://${host}${openPath}` +
+    '#Intent;scheme=https;' +
+    'action=android.intent.action.VIEW;' +
+    'category=android.intent.category.BROWSABLE;' +
+    `S.browser_fallback_url=${encodeURIComponent(fallback)};` +
+    'end'
+  );
 }
 
 export default function InstallAppPrompt() {
@@ -92,23 +137,33 @@ export default function InstallAppPrompt() {
   const [mode, setMode] = useState('install'); // install | ios | open
   const [deferredPrompt, setDeferredPrompt] = useState(null);
   const [installing, setInstalling] = useState(false);
+  const [opening, setOpening] = useState(false);
+
+  const androidIntentHref = useMemo(() => {
+    if (typeof window === 'undefined' || !isAndroidDevice()) return '';
+    return buildAndroidOpenIntent();
+  }, [open, mode]);
 
   useEffect(() => {
     if (typeof window === 'undefined') return undefined;
 
-    // Already running inside the installed app
+    // Already inside the installed app window — do not prompt
     if (isStandaloneDisplay()) {
       markInstalled();
       return undefined;
     }
 
     let cancelled = false;
-    let deferred = null;
 
     const onBeforeInstall = (event) => {
+      // Browser offering install ⇒ app is NOT installed (clears stale flag after uninstall)
       event.preventDefault();
-      deferred = event;
+      clearInstalledMark();
       setDeferredPrompt(event);
+      setMode(isIosDevice() ? 'ios' : 'install');
+      if (!wasDismissedRecently()) {
+        setOpen(true);
+      }
     };
 
     window.addEventListener('beforeinstallprompt', onBeforeInstall);
@@ -121,54 +176,50 @@ export default function InstallAppPrompt() {
     window.addEventListener('appinstalled', onAppInstalled);
 
     const showPrompt = async () => {
-      if (cancelled) return;
+      if (cancelled || isStandaloneDisplay()) return;
 
-      // Wait for SW so Chromium can fire beforeinstallprompt when possible
-      if ('serviceWorker' in navigator) {
+      const ios = isIosDevice();
+
+      // Don't block iOS on service worker readiness
+      if (!ios && 'serviceWorker' in navigator) {
         try {
           await Promise.race([
             navigator.serviceWorker.ready,
-            new Promise((resolve) => setTimeout(resolve, 2500)),
+            new Promise((resolve) => setTimeout(resolve, 1500)),
           ]);
         } catch {
           /* ignore */
         }
       }
 
-      // Give beforeinstallprompt a brief moment after SW is ready
-      await new Promise((resolve) => setTimeout(resolve, 400));
       if (cancelled) return;
 
-      const relatedInstalled = await detectInstalledRelatedApp();
-      const knownInstalled = relatedInstalled || isMarkedInstalled();
+      const reallyInstalled = await isAppReallyInstalled();
 
-      if (knownInstalled) {
-        if (relatedInstalled) markInstalled();
+      if (reallyInstalled) {
         setMode('open');
         setOpen(true);
         return;
       }
 
+      // Not installed — always clear stale "installed" flag
+      clearInstalledMark();
+
       if (wasDismissedRecently()) return;
 
-      if (isIosDevice()) {
-        setMode('ios');
-      } else {
-        setMode('install');
-      }
+      setMode(ios ? 'ios' : 'install');
       setOpen(true);
     };
 
-    // Delay so first paint isn't blocked by the dialog
-    const timer = window.setTimeout(showPrompt, 1200);
+    // Faster on iOS so the popup is noticeable
+    const delay = isIosDevice() ? 700 : 1200;
+    const timer = window.setTimeout(showPrompt, delay);
 
     return () => {
       cancelled = true;
       window.clearTimeout(timer);
       window.removeEventListener('beforeinstallprompt', onBeforeInstall);
       window.removeEventListener('appinstalled', onAppInstalled);
-      // keep deferred for closure safety
-      void deferred;
     };
   }, []);
 
@@ -200,23 +251,50 @@ export default function InstallAppPrompt() {
       return;
     }
 
-    // Browser has no native install API (common on iOS / some Android browsers)
     if (isIosDevice()) {
       setMode('ios');
-      return;
     }
-
-    // Fallback: open browser install/help UI by focusing address bar isn't possible;
-    // guide user to use the browser menu "Install app" / "Add to Home screen"
-    setMode('install');
   }, [deferredPrompt]);
 
-  const handleOpenApp = useCallback(() => {
-    markDismissed();
-    setOpen(false);
-    // Browsers do not allow silent launch of an installed PWA from a normal tab.
-    // Guide the user back to the home-screen icon (true app window).
-  }, []);
+  const handleOpenApp = useCallback(
+    (event) => {
+      if (androidIntentHref && event?.currentTarget?.tagName === 'A') {
+        markDismissed();
+        setOpening(true);
+        window.setTimeout(() => setOpen(false), 300);
+        return;
+      }
+
+      event?.preventDefault?.();
+      setOpening(true);
+
+      if (!isIosDevice() && !isAndroidDevice()) {
+        const iframe = document.createElement('iframe');
+        iframe.style.display = 'none';
+        iframe.src = PWA_PROTOCOL;
+        document.body.appendChild(iframe);
+        window.setTimeout(() => {
+          iframe.remove();
+          window.location.href = PWA_PROTOCOL;
+        }, 100);
+        markDismissed();
+        setOpen(false);
+        return;
+      }
+
+      if (isAndroidDevice()) {
+        window.location.href = buildAndroidOpenIntent();
+        markDismissed();
+        window.setTimeout(() => setOpen(false), 300);
+        return;
+      }
+
+      markDismissed();
+      setOpen(false);
+      setOpening(false);
+    },
+    [androidIntentHref]
+  );
 
   if (!open) return null;
 
@@ -228,6 +306,11 @@ export default function InstallAppPrompt() {
       open={open}
       onClose={handleClose}
       aria-labelledby="eqc-install-title"
+      disableEscapeKeyDown={false}
+      sx={{ zIndex: 2000 }}
+      slotProps={{
+        backdrop: { sx: { zIndex: 1999 } },
+      }}
       PaperProps={{
         sx: {
           borderRadius: 3,
@@ -235,6 +318,7 @@ export default function InstallAppPrompt() {
           width: 'calc(100% - 32px)',
           mx: 2,
           overflow: 'hidden',
+          zIndex: 2000,
         },
       }}
     >
@@ -273,11 +357,20 @@ export default function InstallAppPrompt() {
           <Box>
             <DialogTitle
               id="eqc-install-title"
-              sx={{ p: 0, fontWeight: 700, fontSize: '1.15rem', color: '#fff', fontFamily: 'Quicksand, sans-serif' }}
+              sx={{
+                p: 0,
+                fontWeight: 700,
+                fontSize: '1.15rem',
+                color: '#fff',
+                fontFamily: 'Quicksand, sans-serif',
+              }}
             >
               {isOpenMode ? `Open ${SITE_NAME}` : 'Install This As Mobile Application'}
             </DialogTitle>
-            <Typography variant="body2" sx={{ opacity: 0.9, mt: 0.5, fontFamily: 'Quicksand, sans-serif' }}>
+            <Typography
+              variant="body2"
+              sx={{ opacity: 0.9, mt: 0.5, fontFamily: 'Quicksand, sans-serif' }}
+            >
               {SITE_NAME}
             </Typography>
           </Box>
@@ -287,24 +380,24 @@ export default function InstallAppPrompt() {
       <DialogContent sx={{ pt: 2.5, pb: 1 }}>
         {isOpenMode ? (
           <Typography variant="body2" color="text.secondary" sx={{ fontFamily: 'Quicksand, sans-serif' }}>
-            {SITE_NAME} is already installed on this device. Please open it from your home screen for the best
-            mobile experience.
+            {SITE_NAME} is installed on this device. Tap Open App to launch it. If Android asks, choose{' '}
+            {SITE_NAME}.
           </Typography>
         ) : isIosMode ? (
           <Box sx={{ fontFamily: 'Quicksand, sans-serif' }}>
             <Typography variant="body2" color="text.secondary" sx={{ mb: 1.5 }}>
-              Install {SITE_NAME} on your iPhone or iPad:
+              Add {SITE_NAME} to your iPhone / iPad home screen:
             </Typography>
             <Box component="ol" sx={{ m: 0, pl: 2.25, color: 'text.secondary', '& li': { mb: 1 } }}>
               <Typography component="li" variant="body2">
-                Tap the <IosShareIcon sx={{ fontSize: 16, verticalAlign: 'text-bottom', color: '#B8702F' }} /> Share
-                button in Safari
+                Tap the <IosShareIcon sx={{ fontSize: 16, verticalAlign: 'text-bottom', color: '#B8702F' }} />{' '}
+                <strong>Share</strong> button (Safari) or the share icon in Chrome
               </Typography>
               <Typography component="li" variant="body2">
                 Scroll and tap <strong>Add to Home Screen</strong>
               </Typography>
               <Typography component="li" variant="body2">
-                Tap <strong>Add</strong> to install the app
+                Tap <strong>Add</strong> — then open it from your home screen like an app
               </Typography>
             </Box>
           </Box>
@@ -325,7 +418,7 @@ export default function InstallAppPrompt() {
                 Tap <strong>Install app</strong> or <strong>Add to Home screen</strong>
               </Typography>
               <Typography component="li" variant="body2">
-                Confirm to download it as a mobile application
+                Confirm to install it as a mobile application
               </Typography>
             </Box>
           </Box>
@@ -340,7 +433,10 @@ export default function InstallAppPrompt() {
         {isOpenMode ? (
           <Button
             variant="contained"
+            component={androidIntentHref ? 'a' : 'button'}
+            href={androidIntentHref || undefined}
             onClick={handleOpenApp}
+            disabled={opening}
             startIcon={<OpenInNewIcon />}
             sx={{
               bgcolor: '#B8702F',
@@ -349,7 +445,7 @@ export default function InstallAppPrompt() {
               '&:hover': { bgcolor: '#9a5c26' },
             }}
           >
-            Got it
+            {opening ? 'Opening…' : 'Open App'}
           </Button>
         ) : isIosMode || !deferredPrompt ? (
           <Button
