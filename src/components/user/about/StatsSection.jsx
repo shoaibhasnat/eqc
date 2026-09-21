@@ -9,6 +9,8 @@ import SchoolIcon from "@mui/icons-material/School";
 import PeopleIcon from "@mui/icons-material/People";
 import PublicIcon from "@mui/icons-material/Public";
 import StarIcon from "@mui/icons-material/Star";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import VideoLibraryIcon from "@mui/icons-material/VideoLibrary";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import { useLanguage } from '../../../contexts/LanguageContext';
@@ -21,6 +23,8 @@ const iconMap = {
   PeopleIcon: PeopleIcon,
   PublicIcon: PublicIcon,
   StarIcon: StarIcon,
+  FacebookIcon: FacebookIcon,
+  VideoLibraryIcon: VideoLibraryIcon,
 };
 
 const StatsSection = () => {
@@ -35,6 +39,7 @@ const StatsSection = () => {
       icon: <IconComponent />,
       end: stat.end,
       suffix: stat.suffix || "",
+      separator: stat.separator || "",
       label: stat.label,
     };
   });
@@ -108,6 +113,7 @@ const StatsSection = () => {
                       start={0}
                       end={stat.end}
                       duration={2.5}
+                      separator={stat.separator || ""}
                       suffix={stat.suffix || ""}
                     />
                   ) : (

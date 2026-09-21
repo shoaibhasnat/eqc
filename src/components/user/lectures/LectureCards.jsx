@@ -41,6 +41,9 @@ const getIcon = (iconName) => {
   return iconMap[iconName] || MenuBookIcon;
 };
 
+const isValidPdfLink = (link) =>
+  Boolean(link?.trim() && (link.startsWith('http://') || link.startsWith('https://')));
+
 const LectureCards = () => {
   const router = useRouter();
   const navigate = (path) => router.push(path);
@@ -447,6 +450,7 @@ const LectureCards = () => {
                       >
                         {lang === 'ur' ? 'پلے لسٹ دیکھیں' : 'View Playlist'}
                       </Button>
+                      {isValidPdfLink(service.pdfLink) && (
                       <Button
                         variant="outlined"
                         size="small"
@@ -468,6 +472,7 @@ const LectureCards = () => {
                       >
                         {lang === 'ur' ? 'PDF کھولیں' : 'Open PDF'}
                       </Button>
+                      )}
                     </Stack>
                   </CardContent>
                 </Card>

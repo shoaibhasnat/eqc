@@ -43,6 +43,9 @@ const getIcon = (iconName) => {
 
 
 
+const isValidPdfLink = (link) =>
+  Boolean(link?.trim() && (link.startsWith('http://') || link.startsWith('https://')));
+
 const LecturesSection = () => {
   const { content, lang } = useLanguage();
   const lecturesData = content?.home?.ourLectures || {};
@@ -438,6 +441,7 @@ const LecturesSection = () => {
                       >
                         {lang === 'ur' ? 'پلے لسٹ دیکھیں' : 'View Playlist'}
                       </Button>
+                      {isValidPdfLink(service.pdfLink) && (
                       <Button
                         variant="outlined"
                         size="small"
@@ -458,6 +462,7 @@ const LecturesSection = () => {
                       >
                         {lang === 'ur' ? 'PDF کھولیں' : 'Open PDF'}
                       </Button>
+                      )}
                     </Stack>
                   </CardContent>
                 </Card>

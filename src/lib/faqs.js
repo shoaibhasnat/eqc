@@ -27,7 +27,7 @@ export const HOME_FAQS = [
   {
     question: 'Where is Easy Quran Class located?',
     answer:
-      'Easy Quran Class is based in Valencia Town, Block H, Lahore, Pakistan, and teaches students worldwide through online Quran classes.',
+      'Easy Quran Class is based at 6K Commercial, Block K Valencia, Lahore, 54770, Pakistan, and teaches students worldwide through online Quran classes.',
   },
   {
     question: 'How do I start learning Quran online?',
@@ -68,7 +68,7 @@ export const CONTACT_FAQS = [
   {
     question: 'Where is Easy Quran Class based?',
     answer:
-      'Easy Quran Class is based in Valencia Town, Block H, Lahore, Pakistan, and teaches students worldwide through live online classes.',
+      'Easy Quran Class is based at 6K Commercial, Block K Valencia, Lahore, 54770, Pakistan, and teaches students worldwide through live online classes.',
   },
   {
     question: 'How quickly will someone reply to my inquiry?',

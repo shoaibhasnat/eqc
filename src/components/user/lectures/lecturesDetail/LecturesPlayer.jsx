@@ -172,18 +172,16 @@ export default function LecturesPlayer() {
 
   // Get PDF link from lecture data
   const pdfLink = lectureData?.pdf_link || lectureData?.pdfLink || '';
+  const hasValidPdf = Boolean(
+    pdfLink &&
+    pdfLink.trim() !== '' &&
+    (pdfLink.startsWith('http://') || pdfLink.startsWith('https://'))
+  );
 
   const handlePdfClick = () => {
-    // Check if PDF link exists, is not empty, and is a valid URL
-    const hasValidPdf = pdfLink && 
-                       pdfLink.trim() !== '' && 
-                       (pdfLink.startsWith('http://') || pdfLink.startsWith('https://'));
-    
     if (!hasValidPdf) {
-      // Show Coming Soon dialog
       setComingSoonDialogOpen(true);
     } else {
-      // Show PDF dialog
       setPdfDialogOpen(true);
     }
   };
@@ -282,6 +280,7 @@ export default function LecturesPlayer() {
               {selectedVideo.video_title}
             </Typography>
             <Chip label="Lecture" size="small" />
+            {hasValidPdf && (
             <Button
               variant="outlined"
               size="small"
@@ -300,6 +299,7 @@ export default function LecturesPlayer() {
             >
               {lang === 'ur' ? 'PDF پڑھیں' : 'Read PDF'}
             </Button>
+            )}
           </Stack>
           <Stack direction="row" spacing={2} alignItems="center" justifyContent="space-between">
             <Typography variant="body2" color="text.secondary">

@@ -79,7 +79,7 @@ function YouTubeSection() {
           <iframe
             width="100%"
             height="480"
-            src="https://www.youtube.com/embed/wj_cCz6BmVw?si=r_R9o6lI-kmdUXkq"
+            src="https://www.youtube.com/embed/pGw_108LeME?si=wdg8Ekg3YAOGi3gr"
             title="Join Class on YouTube"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -123,7 +123,7 @@ function YouTubeSection() {
               boxShadow: "0 8px 25px rgba(255,0,0,0.4)",
             }}
             onClick={() =>
-              window.open("https://www.youtube.com/", "_blank")
+              window.open("https://www.youtube.com/@easyquranclass", "_blank")
             }
           >
             Subscribe Now

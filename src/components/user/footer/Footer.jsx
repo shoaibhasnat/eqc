@@ -3,18 +3,19 @@ import React, { useMemo } from 'react';
 import { Box, Typography, Container, Grid, Link, IconButton, Stack, Avatar, Divider } from '@mui/material';
 import { 
   Facebook, 
-  Twitter, 
   Instagram, 
   YouTube, 
   Email, 
   Phone, 
   LocationOn,
   Favorite,
-  MosqueRounded
+  MosqueRounded,
+  WhatsApp,
 } from '@mui/icons-material';
 import { motion } from 'framer-motion';
 import NextLink from 'next/link';
 import { useLanguage } from '../../../contexts/LanguageContext';
+import { SITE_EMAIL, SITE_FACEBOOK, SITE_WHATSAPP, SITE_YOUTUBE } from '@/lib/seo';
 
 function Footer() {
   const { content } = useLanguage();
@@ -28,12 +29,12 @@ function Footer() {
   const additionalInfo = footerData.additionalInfo || {};
   const sectionTitles = footerData.sectionTitles || {};
 
-  // Social links (can be added to JSON later if needed)
   const socialLinks = [
-    { Icon: Facebook, href: '#', label: 'Facebook' },
-    { Icon: Instagram, href: '#', label: 'Instagram' },
-    { Icon: Twitter, href: '#', label: 'Twitter' },
-    { Icon: YouTube, href: 'https://www.youtube.com/@easyquranclass', label: 'YouTube' },
+    { Icon: WhatsApp, href: SITE_WHATSAPP, label: 'WhatsApp' },
+    { Icon: Facebook, href: SITE_FACEBOOK, label: 'Facebook' },
+    { Icon: Instagram, href: SITE_FACEBOOK, label: 'Instagram' },
+    { Icon: YouTube, href: SITE_YOUTUBE, label: 'YouTube' },
+    { Icon: Email, href: `mailto:${SITE_EMAIL}`, label: 'Email' },
   ];
 
   // Map contact info with icons
@@ -261,6 +262,9 @@ function Footer() {
                     >
                       <IconButton
                         href={social.href}
+                        target={social.href.startsWith('mailto:') ? undefined : '_blank'}
+                        rel={social.href.startsWith('mailto:') ? undefined : 'noopener noreferrer'}
+                        aria-label={social.label}
                         sx={{
                           color: 'white',
                           bgcolor: 'rgba(255, 255, 255, 0.1)',

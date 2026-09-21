@@ -103,18 +103,16 @@ export default function SurahVideoPlayer() {
 
   // Get PDF link from surah data
   const pdfLink = surahData.pdf_link || surahData.pdfLink || '';
+  const hasValidPdf = Boolean(
+    pdfLink &&
+    pdfLink.trim() !== '' &&
+    (pdfLink.startsWith('http://') || pdfLink.startsWith('https://'))
+  );
 
   const handlePdfClick = () => {
-    // Check if PDF link exists, is not empty, and is a valid URL
-    const hasValidPdf = pdfLink && 
-                       pdfLink.trim() !== '' && 
-                       (pdfLink.startsWith('http://') || pdfLink.startsWith('https://'));
-    
     if (!hasValidPdf) {
-      // Show Coming Soon dialog
       setComingSoonDialogOpen(true);
     } else {
-      // Show PDF dialog
       setPdfDialogOpen(true);
     }
   };
@@ -420,6 +418,7 @@ export default function SurahVideoPlayer() {
           </Typography>
 
             <Chip label="Quran" size="small" />
+            {hasValidPdf && (
                <Button
               variant="outlined"
               size="small"
@@ -438,6 +437,7 @@ export default function SurahVideoPlayer() {
             >
               {lang === 'ur' ? 'PDF پڑھیں' : 'Read PDF'}
             </Button>
+            )}
           </Stack>
           <Stack direction="row" spacing={2} alignItems="center" justifyContent="space-between">
             <Typography variant="body2" color="text.secondary">

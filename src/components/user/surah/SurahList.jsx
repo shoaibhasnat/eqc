@@ -26,6 +26,12 @@ import surahDataEng from "./SurahsInEng.json"
 import surahDataUrdu from "./SurahsInUrdu.json"
 import PDFDialog from '../notes/PDFDialog'
 
+const isValidPdfLink = (link) => {
+  if (!link || typeof link !== 'string') return false
+  const trimmed = link.trim()
+  return trimmed.startsWith('http://') || trimmed.startsWith('https://')
+}
+
 function SurahList() {
   const { lang } = useLanguage()
   const searchParams = useSearchParams()
@@ -82,6 +88,8 @@ function SurahList() {
       } else if (surah.revelation === 'مدینہ') {
         normalizedRevelation = 'Medinan'
       }
+
+      const pdfLink = surah.pdf_link || surah.pdfLink || ''
       
       return {
         number: surah.id,
@@ -90,7 +98,8 @@ function SurahList() {
         verses: surah.verseCount,
         revelation: surah.revelation, // Keep original for display
         normalizedRevelation: normalizedRevelation, // Use for filtering
-        pdfLink: surah.pdf_link || surah.pdfLink || '' // Include PDF link (handle both key variations)
+        pdfLink,
+        hasPdf: isValidPdfLink(pdfLink),
       }
     })
   }, [surahData])
@@ -260,8 +269,8 @@ function SurahList() {
                       label={surah.normalizedRevelation === 'Meccan' ? t.meccan : surah.normalizedRevelation === 'Medinan' ? t.medinan : surah.revelation}
                       size="small"
                       sx={{
-                        backgroundColor: surah.normalizedRevelation === 'Meccan' ? '#e8f5e8' : '#e3f2fd',
-                        color: surah.normalizedRevelation === 'Meccan' ? '#2e7d32' : '#1976d2',
+                        backgroundColor: surah.normalizedRevelation === 'Meccan' ? '#e3f2fd' : '#e8f5e8',
+                        color: surah.normalizedRevelation === 'Meccan' ? '#1976d2' : '#2e7d32',
                         fontWeight: 600,
                         fontSize: '0.75rem'
                       }}
@@ -329,6 +338,7 @@ function SurahList() {
 
 
 {/* PDF Read Button */}
+                    {surah.hasPdf && (
                     <Box 
                       sx={{ 
                         display: 'flex', 
@@ -361,6 +371,7 @@ function SurahList() {
                         {t.read}
                       </Typography>
                     </Box>
+                    )}
                   </Box>
                 </CardContent>
                 </Card>

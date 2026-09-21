@@ -2,7 +2,7 @@ import { SITE_DESCRIPTION, SITE_EMAIL, SITE_NAME, SITE_PHONE, SITE_URL, SITE_YOU
 
 const LLMS_TXT = `# ${SITE_NAME}
 
-> ${SITE_DESCRIPTION} Based in Valencia Town, Block H, Lahore, Pakistan. Contact: ${SITE_EMAIL}, ${SITE_PHONE}.
+> ${SITE_DESCRIPTION} Based at 6K Commercial, Block K Valencia, Lahore, 54770, Pakistan. Contact: ${SITE_EMAIL}, ${SITE_PHONE}.
 
 Easy Quran Class helps students learn Quran online with qualified teachers. Core offerings include live Quran recitation, Tajweed, Tafsir, Arabic grammar, namaz/salah guidance, Surah playlists, and study notes for kids and adults.
 
@@ -26,7 +26,7 @@ Easy Quran Class helps students learn Quran online with qualified teachers. Core
 - Type: Online Quran academy / Islamic education
 - Audience: Kids, adults, beginners, and advancing students worldwide
 - Languages: English and Urdu
-- Location: Valencia Town, Block H, Lahore, Pakistan
+- Location: 6K Commercial, Block K Valencia, Lahore, 54770, Pakistan
 - YouTube: ${SITE_YOUTUBE}
 
 ## Direct Answers

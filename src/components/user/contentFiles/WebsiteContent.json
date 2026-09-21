@@ -25,7 +25,7 @@
                 "title": "Introduction to Quran Class",
                 "subtitle": "An introductory lecture by Muhammad Amjad Chaudhry",
                 "description": "Easy Quran Class is an online Quran academy that teaches Quran recitation, Tajweed, Tafsir, and Arabic to kids and adults through live classes you can join from anywhere.",
-                "youtubeIframeLink": "https://www.youtube.com/embed/wj_cCz6BmVw?si=r_R9o6lI-kmdUXkq"
+                "youtubeIframeLink": "https://www.youtube.com/embed/pGw_108LeME?si=wdg8Ekg3YAOGi3gr"
             },
             "ourLectures": {
                 "title": "Our Lectures",
@@ -64,7 +64,7 @@
                         "description": "Get instant updates and connect with us directly",
                         "buttonText": "Chat",
                         "buttonIcon": "Chat",
-                        "link": "https://wa.me/your-number"
+                        "link": "https://wa.me/923018477994"
                     },
                     {
                         "name": "Facebook",
@@ -72,7 +72,7 @@
                         "description": "Join our community and watch live sessions",
                         "buttonText": "Follow",
                         "buttonIcon": "FollowTheSigns",
-                        "link": "https://facebook.com/your-page"
+                        "link": "https://www.facebook.com/EasyQuranClass"
                     },
                     {
                         "name": "YouTube",
@@ -80,7 +80,7 @@
                         "description": "Subscribe now for Quran lessons and tutorials",
                         "buttonText": "Subscribe",
                         "buttonIcon": "Subscriptions",
-                        "link": "https://youtube.com/your-channel"
+                        "link": "https://www.youtube.com/@easyquranclass"
                     },
                     {
                         "name": "Instagram",
@@ -88,7 +88,7 @@
                         "description": "Follow for daily Islamic reminders and content",
                         "buttonText": "Follow",
                         "buttonIcon": "FollowTheSigns",
-                        "link": "https://instagram.com/your-profile"
+                        "link": "https://www.facebook.com/EasyQuranClass"
                     }
                 ],
                 "AdditionalInfo": "Stay connected and never miss an update from Easy Quran Class"
@@ -259,8 +259,8 @@
                 },
                 {
                     "name": "Address",
-                    "value": "Valencia Town, Block H, Lahore",
-                    "link": "https://www.google.com/maps/search/?api=1&query=Valencia+Town+Block+H+Lahore"
+                    "value": "6K Commercial, Block K Valencia, Lahore, 54770, Pakistan",
+                    "link": "https://maps.app.goo.gl/Q9tB9Fr11x1nABYD9"
                 }
             ],
             "additionalInfo":{
@@ -304,10 +304,10 @@
                     {
                         "icon": "LocationOnRoundedIcon",
                         "title": "Our Address",
-                        "line1": "Valencia Town, Block H, Lahore",
+                        "line1": "6K Commercial, Block K Valencia, Lahore, 54770, Pakistan",
                         "color": "#FF6B6B",
                         "gradient": "linear-gradient(135deg, #FF6B6B 0%, #EE5A6F 100%)",
-                        "link": "https://www.google.com/maps/search/?api=1&query=Valencia+Town+Block+H+Lahore"
+                        "link": "https://maps.app.goo.gl/Q9tB9Fr11x1nABYD9"
                     },
                     {
                         "icon": "PhoneRoundedIcon",
@@ -403,9 +403,9 @@
 
             "statsSection":{
                 "stats": [
-                    { "icon": "SchoolIcon", "end": 1920, "suffix": "+", "label": "Happy Students" },
-                    { "icon": "PeopleIcon", "end": 250, "suffix": "+", "label": "Professional Teachers" },
-                    { "icon": "PublicIcon", "end": 100, "suffix": "+", "label": "Countries" },
+                    { "icon": "FacebookIcon", "end": 30000, "suffix": "+", "separator": ",", "label": "Facebook Followers" },
+                    { "icon": "VideoLibraryIcon", "end": 1000, "suffix": "+ Hrs", "label": "Recorded Material" },
+                    { "icon": "PublicIcon", "end": 10, "suffix": "+", "label": "Listened In Countries" },
                     { "icon": "StarIcon", "end": 10, "suffix": "+", "label": "Years of Experience" }
                 ]
             }
@@ -459,7 +459,7 @@
                 "title": "قرآن کلاس کا تعارف",
                 "subtitle": "محمد امجد چوہدری کی تعارفی تقریر",
                 "description": "ایزی قرآن کلاس ایک آن لائن قرآن اکیڈمی ہے جہاں بچے اور بڑے زندہ کلاسز کے ذریعے قرآن، تجوید، تفسیر اور عربی سیکھتے ہیں۔",
-                "youtubeIframeLink": "https://www.youtube.com/embed/wj_cCz6BmVw?si=r_R9o6lI-kmdUXkq"
+                "youtubeIframeLink": "https://www.youtube.com/embed/pGw_108LeME?si=wdg8Ekg3YAOGi3gr"
             },
             "ourLectures": {
                 "title": "ہماری لیکچرز",
@@ -498,7 +498,7 @@
                         "description": "فوری اپ ڈیٹس حاصل کریں اور براہ راست ہم سے رابطہ کریں",
                         "buttonText": "چیٹ",
                         "buttonIcon": "Chat",
-                        "link": "https://wa.me/your-number"
+                        "link": "https://wa.me/923018477994"
                     },
                     {
                         "name": "Facebook",
@@ -506,7 +506,7 @@
                         "description": "ہماری کمیونٹی میں شامل ہوں اور لائیو سیشنز دیکھیں",
                         "buttonText": "فالو کریں",
                         "buttonIcon": "FollowTheSigns",
-                        "link": "https://facebook.com/your-page"
+                        "link": "https://www.facebook.com/EasyQuranClass"
                     },
                     {
                         "name": "YouTube",
@@ -514,7 +514,7 @@
                         "description": "قرآن کے اسباق اور ٹیوٹوریلز کے لیے ابھی سبسکرائب کریں",
                         "buttonText": "سبسکرائب کریں",
                         "buttonIcon": "Subscriptions",
-                        "link": "https://youtube.com/your-channel"
+                        "link": "https://www.youtube.com/@easyquranclass"
                     },
                     {
                         "name": "Instagram",
@@ -522,7 +522,7 @@
                         "description": "روزانہ اسلامی یاد دہانیوں اور مواد کے لیے فالو کریں",
                         "buttonText": "فالو کریں",
                         "buttonIcon": "FollowTheSigns",
-                        "link": "https://instagram.com/your-profile"
+                        "link": "https://www.facebook.com/EasyQuranClass"
                     }
                 ],
                 "AdditionalInfo": "جڑے رہیں اور ایزی قرآن کلاس سے کوئی اپ ڈیٹ مت چھوڑیں"
@@ -702,8 +702,8 @@
                 },
                 {
                     "name": "پتہ",
-                    "value": "ویلنسیا ٹاؤن، بلاک ایچ، لاہور",
-                    "link": "https://www.google.com/maps/search/?api=1&query=Valencia+Town+Block+H+Lahore"
+                    "value": "6K کمرشل، بلاک کے ویلنسیا، لاہور، 54770، پاکستان",
+                    "link": "https://maps.app.goo.gl/Q9tB9Fr11x1nABYD9"
                 }
             ],
             "additionalInfo":{
@@ -774,9 +774,9 @@
 
             "statsSection":{
                 "stats": [
-                    { "icon": "SchoolIcon", "end": 1920, "suffix": "+", "label": "خوش طلباء" },
-                    { "icon": "PeopleIcon", "end": 250, "suffix": "+", "label": "پیشہ ور اساتذہ" },
-                    { "icon": "PublicIcon", "end": 100, "suffix": "+", "label": "ممالک" },
+                    { "icon": "FacebookIcon", "end": 30000, "suffix": "+", "separator": ",", "label": "فیس بک فالوورز" },
+                    { "icon": "VideoLibraryIcon", "end": 1000, "suffix": "+ گھنٹے", "label": "ریکارڈ شدہ مواد" },
+                    { "icon": "PublicIcon", "end": 10, "suffix": "+", "label": "ممالک میں سنا گیا" },
                     { "icon": "StarIcon", "end": 10, "suffix": "+", "label": "سال کا تجربہ" }
                 ]
             }
@@ -813,10 +813,10 @@
                     {
                         "icon": "LocationOnRoundedIcon",
                         "title": "ہمارا پتہ",
-                        "line1": "ویلنسیا ٹاؤن، بلاک ایچ، لاہور",
+                        "line1": "6K کمرشل، بلاک کے ویلنسیا، لاہور، 54770، پاکستان",
                         "color": "#FF6B6B",
                         "gradient": "linear-gradient(135deg, #FF6B6B 0%, #EE5A6F 100%)",
-                        "link": "https://www.google.com/maps/search/?api=1&query=Valencia+Town+Block+H+Lahore"
+                        "link": "https://maps.app.goo.gl/Q9tB9Fr11x1nABYD9"
                     },
                     {
                         "icon": "PhoneRoundedIcon",

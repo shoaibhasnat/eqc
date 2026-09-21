@@ -3,7 +3,13 @@ export const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || 'Easy Quran Class'
 export const SITE_PHONE = process.env.NEXT_PUBLIC_CONTACT_PHONE || '03018477994';
 export const SITE_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'info@easyquranclass.com';
 export const SITE_YOUTUBE = process.env.NEXT_PUBLIC_YOUTUBE_URL || 'https://www.youtube.com/@easyquranclass';
-export const SITE_ADDRESS = 'Valencia Town, Block H, Lahore, Pakistan';
+export const SITE_FACEBOOK = 'https://www.facebook.com/EasyQuranClass';
+export const SITE_INSTAGRAM = SITE_FACEBOOK;
+export const SITE_WHATSAPP = 'https://wa.me/923018477994';
+export const SITE_ADDRESS = '6K Commercial, Block K Valencia, Lahore, 54770, Pakistan';
+export const SITE_MAPS_URL = 'https://maps.app.goo.gl/Q9tB9Fr11x1nABYD9';
+export const SITE_MAPS_EMBED_URL =
+  'https://www.google.com/maps?q=31.3949388,74.2594727&z=16&output=embed';
 export const SITE_DESCRIPTION =
   'Easy Quran Class is an online Quran academy offering live Quran, Tajweed, Tafsir, Arabic grammar, and namaz classes for kids and adults worldwide.';
 
@@ -131,14 +137,15 @@ export function organizationJsonLd() {
     telephone: SITE_PHONE,
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Valencia Town, Block H',
+      streetAddress: '6K Commercial, Block K Valencia',
       addressLocality: 'Lahore',
       addressRegion: 'Punjab',
+      postalCode: '54770',
       addressCountry: 'PK',
     },
     areaServed: 'Worldwide',
     knowsLanguage: ['en', 'ur', 'ar'],
-    sameAs: [SITE_YOUTUBE],
+    sameAs: [SITE_YOUTUBE, SITE_FACEBOOK, SITE_WHATSAPP],
     contactPoint: [
       {
         '@type': 'ContactPoint',
@@ -235,7 +242,7 @@ export function videoJsonLd() {
     name: 'Introduction to Easy Quran Class',
     description: 'An introductory lecture about Easy Quran Class, an online Quran academy for kids and adults.',
     thumbnailUrl: [absoluteUrl('/images/home-banner.jpg')],
-    embedUrl: 'https://www.youtube.com/embed/wj_cCz6BmVw',
+    embedUrl: 'https://www.youtube.com/embed/pGw_108LeME',
     publisher: { '@id': `${SITE_URL}/#organization` },
   };
 }
