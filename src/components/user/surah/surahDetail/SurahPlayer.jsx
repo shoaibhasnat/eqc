@@ -63,20 +63,12 @@ export default function SurahVideoPlayer() {
   // Select the appropriate JSON data based on language
   const surahDataJson = lang === 'ur' ? surahDataUrdu : surahDataEng;
 
-  // Check if this is a "Coming Soon" surah (4, 5, 6)
-  const isComingSoon = [4, 5, 6].includes(surahId);
-
   // Find the surah data that matches the ID
   const surahData = useMemo(() => {
     const surah = surahDataJson.surahs.find((s) => s.id === surahId);
     if (!surah) {
       // Fallback to first surah if not found
       return surahDataJson.surahs[0];
-    }
-    
-    // If coming soon surah, return without processing videos
-    if (isComingSoon) {
-      return surah;
     }
     
     // Process videos to ensure video_id is available
@@ -89,7 +81,7 @@ export default function SurahVideoPlayer() {
       ...surah,
       videos: processedVideos,
     };
-  }, [surahId, isComingSoon, surahDataJson]);
+  }, [surahId, surahDataJson]);
 
   const [selectedVideo, setSelectedVideo] = useState(
     surahData.videos && surahData.videos.length > 0 ? surahData.videos[0] : null
@@ -202,8 +194,8 @@ export default function SurahVideoPlayer() {
     return '';
   };
 
-  // Show "Coming Soon" for surahs 4, 5, 6
-  if (isComingSoon || (!selectedVideo && (!surahData.videos || surahData.videos.length === 0))) {
+  // Show "Coming Soon" when a surah has no playable videos yet
+  if (!selectedVideo && (!surahData.videos || surahData.videos.length === 0)) {
     return (
       <Container maxWidth="lg" sx={{ py: 8, px: { xs: 2, md: 4 }, mt: 5 }}>
         <motion.div

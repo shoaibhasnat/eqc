@@ -1639,7 +1639,641 @@
         "englishName": "The Women",
         "arabicName": "النساء",
         "verseCount": 176,
-        "revelation": "Medinan"
+        "revelation": "Medinan",
+        "playlist_title": "4 - AN-NISA (THE WOMEN) - YouTube",
+        "playlist_link": "https://www.youtube.com/playlist?list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf",
+        "videos": [
+          {
+            "video_title": "Al Nisaa verses 1 2",
+            "video_link": "https://www.youtube.com/watch?v=mO6uRsgajoA&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=1&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/mO6uRsgajoA/hqdefault.jpg",
+            "time": "21:11",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/mO6uRsgajoA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 3 4",
+            "video_link": "https://www.youtube.com/watch?v=cvR5TNErTLE&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=2&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/cvR5TNErTLE/hqdefault.jpg",
+            "time": "30:22",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/cvR5TNErTLE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 5 6",
+            "video_link": "https://www.youtube.com/watch?v=lT080rErVvw&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=3&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/lT080rErVvw/hqdefault.jpg",
+            "time": "17:29",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/lT080rErVvw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 7 10",
+            "video_link": "https://www.youtube.com/watch?v=uhi5HodX2xw&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=4&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/uhi5HodX2xw/hqdefault.jpg",
+            "time": "22:28",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/uhi5HodX2xw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 11",
+            "video_link": "https://www.youtube.com/watch?v=cPX2qoBKla4&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=5&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/cPX2qoBKla4/hqdefault.jpg",
+            "time": "27:38",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/cPX2qoBKla4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 12",
+            "video_link": "https://www.youtube.com/watch?v=AD-ocIFfiAM&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=6&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/AD-ocIFfiAM/hqdefault.jpg",
+            "time": "26:04",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/AD-ocIFfiAM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 13 14",
+            "video_link": "https://www.youtube.com/watch?v=mbBg5o6u-pc&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=7&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/mbBg5o6u-pc/hqdefault.jpg",
+            "time": "16:56",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/mbBg5o6u-pc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 1 10 Revision",
+            "video_link": "https://www.youtube.com/watch?v=LsyS1hx9d-U&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=8&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/LsyS1hx9d-U/hqdefault.jpg",
+            "time": "27:11",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/LsyS1hx9d-U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 11 14 Revision",
+            "video_link": "https://www.youtube.com/watch?v=4DtHyzGGlVU&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=9&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/4DtHyzGGlVU/hqdefault.jpg",
+            "time": "26:19",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4DtHyzGGlVU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "قرآن اور حدیث کے مطابق میت کے ورثاء",
+            "video_link": "https://www.youtube.com/watch?v=BBY_9uDeYEI&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=10&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/BBY_9uDeYEI/hqdefault.jpg",
+            "time": "25:15",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/BBY_9uDeYEI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 15 16",
+            "video_link": "https://www.youtube.com/watch?v=VE7IdpmEN58&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=11&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/VE7IdpmEN58/hqdefault.jpg",
+            "time": "21:32",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/VE7IdpmEN58\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 17 18",
+            "video_link": "https://www.youtube.com/watch?v=TRWak6ctUuE&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=12&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/TRWak6ctUuE/hqdefault.jpg",
+            "time": "20:41",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/TRWak6ctUuE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 19",
+            "video_link": "https://www.youtube.com/watch?v=2Q8g7_gXNbI&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=13&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/2Q8g7_gXNbI/hqdefault.jpg",
+            "time": "11:36",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2Q8g7_gXNbI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 20 22",
+            "video_link": "https://www.youtube.com/watch?v=HIl5NL_uiOI&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=14&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/HIl5NL_uiOI/hqdefault.jpg",
+            "time": "15:37",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/HIl5NL_uiOI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 23",
+            "video_link": "https://www.youtube.com/watch?v=wR4z3-L_JmQ&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=15&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/wR4z3-L_JmQ/hqdefault.jpg",
+            "time": "17:33",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/wR4z3-L_JmQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 15 23 Revision",
+            "video_link": "https://www.youtube.com/watch?v=1Aju7MWt_jc&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=16&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/1Aju7MWt_jc/hqdefault.jpg",
+            "time": "26:13",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1Aju7MWt_jc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 24",
+            "video_link": "https://www.youtube.com/watch?v=WMLedx-qF4o&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=17&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/WMLedx-qF4o/hqdefault.jpg",
+            "time": "21:33",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WMLedx-qF4o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 25",
+            "video_link": "https://www.youtube.com/watch?v=yYYLjQzX9oA&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=18&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/yYYLjQzX9oA/hqdefault.jpg",
+            "time": "17:04",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/yYYLjQzX9oA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 26 28",
+            "video_link": "https://www.youtube.com/watch?v=p6xwJkYJ-jY&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=19&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/p6xwJkYJ-jY/hqdefault.jpg",
+            "time": "17:01",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/p6xwJkYJ-jY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 29 31",
+            "video_link": "https://www.youtube.com/watch?v=eklhjlGM0GY&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=20&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/eklhjlGM0GY/hqdefault.jpg",
+            "time": "21:47",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/eklhjlGM0GY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 32 33",
+            "video_link": "https://www.youtube.com/watch?v=O0mZd4cDZHE&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=21&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/O0mZd4cDZHE/hqdefault.jpg",
+            "time": "17:16",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/O0mZd4cDZHE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 34",
+            "video_link": "https://www.youtube.com/watch?v=TH3OsbEvKTQ&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=22&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/TH3OsbEvKTQ/hqdefault.jpg",
+            "time": "21:21",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/TH3OsbEvKTQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 35 36",
+            "video_link": "https://www.youtube.com/watch?v=ISZ9L2y6SrQ&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=23&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/ISZ9L2y6SrQ/hqdefault.jpg",
+            "time": "21:36",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ISZ9L2y6SrQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 24 30 Revision",
+            "video_link": "https://www.youtube.com/watch?v=J7bweVxJMnw&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=24&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/J7bweVxJMnw/hqdefault.jpg",
+            "time": "22:50",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/J7bweVxJMnw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 31 36 Revision",
+            "video_link": "https://www.youtube.com/watch?v=Y4PGWF_yFio&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=25&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/Y4PGWF_yFio/hqdefault.jpg",
+            "time": "24:17",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Y4PGWF_yFio\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 37 39",
+            "video_link": "https://www.youtube.com/watch?v=m6SM1S8e5q4&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=26&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/m6SM1S8e5q4/hqdefault.jpg",
+            "time": "23:19",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/m6SM1S8e5q4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 40 42",
+            "video_link": "https://www.youtube.com/watch?v=bcqZC_auMe4&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=27&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/bcqZC_auMe4/hqdefault.jpg",
+            "time": "22:19",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bcqZC_auMe4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 43",
+            "video_link": "https://www.youtube.com/watch?v=wAw_4NH_z6E&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=28&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/wAw_4NH_z6E/hqdefault.jpg",
+            "time": "23:42",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/wAw_4NH_z6E\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 44  46",
+            "video_link": "https://www.youtube.com/watch?v=xFED3btlWkg&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=29&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/xFED3btlWkg/hqdefault.jpg",
+            "time": "21:14",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xFED3btlWkg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 37 46 Revision",
+            "video_link": "https://www.youtube.com/watch?v=u7M7n81GD2c&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=30&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/u7M7n81GD2c/hqdefault.jpg",
+            "time": "30:30",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/u7M7n81GD2c\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 47  48",
+            "video_link": "https://www.youtube.com/watch?v=4wlLm89t4ns&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=31&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/4wlLm89t4ns/hqdefault.jpg",
+            "time": "22:48",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4wlLm89t4ns\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 49 52",
+            "video_link": "https://www.youtube.com/watch?v=UP8T3SQq-_o&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=32&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/UP8T3SQq-_o/hqdefault.jpg",
+            "time": "20:44",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/UP8T3SQq-_o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 53 57",
+            "video_link": "https://www.youtube.com/watch?v=rJ8MaGJzDrA&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=33&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/rJ8MaGJzDrA/hqdefault.jpg",
+            "time": "20:26",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rJ8MaGJzDrA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 58 59",
+            "video_link": "https://www.youtube.com/watch?v=bPVUv-SKfxI&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=34&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/bPVUv-SKfxI/hqdefault.jpg",
+            "time": "29:55",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bPVUv-SKfxI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 60 63",
+            "video_link": "https://www.youtube.com/watch?v=OR9H7Foysh0&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=35&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/OR9H7Foysh0/hqdefault.jpg",
+            "time": "22:42",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/OR9H7Foysh0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 64 65",
+            "video_link": "https://www.youtube.com/watch?v=GI3ZlQyCQk4&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=36&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/GI3ZlQyCQk4/hqdefault.jpg",
+            "time": "17:52",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/GI3ZlQyCQk4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 66 70",
+            "video_link": "https://www.youtube.com/watch?v=k4GKUhKQnsU&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=37&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/k4GKUhKQnsU/hqdefault.jpg",
+            "time": "21:09",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/k4GKUhKQnsU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 71 74",
+            "video_link": "https://www.youtube.com/watch?v=szJupoIO-HQ&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=38&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/szJupoIO-HQ/hqdefault.jpg",
+            "time": "19:49",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/szJupoIO-HQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 75 76",
+            "video_link": "https://www.youtube.com/watch?v=T5WUpvAgpcg&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=39&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/T5WUpvAgpcg/hqdefault.jpg",
+            "time": "18:36",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/T5WUpvAgpcg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 77",
+            "video_link": "https://www.youtube.com/watch?v=eeHbh4Wdm1A&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=40&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/eeHbh4Wdm1A/hqdefault.jpg",
+            "time": "20:29",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/eeHbh4Wdm1A\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 60 70 Revision",
+            "video_link": "https://www.youtube.com/watch?v=Db8xkTGs0cE&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=41&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/Db8xkTGs0cE/hqdefault.jpg",
+            "time": "25:01",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Db8xkTGs0cE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisaa verses 71 77 Revision",
+            "video_link": "https://www.youtube.com/watch?v=W3T053Ramns&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=42&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/W3T053Ramns/hqdefault.jpg",
+            "time": "24:58",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/W3T053Ramns\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 77 78",
+            "video_link": "https://www.youtube.com/watch?v=fvmYMZqYcSw&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=43&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/fvmYMZqYcSw/hqdefault.jpg",
+            "time": "22:00",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/fvmYMZqYcSw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 78 80",
+            "video_link": "https://www.youtube.com/watch?v=zoGUWs4RUTo&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=44&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/zoGUWs4RUTo/hqdefault.jpg",
+            "time": "17:23",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/zoGUWs4RUTo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 81 82",
+            "video_link": "https://www.youtube.com/watch?v=rNyxuOgvv68&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=45&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/rNyxuOgvv68/hqdefault.jpg",
+            "time": "19:46",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rNyxuOgvv68\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 83 84",
+            "video_link": "https://www.youtube.com/watch?v=VwemNkc3Zhs&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=46&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/VwemNkc3Zhs/hqdefault.jpg",
+            "time": "21:59",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/VwemNkc3Zhs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 85 87",
+            "video_link": "https://www.youtube.com/watch?v=5hYQGbva_zk&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=47&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/5hYQGbva_zk/hqdefault.jpg",
+            "time": "21:29",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/5hYQGbva_zk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 88 89",
+            "video_link": "https://www.youtube.com/watch?v=DjmXe4ztNPM&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=48&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/DjmXe4ztNPM/hqdefault.jpg",
+            "time": "17:57",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DjmXe4ztNPM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 90 91",
+            "video_link": "https://www.youtube.com/watch?v=Onx5MVCIfss&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=49&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/Onx5MVCIfss/hqdefault.jpg",
+            "time": "19:47",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Onx5MVCIfss\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 77 83 Revision",
+            "video_link": "https://www.youtube.com/watch?v=qqvPMZDWI3A&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=50&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/qqvPMZDWI3A/hqdefault.jpg",
+            "time": "25:17",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qqvPMZDWI3A\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 84 91 Revision",
+            "video_link": "https://www.youtube.com/watch?v=Y4scB6uqsYI&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=51&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/Y4scB6uqsYI/hqdefault.jpg",
+            "time": "26:01",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Y4scB6uqsYI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 92 93",
+            "video_link": "https://www.youtube.com/watch?v=9RynTB66KJQ&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=52&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/9RynTB66KJQ/hqdefault.jpg",
+            "time": "23:16",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/9RynTB66KJQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 94",
+            "video_link": "https://www.youtube.com/watch?v=pbvQrVytdTU&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=53&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/pbvQrVytdTU/hqdefault.jpg",
+            "time": "13:51",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/pbvQrVytdTU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 95 96",
+            "video_link": "https://www.youtube.com/watch?v=IcOMii8rZTI&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=54&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/IcOMii8rZTI/hqdefault.jpg",
+            "time": "14:19",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/IcOMii8rZTI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 97 100",
+            "video_link": "https://www.youtube.com/watch?v=illbYEvnjkU&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=55&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/illbYEvnjkU/hqdefault.jpg",
+            "time": "21:59",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/illbYEvnjkU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 92 100 Revision",
+            "video_link": "https://www.youtube.com/watch?v=nikM6x4ITg4&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=56&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/nikM6x4ITg4/hqdefault.jpg",
+            "time": "28:54",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/nikM6x4ITg4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 101 102",
+            "video_link": "https://www.youtube.com/watch?v=LZbkgK5UsjU&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=57&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/LZbkgK5UsjU/hqdefault.jpg",
+            "time": "24:07",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/LZbkgK5UsjU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 103 104",
+            "video_link": "https://www.youtube.com/watch?v=ahM3w6IKBv0&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=58&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/ahM3w6IKBv0/hqdefault.jpg",
+            "time": "18:43",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ahM3w6IKBv0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 105 108",
+            "video_link": "https://www.youtube.com/watch?v=1zeJrNdkRZg&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=59&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/1zeJrNdkRZg/hqdefault.jpg",
+            "time": "22:40",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1zeJrNdkRZg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 109 112",
+            "video_link": "https://www.youtube.com/watch?v=YXvliZxhAn8&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=60&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/YXvliZxhAn8/hqdefault.jpg",
+            "time": "20:46",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/YXvliZxhAn8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 101 112 Revision",
+            "video_link": "https://www.youtube.com/watch?v=fS0BHvBpC4M&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=61&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/fS0BHvBpC4M/hqdefault.jpg",
+            "time": "35:11",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/fS0BHvBpC4M\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 113 115",
+            "video_link": "https://www.youtube.com/watch?v=ZQNUxZYRv28&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=62&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/ZQNUxZYRv28/hqdefault.jpg",
+            "time": "23:45",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZQNUxZYRv28\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 116 121 Part-I",
+            "video_link": "https://www.youtube.com/watch?v=tOkW4HX9s_I&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=63&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/tOkW4HX9s_I/hqdefault.jpg",
+            "time": "23:57",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/tOkW4HX9s_I\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 116 121 Part-II",
+            "video_link": "https://www.youtube.com/watch?v=1y7yI9ULfw0&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=64&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/1y7yI9ULfw0/hqdefault.jpg",
+            "time": "19:22",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1y7yI9ULfw0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 122 126",
+            "video_link": "https://www.youtube.com/watch?v=ZDyllYATha8&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=65&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/ZDyllYATha8/hqdefault.jpg",
+            "time": "25:56",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZDyllYATha8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 127",
+            "video_link": "https://www.youtube.com/watch?v=TKdtTntf4e0&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=66&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/TKdtTntf4e0/hqdefault.jpg",
+            "time": "15:57",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/TKdtTntf4e0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 113 127 Revision",
+            "video_link": "https://www.youtube.com/watch?v=EXeaxKC__Qw&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=67&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/EXeaxKC__Qw/hqdefault.jpg",
+            "time": "36:58",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/EXeaxKC__Qw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 128 130",
+            "video_link": "https://www.youtube.com/watch?v=Ie1MIlfc3Ec&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=68&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/Ie1MIlfc3Ec/hqdefault.jpg",
+            "time": "22:16",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Ie1MIlfc3Ec\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 131 134",
+            "video_link": "https://www.youtube.com/watch?v=szvfyQ2A2mY&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=69&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/szvfyQ2A2mY/hqdefault.jpg",
+            "time": "18:41",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/szvfyQ2A2mY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 135 136",
+            "video_link": "https://www.youtube.com/watch?v=MGQtxbGY3ZU&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=70&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/MGQtxbGY3ZU/hqdefault.jpg",
+            "time": "21:15",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MGQtxbGY3ZU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 136 139",
+            "video_link": "https://www.youtube.com/watch?v=EsZsyFjiWuw&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=71&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/EsZsyFjiWuw/hqdefault.jpg",
+            "time": "16:06",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/EsZsyFjiWuw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 128 139 Revision",
+            "video_link": "https://www.youtube.com/watch?v=_AOp3LUep20&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=72&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/_AOp3LUep20/hqdefault.jpg",
+            "time": "33:17",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/_AOp3LUep20\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 140 141",
+            "video_link": "https://www.youtube.com/watch?v=jvfBsKj0vKw&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=73&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/jvfBsKj0vKw/hqdefault.jpg",
+            "time": "22:54",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jvfBsKj0vKw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 142 144",
+            "video_link": "https://www.youtube.com/watch?v=xV55v4aXRws&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=74&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/xV55v4aXRws/hqdefault.jpg",
+            "time": "22:30",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xV55v4aXRws\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 145 147",
+            "video_link": "https://www.youtube.com/watch?v=KPpglRrDal0&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=75&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/KPpglRrDal0/hqdefault.jpg",
+            "time": "21:41",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/KPpglRrDal0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 140 147 Revision",
+            "video_link": "https://www.youtube.com/watch?v=9E50RKD8aAA&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=76&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/9E50RKD8aAA/hqdefault.jpg",
+            "time": "25:52",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/9E50RKD8aAA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 148 152",
+            "video_link": "https://www.youtube.com/watch?v=TGo2YA8YMek&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=77&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/TGo2YA8YMek/hqdefault.jpg",
+            "time": "26:22",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/TGo2YA8YMek\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 153 155",
+            "video_link": "https://www.youtube.com/watch?v=GOF1smpKjvE&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=78&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/GOF1smpKjvE/hqdefault.jpg",
+            "time": "26:53",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/GOF1smpKjvE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 156 159",
+            "video_link": "https://www.youtube.com/watch?v=7UGktrnpaZU&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=79&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/7UGktrnpaZU/hqdefault.jpg",
+            "time": "23:41",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/7UGktrnpaZU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 160 162",
+            "video_link": "https://www.youtube.com/watch?v=JUxEB28AEbU&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=80&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/JUxEB28AEbU/hqdefault.jpg",
+            "time": "22:26",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/JUxEB28AEbU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 148 155 Revision",
+            "video_link": "https://www.youtube.com/watch?v=RSqcvv0esVI&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=81&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/RSqcvv0esVI/hqdefault.jpg",
+            "time": "30:20",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/RSqcvv0esVI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 156 162 Revision",
+            "video_link": "https://www.youtube.com/watch?v=ujpHnMUaCCU&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=82&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/ujpHnMUaCCU/hqdefault.jpg",
+            "time": "24:03",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ujpHnMUaCCU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 163 166",
+            "video_link": "https://www.youtube.com/watch?v=Q3Ox4Z5OO6A&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=83&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/Q3Ox4Z5OO6A/hqdefault.jpg",
+            "time": "19:00",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Q3Ox4Z5OO6A\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 167 170",
+            "video_link": "https://www.youtube.com/watch?v=1Da-8e9OUfE&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=84&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/1Da-8e9OUfE/hqdefault.jpg",
+            "time": "15:27",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1Da-8e9OUfE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 171",
+            "video_link": "https://www.youtube.com/watch?v=I3DzQ-Y9ehw&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=85&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/I3DzQ-Y9ehw/hqdefault.jpg",
+            "time": "20:23",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/I3DzQ-Y9ehw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 172 173",
+            "video_link": "https://www.youtube.com/watch?v=igBWzt4TuRU&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=86&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/igBWzt4TuRU/hqdefault.jpg",
+            "time": "16:25",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/igBWzt4TuRU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 174 175",
+            "video_link": "https://www.youtube.com/watch?v=1Y4CIQQq1yQ&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=87&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/1Y4CIQQq1yQ/hqdefault.jpg",
+            "time": "15:20",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1Y4CIQQq1yQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 176",
+            "video_link": "https://www.youtube.com/watch?v=K9d_0q9nTco&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=88&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/K9d_0q9nTco/hqdefault.jpg",
+            "time": "20:13",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/K9d_0q9nTco\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 163 171 Revision",
+            "video_link": "https://www.youtube.com/watch?v=Arfn3zVvoUM&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=89&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/Arfn3zVvoUM/hqdefault.jpg",
+            "time": "29:14",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Arfn3zVvoUM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Nisa verses 172 176 Revision",
+            "video_link": "https://www.youtube.com/watch?v=UVw-_CnWknM&list=PLM9b6uNkW8peYvzje_0WPX2Y6I3lIDDxf&index=90&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/UVw-_CnWknM/hqdefault.jpg",
+            "time": "27:32",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/UVw-_CnWknM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          }
+        ]
       },
       {
         "id": 5,
@@ -1647,7 +2281,452 @@
         "englishName": "The Table Spread",
         "arabicName": "المائدة",
         "verseCount": 120,
-        "revelation": "Medinan"
+        "revelation": "Medinan",
+        "playlist_title": "5 - AL-MAIDAH (THE TABLE SPREAD) - YouTube",
+        "playlist_link": "https://www.youtube.com/playlist?list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra",
+        "videos": [
+          {
+            "video_title": "Al Maidah verses 1",
+            "video_link": "https://www.youtube.com/watch?v=y23IZSlq4PE&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=1&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/y23IZSlq4PE/hqdefault.jpg",
+            "time": "23:17",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/y23IZSlq4PE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 2",
+            "video_link": "https://www.youtube.com/watch?v=4YsNul_EfPE&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=2&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/4YsNul_EfPE/hqdefault.jpg",
+            "time": "24:17",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4YsNul_EfPE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 3",
+            "video_link": "https://www.youtube.com/watch?v=2q5wTVMrdBs&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=3&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/2q5wTVMrdBs/hqdefault.jpg",
+            "time": "31:25",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2q5wTVMrdBs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 4",
+            "video_link": "https://www.youtube.com/watch?v=08-ey_R7xqg&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=4&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/08-ey_R7xqg/hqdefault.jpg",
+            "time": "19:27",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/08-ey_R7xqg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 5",
+            "video_link": "https://www.youtube.com/watch?v=Ys1lAuxSZBM&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=5&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/Ys1lAuxSZBM/hqdefault.jpg",
+            "time": "17:03",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Ys1lAuxSZBM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 1 5 Revision",
+            "video_link": "https://www.youtube.com/watch?v=muftma18pSU&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=6&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/muftma18pSU/hqdefault.jpg",
+            "time": "38:36",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/muftma18pSU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 6",
+            "video_link": "https://www.youtube.com/watch?v=ynczpWGH7tI&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=7&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/ynczpWGH7tI/hqdefault.jpg",
+            "time": "24:49",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ynczpWGH7tI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 7 10",
+            "video_link": "https://www.youtube.com/watch?v=KO1NzVkx42o&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=8&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/KO1NzVkx42o/hqdefault.jpg",
+            "time": "22:03",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/KO1NzVkx42o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 11 12",
+            "video_link": "https://www.youtube.com/watch?v=3KL-3VqJgIA&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=9&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/3KL-3VqJgIA/hqdefault.jpg",
+            "time": "24:01",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/3KL-3VqJgIA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 13 14",
+            "video_link": "https://www.youtube.com/watch?v=5fH7ej88zcA&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=10&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/5fH7ej88zcA/hqdefault.jpg",
+            "time": "24:42",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/5fH7ej88zcA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 15 16",
+            "video_link": "https://www.youtube.com/watch?v=ZrSSD22SlJM&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=11&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/ZrSSD22SlJM/hqdefault.jpg",
+            "time": "25:36",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZrSSD22SlJM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 6 16 Revision",
+            "video_link": "https://www.youtube.com/watch?v=ZO6CmLLNRFw&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=12&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/ZO6CmLLNRFw/hqdefault.jpg",
+            "time": "38:15",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZO6CmLLNRFw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 17 19",
+            "video_link": "https://www.youtube.com/watch?v=bngVJF9DOpc&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=13&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/bngVJF9DOpc/hqdefault.jpg",
+            "time": "22:39",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bngVJF9DOpc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 20 22",
+            "video_link": "https://www.youtube.com/watch?v=Ml8nqinlPl0&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=14&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/Ml8nqinlPl0/hqdefault.jpg",
+            "time": "17:47",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Ml8nqinlPl0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 23 26",
+            "video_link": "https://www.youtube.com/watch?v=2Euun_STh_I&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=15&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/2Euun_STh_I/hqdefault.jpg",
+            "time": "21:00",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2Euun_STh_I\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 27 30",
+            "video_link": "https://www.youtube.com/watch?v=Rv3ll9DzIyE&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=16&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/Rv3ll9DzIyE/hqdefault.jpg",
+            "time": "22:36",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Rv3ll9DzIyE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 31 32",
+            "video_link": "https://www.youtube.com/watch?v=UBUM93cdA4k&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=17&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/UBUM93cdA4k/hqdefault.jpg",
+            "time": "17:33",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/UBUM93cdA4k\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 17 23 Revision",
+            "video_link": "https://www.youtube.com/watch?v=Et3yNcdA66o&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=18&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/Et3yNcdA66o/hqdefault.jpg",
+            "time": "23:24",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Et3yNcdA66o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 24 32 Revsion",
+            "video_link": "https://www.youtube.com/watch?v=CE_jjB99LOs&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=19&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/CE_jjB99LOs/hqdefault.jpg",
+            "time": "21:36",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/CE_jjB99LOs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 33 34",
+            "video_link": "https://www.youtube.com/watch?v=-mjELiOZz-U&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=20&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/-mjELiOZz-U/hqdefault.jpg",
+            "time": "17:14",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-mjELiOZz-U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 35 37",
+            "video_link": "https://www.youtube.com/watch?v=u72lHEL1I3U&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=21&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/u72lHEL1I3U/hqdefault.jpg",
+            "time": "19:53",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/u72lHEL1I3U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 38 40",
+            "video_link": "https://www.youtube.com/watch?v=yu0YhQGKKko&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=22&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/yu0YhQGKKko/hqdefault.jpg",
+            "time": "16:54",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/yu0YhQGKKko\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 41",
+            "video_link": "https://www.youtube.com/watch?v=-eVXJX7gvpw&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=23&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/-eVXJX7gvpw/hqdefault.jpg",
+            "time": "23:15",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-eVXJX7gvpw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 33 41 Revision",
+            "video_link": "https://www.youtube.com/watch?v=bGUBIcQxf68&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=24&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/bGUBIcQxf68/hqdefault.jpg",
+            "time": "29:23",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bGUBIcQxf68\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 42 43",
+            "video_link": "https://www.youtube.com/watch?v=zEAwcnTDRVw&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=25&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/zEAwcnTDRVw/hqdefault.jpg",
+            "time": "16:46",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/zEAwcnTDRVw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 44 45",
+            "video_link": "https://www.youtube.com/watch?v=Po4O_2aPbVM&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=26&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/Po4O_2aPbVM/hqdefault.jpg",
+            "time": "25:06",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Po4O_2aPbVM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 46 47",
+            "video_link": "https://www.youtube.com/watch?v=z-kgaB11he4&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=27&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/z-kgaB11he4/hqdefault.jpg",
+            "time": "14:28",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/z-kgaB11he4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 48",
+            "video_link": "https://www.youtube.com/watch?v=5D_A6CvfH5o&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=28&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/5D_A6CvfH5o/hqdefault.jpg",
+            "time": "25:16",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/5D_A6CvfH5o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 49 51",
+            "video_link": "https://www.youtube.com/watch?v=WjPnWZ1pn-U&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=29&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/WjPnWZ1pn-U/hqdefault.jpg",
+            "time": "23:16",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WjPnWZ1pn-U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 42 47 Revision",
+            "video_link": "https://www.youtube.com/watch?v=A8CXEh-My7Q&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=30&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/A8CXEh-My7Q/hqdefault.jpg",
+            "time": "21:40",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/A8CXEh-My7Q\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 48 51 Revision",
+            "video_link": "https://www.youtube.com/watch?v=Yv7Arx_NDsQ&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=31&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/Yv7Arx_NDsQ/hqdefault.jpg",
+            "time": "26:40",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Yv7Arx_NDsQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 52 53",
+            "video_link": "https://www.youtube.com/watch?v=F6pTsDhqmqU&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=32&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/F6pTsDhqmqU/hqdefault.jpg",
+            "time": "18:57",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/F6pTsDhqmqU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 54 56",
+            "video_link": "https://www.youtube.com/watch?v=Y0CzWyJJwNA&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=33&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/Y0CzWyJJwNA/hqdefault.jpg",
+            "time": "22:41",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Y0CzWyJJwNA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 57 59",
+            "video_link": "https://www.youtube.com/watch?v=wOv5iyxXy8A&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=34&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/wOv5iyxXy8A/hqdefault.jpg",
+            "time": "22:08",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/wOv5iyxXy8A\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 60 61",
+            "video_link": "https://www.youtube.com/watch?v=S6Wn9-fVy7M&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=35&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/S6Wn9-fVy7M/hqdefault.jpg",
+            "time": "15:54",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/S6Wn9-fVy7M\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 52 61 Revision",
+            "video_link": "https://www.youtube.com/watch?v=jFer7HYdqDQ&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=36&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/jFer7HYdqDQ/hqdefault.jpg",
+            "time": "29:06",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jFer7HYdqDQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 62 64",
+            "video_link": "https://www.youtube.com/watch?v=jMvW4l5z1Gs&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=37&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/jMvW4l5z1Gs/hqdefault.jpg",
+            "time": "27:01",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jMvW4l5z1Gs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 65 67",
+            "video_link": "https://www.youtube.com/watch?v=kAFqHePK9gU&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=38&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/kAFqHePK9gU/hqdefault.jpg",
+            "time": "25:16",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/kAFqHePK9gU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 68 69",
+            "video_link": "https://www.youtube.com/watch?v=TxcT6-WLg9I&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=39&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/TxcT6-WLg9I/hqdefault.jpg",
+            "time": "23:42",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/TxcT6-WLg9I\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 62 71 Revision",
+            "video_link": "https://www.youtube.com/watch?v=cUHZT2ef1x4&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=40&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/cUHZT2ef1x4/hqdefault.jpg",
+            "time": "28:36",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/cUHZT2ef1x4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 70 71",
+            "video_link": "https://www.youtube.com/watch?v=GDJz2mqiat0&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=41&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/GDJz2mqiat0/hqdefault.jpg",
+            "time": "19:41",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/GDJz2mqiat0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 72 75",
+            "video_link": "https://www.youtube.com/watch?v=fEU2Ur_tr2E&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=42&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/fEU2Ur_tr2E/hqdefault.jpg",
+            "time": "20:56",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/fEU2Ur_tr2E\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 76 79",
+            "video_link": "https://www.youtube.com/watch?v=c1uPvDI6kvw&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=43&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/c1uPvDI6kvw/hqdefault.jpg",
+            "time": "22:43",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/c1uPvDI6kvw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 80 82",
+            "video_link": "https://www.youtube.com/watch?v=JL8VI2eIeds&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=44&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/JL8VI2eIeds/hqdefault.jpg",
+            "time": "17:54",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/JL8VI2eIeds\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 72 82 Revision",
+            "video_link": "https://www.youtube.com/watch?v=70fmfFX7_XU&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=45&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/70fmfFX7_XU/hqdefault.jpg",
+            "time": "26:19",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/70fmfFX7_XU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 83 86",
+            "video_link": "https://www.youtube.com/watch?v=hNoyiIDQGCw&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=46&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/hNoyiIDQGCw/hqdefault.jpg",
+            "time": "21:04",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/hNoyiIDQGCw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 87 88",
+            "video_link": "https://www.youtube.com/watch?v=x2PpaTr4yZI&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=47&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/x2PpaTr4yZI/hqdefault.jpg",
+            "time": "20:15",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/x2PpaTr4yZI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 89",
+            "video_link": "https://www.youtube.com/watch?v=lWCcWMT9yQE&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=48&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/lWCcWMT9yQE/hqdefault.jpg",
+            "time": "19:35",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/lWCcWMT9yQE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 90 91",
+            "video_link": "https://www.youtube.com/watch?v=bAdH0baB-Zg&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=49&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/bAdH0baB-Zg/hqdefault.jpg",
+            "time": "21:50",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bAdH0baB-Zg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 83 91 Revision",
+            "video_link": "https://www.youtube.com/watch?v=VwItPYC4C-8&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=50&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/VwItPYC4C-8/hqdefault.jpg",
+            "time": "29:02",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/VwItPYC4C-8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 92 93",
+            "video_link": "https://www.youtube.com/watch?v=DkDdH1u-8Wk&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=51&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/DkDdH1u-8Wk/hqdefault.jpg",
+            "time": "20:21",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DkDdH1u-8Wk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 94 95",
+            "video_link": "https://www.youtube.com/watch?v=3s4oxWqMQIs&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=52&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/3s4oxWqMQIs/hqdefault.jpg",
+            "time": "21:46",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/3s4oxWqMQIs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 96 99",
+            "video_link": "https://www.youtube.com/watch?v=2mt8RKjWwPo&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=53&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/2mt8RKjWwPo/hqdefault.jpg",
+            "time": "18:03",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2mt8RKjWwPo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 100 102",
+            "video_link": "https://www.youtube.com/watch?v=FMFnMDEnR08&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=54&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/FMFnMDEnR08/hqdefault.jpg",
+            "time": "19:42",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/FMFnMDEnR08\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 92 102 Revision",
+            "video_link": "https://www.youtube.com/watch?v=bJnZug5eRiQ&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=55&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/bJnZug5eRiQ/hqdefault.jpg",
+            "time": "40:40",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bJnZug5eRiQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 103 105",
+            "video_link": "https://www.youtube.com/watch?v=yXXxrgr0xOc&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=56&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/yXXxrgr0xOc/hqdefault.jpg",
+            "time": "25:47",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/yXXxrgr0xOc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 106 108",
+            "video_link": "https://www.youtube.com/watch?v=UT0gh_1TSaU&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=57&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/UT0gh_1TSaU/hqdefault.jpg",
+            "time": "23:14",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/UT0gh_1TSaU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 109 111",
+            "video_link": "https://www.youtube.com/watch?v=18qXerELo2Y&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=58&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/18qXerELo2Y/hqdefault.jpg",
+            "time": "29:58",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/18qXerELo2Y\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 112 115",
+            "video_link": "https://www.youtube.com/watch?v=jcLMxO_rY_w&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=59&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/jcLMxO_rY_w/hqdefault.jpg",
+            "time": "26:24",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jcLMxO_rY_w\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 116 118",
+            "video_link": "https://www.youtube.com/watch?v=9Nj-I5PeQpw&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=60&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/9Nj-I5PeQpw/hqdefault.jpg",
+            "time": "21:06",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/9Nj-I5PeQpw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 119 120",
+            "video_link": "https://www.youtube.com/watch?v=FOX4Vx7EZmU&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=61&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/FOX4Vx7EZmU/hqdefault.jpg",
+            "time": "18:20",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/FOX4Vx7EZmU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 103 110 Revision",
+            "video_link": "https://www.youtube.com/watch?v=mW-3BG7s22U&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=62&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/mW-3BG7s22U/hqdefault.jpg",
+            "time": "35:23",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/mW-3BG7s22U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al Maidah verses 111 120 Revision",
+            "video_link": "https://www.youtube.com/watch?v=YgxiKYMkiUg&list=PLM9b6uNkW8pcKb_SlzcweSxjkX5Tbg4ra&index=63&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/YgxiKYMkiUg/hqdefault.jpg",
+            "time": "28:59",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/YgxiKYMkiUg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          }
+        ]
       },
       {
         "id": 6,
@@ -1655,7 +2734,193 @@
         "englishName": "The Cattle",
         "arabicName": "الأنعام",
         "verseCount": 165,
-        "revelation": "Meccan"
+        "revelation": "Meccan",
+        "playlist_title": "6 - AL-AN'AM (THE CATTLE) - YouTube",
+        "playlist_link": "https://www.youtube.com/playlist?list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp",
+        "videos": [
+          {
+            "video_title": "Al An'aam verses 1 3",
+            "video_link": "https://www.youtube.com/watch?v=VMX8_0uXfZ4&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=1&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/VMX8_0uXfZ4/hqdefault.jpg",
+            "time": "24:06",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/VMX8_0uXfZ4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 4 6",
+            "video_link": "https://www.youtube.com/watch?v=tsurbQDlaZk&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=2&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/tsurbQDlaZk/hqdefault.jpg",
+            "time": "27:18",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/tsurbQDlaZk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 7 11",
+            "video_link": "https://www.youtube.com/watch?v=_l0l3k0o1g4&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=3&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/_l0l3k0o1g4/hqdefault.jpg",
+            "time": "25:03",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/_l0l3k0o1g4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 1 11 Revision",
+            "video_link": "https://www.youtube.com/watch?v=6aXQegIk1gY&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=4&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/6aXQegIk1gY/hqdefault.jpg",
+            "time": "27:46",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/6aXQegIk1gY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 12 13",
+            "video_link": "https://www.youtube.com/watch?v=fpH-bykzN9c&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=5&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/fpH-bykzN9c/hqdefault.jpg",
+            "time": "21:46",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/fpH-bykzN9c\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 14 16",
+            "video_link": "https://www.youtube.com/watch?v=imeOCPf-UnM&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=6&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/imeOCPf-UnM/hqdefault.jpg",
+            "time": "21:29",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/imeOCPf-UnM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 17 19",
+            "video_link": "https://www.youtube.com/watch?v=Ih6lliHV_d8&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=7&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/Ih6lliHV_d8/hqdefault.jpg",
+            "time": "22:21",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Ih6lliHV_d8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 20 24",
+            "video_link": "https://www.youtube.com/watch?v=FRgtc4TkDqk&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=8&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/FRgtc4TkDqk/hqdefault.jpg",
+            "time": "23:18",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/FRgtc4TkDqk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 25 26",
+            "video_link": "https://www.youtube.com/watch?v=Va3mXvhRCVs&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=9&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/Va3mXvhRCVs/hqdefault.jpg",
+            "time": "20:10",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Va3mXvhRCVs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 27 30",
+            "video_link": "https://www.youtube.com/watch?v=4QJ69hJkavM&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=10&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/4QJ69hJkavM/hqdefault.jpg",
+            "time": "24:30",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4QJ69hJkavM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 12 21 Revision",
+            "video_link": "https://www.youtube.com/watch?v=hWqOQ9Qqlzw&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=11&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/hWqOQ9Qqlzw/hqdefault.jpg",
+            "time": "34:04",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/hWqOQ9Qqlzw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 22 30 Revision",
+            "video_link": "https://www.youtube.com/watch?v=u6amn2XzpTk&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=12&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/u6amn2XzpTk/hqdefault.jpg",
+            "time": "25:48",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/u6amn2XzpTk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 31 32",
+            "video_link": "https://www.youtube.com/watch?v=TUKeNJFikHk&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=13&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/TUKeNJFikHk/hqdefault.jpg",
+            "time": "21:49",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/TUKeNJFikHk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 33 34",
+            "video_link": "https://www.youtube.com/watch?v=GYP4RKWq3wU&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=14&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/GYP4RKWq3wU/hqdefault.jpg",
+            "time": "15:30",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/GYP4RKWq3wU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 35 37",
+            "video_link": "https://www.youtube.com/watch?v=ZYV9vmVxKFc&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=15&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/ZYV9vmVxKFc/hqdefault.jpg",
+            "time": "22:11",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZYV9vmVxKFc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 37 39",
+            "video_link": "https://www.youtube.com/watch?v=TwEVgm0NDAo&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=16&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/TwEVgm0NDAo/hqdefault.jpg",
+            "time": "23:29",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/TwEVgm0NDAo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 31 39 Revision",
+            "video_link": "https://www.youtube.com/watch?v=ZUSxg-9N560&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=17&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/ZUSxg-9N560/hqdefault.jpg",
+            "time": "38:19",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZUSxg-9N560\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 40 42",
+            "video_link": "https://www.youtube.com/watch?v=DZSk8xxjtb4&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=18&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/DZSk8xxjtb4/hqdefault.jpg",
+            "time": "18:30",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DZSk8xxjtb4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 43 45",
+            "video_link": "https://www.youtube.com/watch?v=ndUJuRWGkFE&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=19&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/ndUJuRWGkFE/hqdefault.jpg",
+            "time": "24:08",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ndUJuRWGkFE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 46 49",
+            "video_link": "https://www.youtube.com/watch?v=1EKjarmvKvQ&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=20&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/1EKjarmvKvQ/hqdefault.jpg",
+            "time": "19:17",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1EKjarmvKvQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 50 51",
+            "video_link": "https://www.youtube.com/watch?v=gnbmSzwctoI&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=21&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/gnbmSzwctoI/hqdefault.jpg",
+            "time": "21:34",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/gnbmSzwctoI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 40 51 Revision",
+            "video_link": "https://www.youtube.com/watch?v=XNjZuAZPojI&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=22&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/XNjZuAZPojI/hqdefault.jpg",
+            "time": "33:27",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/XNjZuAZPojI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 52 53",
+            "video_link": "https://www.youtube.com/watch?v=lTG4F4PEifA&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=23&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/lTG4F4PEifA/hqdefault.jpg",
+            "time": "19:23",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/lTG4F4PEifA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 54 55",
+            "video_link": "https://www.youtube.com/watch?v=2Hv2EZaDVv0&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=24&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/2Hv2EZaDVv0/hqdefault.jpg",
+            "time": "17:29",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2Hv2EZaDVv0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 56 58",
+            "video_link": "https://www.youtube.com/watch?v=q5i_wLYz1n4&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=25&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/q5i_wLYz1n4/hqdefault.jpg",
+            "time": "19:26",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/q5i_wLYz1n4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          },
+          {
+            "video_title": "Al An'aam verses 59",
+            "video_link": "https://www.youtube.com/watch?v=blFhVzYFx08&list=PLM9b6uNkW8pcfEFs1jdaHyx8NtQVn62kp&index=26&pp=iAQB",
+            "image": "https://i.ytimg.com/vi/blFhVzYFx08/hqdefault.jpg",
+            "time": "21:27",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/blFhVzYFx08\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+          }
+        ]
       },
       {
         "id": 7,
