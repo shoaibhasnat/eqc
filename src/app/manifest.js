@@ -55,6 +55,10 @@ export default function manifest() {
         platform: 'webapp',
         url: `${SITE_URL}/manifest.webmanifest`,
       },
+      {
+        platform: 'webapp',
+        url: 'https://www.easyquranclass.com/manifest.webmanifest',
+      },
     ],
     prefer_related_applications: false,
   };
