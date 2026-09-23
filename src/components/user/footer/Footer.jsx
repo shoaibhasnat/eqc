@@ -9,11 +9,11 @@ import {
   Phone, 
   LocationOn,
   Favorite,
-  MosqueRounded,
   WhatsApp,
 } from '@mui/icons-material';
 import { motion } from 'framer-motion';
 import NextLink from 'next/link';
+import Image from 'next/image';
 import { useLanguage } from '../../../contexts/LanguageContext';
 import { SITE_EMAIL, SITE_FACEBOOK, SITE_WHATSAPP, SITE_YOUTUBE } from '@/lib/seo';
 
@@ -216,18 +216,28 @@ function Footer() {
                   direction="row" 
                   alignItems="center" 
                   justifyContent={{ xs: 'center', md: 'flex-start' }}
-                  spacing={1} 
+                  spacing={1.25} 
                   mb={2}
                 >
-                  <Avatar
+                  <Box
                     sx={{
-                      bgcolor: 'rgba(255, 255, 255, 0.2)',
-                      width: 40,
-                      height: 40,
+                      width: 48,
+                      height: 48,
+                      borderRadius: '12px',
+                      overflow: 'hidden',
+                      flexShrink: 0,
+                      boxShadow: '0 4px 14px rgba(0,0,0,0.25)',
+                      bgcolor: 'rgba(255,255,255,0.12)',
                     }}
                   >
-                    <MosqueRounded sx={{ color: 'white' }} />
-                  </Avatar>
+                    <Image
+                      src="/logo.jpg"
+                      alt={footerTitle}
+                      width={48}
+                      height={48}
+                      style={{ display: 'block', width: '100%', height: '100%', objectFit: 'cover' }}
+                    />
+                  </Box>
                   <Typography
                     variant="h6"
                     sx={{

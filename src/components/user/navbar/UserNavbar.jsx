@@ -1,13 +1,16 @@
 'use client';
 
 import { AppBar, Toolbar, Typography, Box, Button, Menu, MenuItem, Stack, Drawer, IconButton, List, ListItem, Divider, Collapse, ToggleButton, ToggleButtonGroup } from '@mui/material'
-import { KeyboardArrowDown, Menu as MenuIcon, Close as CloseIcon, ExpandLess, ExpandMore } from '@mui/icons-material'
+import { KeyboardArrowDown, Menu as MenuIcon, Close as CloseIcon, ExpandLess, ExpandMore, GetApp as GetAppIcon, OpenInNew as OpenInNewIcon } from '@mui/icons-material'
 import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { useRouter, usePathname } from 'next/navigation'
 import NextLink from 'next/link'
+import Image from 'next/image'
 import PDFDialog from '../notes/PDFDialog'
 import { useLanguage } from '../../../contexts/LanguageContext'
+import usePwaMenuActions from '@/components/pwa/usePwaMenuActions'
+import { openInstallPrompt, openInstalledApp } from '@/components/pwa/pwaUtils'
 
 function UserNavbar() {
   const router = useRouter()
@@ -21,6 +24,7 @@ function UserNavbar() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [mobileLecturesOpen, setMobileLecturesOpen] = useState(false)
+  const { showInstall: showInstallAppButton, showOpen: showOpenAppButton } = usePwaMenuActions()
 
   // Get navbar content from context
   const navbarData = content?.navbar || {};
@@ -157,9 +161,34 @@ function UserNavbar() {
         >
           <MenuIcon /> 
         </IconButton>
-          <Typography variant="h6" sx={{ color: 'white', fontWeight: 700 }}>
+          <Box
+            component={NextLink}
+            href="/"
+            sx={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: 1,
+              textDecoration: 'none',
+              color: 'inherit',
+              minWidth: 0,
+            }}
+          >
+            <Box
+              sx={{
+                width: 36,
+                height: 36,
+                borderRadius: '8px',
+                overflow: 'hidden',
+                flexShrink: 0,
+                boxShadow: '0 2px 8px rgba(0,0,0,0.25)',
+              }}
+            >
+              <Image src="/logo.jpg" alt={navbarTitle} width={36} height={36} style={{ display: 'block', objectFit: 'cover' }} />
+            </Box>
+            <Typography variant="h6" sx={{ color: 'white', fontWeight: 700, fontSize: '1rem', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
               {navbarTitle}
             </Typography>
+          </Box>
         </Stack>
 
 
@@ -176,19 +205,40 @@ function UserNavbar() {
             mx: 'auto',
           }}  
         >
-          <Typography
+          <Box
             component={NextLink}
             href="/"
-            variant="h6"
             sx={{
-              color: 'white',
-              fontWeight: 700,
+              display: 'flex',
+              alignItems: 'center',
+              gap: 1.25,
               textDecoration: 'none',
+              color: 'inherit',
             }}
           >
-             
-            {navbarTitle}
-          </Typography>
+            <Box
+              sx={{
+                width: { sm: 40, md: 44 },
+                height: { sm: 40, md: 44 },
+                borderRadius: '10px',
+                overflow: 'hidden',
+                flexShrink: 0,
+                boxShadow: '0 2px 10px rgba(0,0,0,0.3)',
+              }}
+            >
+              <Image src="/logo.jpg" alt={navbarTitle} width={44} height={44} style={{ display: 'block', width: '100%', height: '100%', objectFit: 'cover' }} />
+            </Box>
+            <Typography
+              variant="h6"
+              sx={{
+                color: 'white',
+                fontWeight: 700,
+                textDecoration: 'none',
+              }}
+            >
+              {navbarTitle}
+            </Typography>
+          </Box>
 
           <Stack direction="row" alignItems="center" gap={1} justifyContent="flex-end" > 
 
@@ -522,9 +572,22 @@ function UserNavbar() {
       >
         <Box sx={{ p: 2 }}>
           <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
-            <Typography variant="h6" sx={{ color: 'white', fontWeight: 700 }}>
-              {navbarTitle}
-            </Typography>
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, minWidth: 0, pr: 1 }}>
+              <Box
+                sx={{
+                  width: 36,
+                  height: 36,
+                  borderRadius: '8px',
+                  overflow: 'hidden',
+                  flexShrink: 0,
+                }}
+              >
+                <Image src="/logo.jpg" alt={navbarTitle} width={36} height={36} style={{ display: 'block', objectFit: 'cover' }} />
+              </Box>
+              <Typography variant="h6" sx={{ color: 'white', fontWeight: 700, fontSize: '1rem' }}>
+                {navbarTitle}
+              </Typography>
+            </Box>
             <IconButton
               onClick={() => setMobileOpen(false)}
               sx={{ color: 'white' }}
@@ -641,6 +704,72 @@ function UserNavbar() {
                 </ListItem>
               </List>
             </Collapse>
+
+            {showInstallAppButton && (
+              <>
+                <Divider sx={{ bgcolor: 'rgba(255, 255, 255, 0.1)', my: 2 }} />
+                <ListItem
+                  onClick={() => {
+                    setMobileOpen(false)
+                    openInstallPrompt()
+                  }}
+                  sx={{
+                    py: 1.5,
+                    px: 2,
+                    mb: 0.5,
+                    borderRadius: 2,
+                    cursor: 'pointer',
+                    backgroundColor: 'rgba(184, 112, 47, 0.25)',
+                    color: 'white',
+                    fontWeight: 600,
+                    transition: 'all 0.3s ease',
+                    '&:hover': {
+                      backgroundColor: 'rgba(184, 112, 47, 0.4)',
+                    },
+                  }}
+                >
+                  <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.25, width: '100%' }}>
+                    <GetAppIcon sx={{ fontSize: 22, color: 'var(--color-primary)' }} />
+                    <Typography sx={{ fontWeight: 600, fontSize: '0.95rem' }}>
+                      {lang === 'ur' ? 'ایپ انسٹال کریں' : 'Install as App'}
+                    </Typography>
+                  </Box>
+                </ListItem>
+              </>
+            )}
+
+            {showOpenAppButton && (
+              <>
+                <Divider sx={{ bgcolor: 'rgba(255, 255, 255, 0.1)', my: 2 }} />
+                <ListItem
+                  onClick={() => {
+                    setMobileOpen(false)
+                    openInstalledApp()
+                  }}
+                  sx={{
+                    py: 1.5,
+                    px: 2,
+                    mb: 0.5,
+                    borderRadius: 2,
+                    cursor: 'pointer',
+                    backgroundColor: 'rgba(184, 112, 47, 0.25)',
+                    color: 'white',
+                    fontWeight: 600,
+                    transition: 'all 0.3s ease',
+                    '&:hover': {
+                      backgroundColor: 'rgba(184, 112, 47, 0.4)',
+                    },
+                  }}
+                >
+                  <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.25, width: '100%' }}>
+                    <OpenInNewIcon sx={{ fontSize: 22, color: 'var(--color-primary)' }} />
+                    <Typography sx={{ fontWeight: 600, fontSize: '0.95rem' }}>
+                      {lang === 'ur' ? 'ایپ میں کھولیں' : 'Open in App'}
+                    </Typography>
+                  </Box>
+                </ListItem>
+              </>
+            )}
 
             {/* Mobile Language Toggle */}
             <Divider sx={{ bgcolor: 'rgba(255, 255, 255, 0.1)', my: 2 }} />

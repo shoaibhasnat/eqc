@@ -26,9 +26,9 @@ export default function manifest() {
     ],
     icons: [
       {
-        src: '/favicon.svg',
-        sizes: 'any',
-        type: 'image/svg+xml',
+        src: '/logo.jpg',
+        sizes: '160x160',
+        type: 'image/jpeg',
         purpose: 'any',
       },
       {

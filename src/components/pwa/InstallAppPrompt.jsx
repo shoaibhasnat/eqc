@@ -16,34 +16,26 @@ import GetAppIcon from '@mui/icons-material/GetApp';
 import IosShareIcon from '@mui/icons-material/IosShare';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import { SITE_NAME } from '@/lib/seo';
+import {
+  OPEN_INSTALL_EVENT,
+  OPEN_APP_GUIDE_EVENT,
+  STORAGE_INSTALLED,
+  isIosDevice,
+  isMobileOrTabletViewport,
+  isStandaloneDisplay,
+  markInstalled as persistInstalled,
+  isMarkedInstalled,
+  relatedAppsInstalled,
+} from './pwaUtils';
 
 const STORAGE_DISMISS_INSTALL = 'eqc-pwa-dismissed-at';
 const STORAGE_DISMISS_OPEN = 'eqc-pwa-open-dismissed-at';
-const STORAGE_INSTALLED = 'eqc-pwa-installed';
 const DISMISS_DAYS = 3;
 const PWA_PROTOCOL = 'web+eqc://open';
-
-function isStandaloneDisplay() {
-  if (typeof window === 'undefined') return false;
-  return (
-    window.matchMedia('(display-mode: standalone)').matches ||
-    window.matchMedia('(display-mode: fullscreen)').matches ||
-    window.navigator.standalone === true
-  );
-}
-
-function isIosDevice() {
-  if (typeof window === 'undefined') return false;
-  const ua = window.navigator.userAgent || '';
-  const iOS = /iPad|iPhone|iPod/.test(ua) || /CriOS|FxiOS|EdgiOS/.test(ua);
-  const iPadOs = window.navigator.platform === 'MacIntel' && window.navigator.maxTouchPoints > 1;
-  return iOS || iPadOs;
-}
 
 function isLikelyChromium() {
   if (typeof window === 'undefined') return false;
   const ua = window.navigator.userAgent || '';
-  // Chrome, Edge, Samsung Internet, Opera — exclude Firefox/iOS WebKit-only
   if (/Firefox|FxiOS/i.test(ua)) return false;
   if (isIosDevice()) return false;
   return /Chrome|Chromium|Edg|OPR|SamsungBrowser/i.test(ua);
@@ -75,8 +67,8 @@ function markDismissed(key) {
 }
 
 function markInstalled() {
+  persistInstalled();
   try {
-    localStorage.setItem(STORAGE_INSTALLED, '1');
     localStorage.removeItem(STORAGE_DISMISS_INSTALL);
     localStorage.removeItem(STORAGE_DISMISS_OPEN);
   } catch {
@@ -89,26 +81,6 @@ function clearInstalledMark() {
     localStorage.removeItem(STORAGE_INSTALLED);
   } catch {
     /* ignore */
-  }
-}
-
-function isMarkedInstalled() {
-  try {
-    return localStorage.getItem(STORAGE_INSTALLED) === '1';
-  } catch {
-    return false;
-  }
-}
-
-async function relatedAppsInstalled() {
-  if (typeof navigator === 'undefined' || !navigator.getInstalledRelatedApps) {
-    return false;
-  }
-  try {
-    const apps = await navigator.getInstalledRelatedApps();
-    return Array.isArray(apps) && apps.length > 0;
-  } catch {
-    return false;
   }
 }
 
@@ -148,6 +120,11 @@ export default function InstallAppPrompt() {
   useEffect(() => {
     if (typeof window === 'undefined') return undefined;
 
+    // Desktop / large screens — no install prompts
+    if (!isMobileOrTabletViewport()) {
+      return undefined;
+    }
+
     // Opened from home screen / installed app window
     if (isStandaloneDisplay()) {
       markInstalled();
@@ -177,10 +154,25 @@ export default function InstallAppPrompt() {
     window.addEventListener('beforeinstallprompt', onBeforeInstall);
     window.addEventListener('appinstalled', onAppInstalled);
 
+    const onManualOpen = () => {
+      if (!isMobileOrTabletViewport() || isStandaloneDisplay()) return;
+      setMode(isIosDevice() ? 'ios' : 'install');
+      setOpen(true);
+    };
+    window.addEventListener(OPEN_INSTALL_EVENT, onManualOpen);
+
+    // iOS: user tapped "Open in App" in the sidebar — show home-screen guide only
+    const onOpenAppGuide = () => {
+      if (!isMobileOrTabletViewport() || isStandaloneDisplay()) return;
+      setMode('open');
+      setOpen(true);
+    };
+    window.addEventListener(OPEN_APP_GUIDE_EVENT, onOpenAppGuide);
+
     const ios = isIosDevice();
 
     const decide = async () => {
-      if (cancelled || isStandaloneDisplay()) return;
+      if (cancelled || !isMobileOrTabletViewport() || isStandaloneDisplay()) return;
 
       // Give Chromium time to fire beforeinstallprompt (only when NOT installed)
       if (!ios && 'serviceWorker' in navigator) {
@@ -219,10 +211,8 @@ export default function InstallAppPrompt() {
       const installed = related || marked || chromiumInstalledHint;
 
       if (installed) {
+        // Already installed — no auto popup; sidebar shows "Open in App"
         markInstalled();
-        if (readDismissed(STORAGE_DISMISS_OPEN)) return;
-        setMode('open');
-        setOpen(true);
         return;
       }
 
@@ -239,6 +229,8 @@ export default function InstallAppPrompt() {
       window.clearTimeout(timer);
       window.removeEventListener('beforeinstallprompt', onBeforeInstall);
       window.removeEventListener('appinstalled', onAppInstalled);
+      window.removeEventListener(OPEN_INSTALL_EVENT, onManualOpen);
+      window.removeEventListener(OPEN_APP_GUIDE_EVENT, onOpenAppGuide);
     };
   }, []);
 
@@ -358,7 +350,7 @@ export default function InstallAppPrompt() {
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, pr: 3 }}>
           <Box
             component="img"
-            src="/icon-192.png"
+            src="/logo.jpg"
             alt=""
             sx={{
               width: 56,

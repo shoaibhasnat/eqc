@@ -1,6 +1,6 @@
 /* Easy Quran Class – minimal service worker for PWA installability */
-const CACHE_NAME = 'eqc-static-v1';
-const PRECACHE_URLS = ['/', '/favicon.svg', '/icon-192.png', '/icon-512.png'];
+const CACHE_NAME = 'eqc-static-v2';
+const PRECACHE_URLS = ['/', '/logo.jpg', '/icon-192.png', '/icon-512.png'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(

@@ -129,7 +129,7 @@ export function organizationJsonLd() {
     url: SITE_URL,
     logo: {
       '@type': 'ImageObject',
-      url: absoluteUrl('/icon-512.png'),
+      url: absoluteUrl('/logo.jpg'),
     },
     image: absoluteUrl('/images/home-banner.jpg'),
     description: SITE_DESCRIPTION,

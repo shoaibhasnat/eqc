@@ -28,12 +28,13 @@ This document is the full operating and engineering guide for the website: how i
 14. Language system (English / Urdu)  
 15. Content and data files  
 16. SEO, GEO, robots, sitemap, llms.txt  
-17. Forms, accessibility, and agent SEO  
-18. GitHub: create repo and push code  
-19. Vercel deploy and custom domain DNS  
-20. Google Search Console verification  
-21. Common tasks and recipes  
-22. Troubleshooting  
+17. Install as mobile app (PWA)  
+18. Forms, accessibility, and agent SEO  
+19. GitHub: create repo and push code  
+20. Vercel deploy and custom domain DNS  
+21. Google Search Console verification  
+22. Common tasks and recipes  
+23. Troubleshooting  
 
 ---
 
@@ -76,7 +77,8 @@ The site is **not** a student LMS (no login, no payments, no class booking backe
 5. Open Notes to view PDFs in a dialog.  
 6. Open Contact to see NAP (name, address, phone), map, form, and enrollment FAQs.  
 7. Open FAQ for question-and-answer content used by Google and AI engines.  
-8. Toggle English / Urdu. The choice is stored in `localStorage` as `websiteLanguage`.
+8. Toggle English / Urdu. The choice is stored in `localStorage` as `websiteLanguage`.  
+9. On **mobile / tablet**, install the site as an app (PWA) or open it from the burger menu when already installed.  
 
 ### For the academy owner
 
@@ -112,6 +114,7 @@ The site is **not** a student LMS (no login, no payments, no class booking backe
 - Contact form with client + server validation  
 - Branded HTML email to the owner inbox  
 - Skip-to-content link for accessibility  
+- **Install as App (PWA)** on phones and tablets: install popup, burger **Install as App** / **Open in App**, Web App Manifest, production service worker, brand logo icons  
 
 ### Technical / SEO features
 
@@ -120,10 +123,13 @@ The site is **not** a student LMS (no login, no payments, no class booking backe
 - Dynamic `robots.txt` allowing search and AI crawlers  
 - Dynamic `sitemap.xml` (static pages + 4 lecture playlists + 114 Surahs)  
 - `llms.txt` content map for AI agents  
-- Web app manifest  
+- Web app manifest (`/manifest.webmanifest`) with standalone display and PWA icons  
+- Production service worker (`/sw.js`) for Chromium installability  
 - Google site verification meta tag  
 - Permanent redirect `/home` → `/`  
 - Semantic `<main>`, form labels/`id`s, crawlable `<a href>` navigation  
+
+Deep dive for the PWA feature: `documentation/features/app-feature.md` (and `.docx`).  
 
 ---
 
@@ -346,15 +352,23 @@ easyquranclass-next-website/
 ├── jsconfig.json                # @/ path alias
 ├── AGENTS.md / CLAUDE.md        # Next.js 16 agent notes
 ├── public/
-│   ├── favicon.ico
+│   ├── logo.jpg                 # Master brand logo (navbar, footer, PWA)
+│   ├── favicon.ico / favicon-32.png
+│   ├── apple-touch-icon.png
+│   ├── icon-192.png / icon-512.png
+│   ├── sw.js                    # PWA service worker (production only)
 │   └── images/                  # Banner, about, stats images
 ├── documentation/
-│   └── complete-project/
-│       ├── complete-project.md  # This guide
-│       └── complete-project.docx
+│   ├── complete-project/
+│   │   ├── complete-project.md  # This guide
+│   │   └── complete-project.docx
+│   └── features/
+│       ├── app-feature.md       # Install as App (PWA) deep dive
+│       └── app-feature.docx
 └── src/
     ├── app/                     # Next.js App Router
-    │   ├── layout.js            # Root HTML, metadata, schema
+    │   ├── layout.js            # Root HTML, metadata, schema, icons
+    │   ├── icon.png / apple-icon.png
     │   ├── page.js              # Home /
     │   ├── home/page.js         # Redirects to /
     │   ├── about/page.js
@@ -368,15 +382,21 @@ easyquranclass-next-website/
     │   ├── api/contact/route.js # POST contact email
     │   ├── robots.js
     │   ├── sitemap.js
-    │   ├── manifest.js
+    │   ├── manifest.js          # PWA web app manifest
     │   └── llms.txt/route.js
     ├── components/
-    │   ├── Providers.jsx        # Language + navbar + footer shell
+    │   ├── Providers.jsx        # Language + shell + PWA register/prompt
     │   ├── common/Loader.jsx
+    │   ├── common/WhatsAppFloat.jsx
+    │   ├── pwa/                 # Install / Open App feature
+    │   │   ├── PwaRegister.jsx
+    │   │   ├── InstallAppPrompt.jsx
+    │   │   ├── pwaUtils.js
+    │   │   └── usePwaMenuActions.js
     │   ├── seo/JsonLd.jsx
     │   ├── seo/PageFaq.jsx
     │   └── user/
-    │       ├── navbar/UserNavbar.jsx
+    │       ├── navbar/UserNavbar.jsx  # Burger: Install as App / Open in App
     │       ├── footer/Footer.jsx
     │       ├── contentFiles/WebsiteContent.json
     │       ├── home/            # Banner, intro, lectures, zakat, FAQ, form
@@ -913,7 +933,11 @@ This is **not** an access gate. `robots.txt` is. `llms.txt` is a curated map for
 | URL | Source |
 |---|---|
 | `/manifest.webmanifest` | `src/app/manifest.js` |
+| `/sw.js` | `public/sw.js` (production registration) |
+| `/logo.jpg` | Master brand logo |
 | `/favicon.ico` | `public/favicon.ico` |
+| `/apple-touch-icon.png` | iOS home-screen icon |
+| `/icon-192.png`, `/icon-512.png` | PWA icons |
 
 ### 16.7 Sitelinks and green ticks
 
@@ -927,7 +951,49 @@ The green verification tick requires:
 
 ---
 
-## 17. Forms, accessibility, and agent SEO
+## 17. Install as mobile app (PWA)
+
+Full feature write-up: **`documentation/features/app-feature.md`** (Word: `app-feature.docx`).
+
+### 17.1 What visitors get
+
+- On **phones and tablets only**, an install experience so Easy Quran Class can live on the home screen like an app (`display: standalone`).  
+- Burger menu: **Install as App** when not installed; **Open in App** when installed.  
+- When already installed, the site **does not** auto-show an “Open App” popup — open lives only in the sidebar.  
+- Desktop / large screens hide the feature.
+
+### 17.2 How it works (engineering)
+
+1. **`manifest.js`** publishes `/manifest.webmanifest` (name, icons, `start_url`, standalone, related webapp entry).  
+2. **`PwaRegister.jsx`** registers **`/sw.js`** in production so Chromium considers the site installable.  
+3. **`InstallAppPrompt.jsx`** shows the install dialog (and iOS Add to Home Screen steps). It does **not** auto-prompt for “open” when installed.  
+4. **`usePwaMenuActions.js`** drives navbar burger visibility.  
+5. **`pwaUtils.js`** centralises install detection, viewport gating, `openInstallPrompt()`, and `openInstalledApp()` (Android intent handoff; iOS guide event).  
+6. Brand **`public/logo.jpg`** feeds navbar, footer, install dialog, and generated favicon/PWA icons.
+
+### 17.3 Platform notes
+
+| Platform | Install | Open |
+|---|---|---|
+| Android Chrome family | One-tap when `beforeinstallprompt` fires; else browser menu steps | Burger **Open in App** → `intent://` handoff when possible |
+| iOS Safari / Chrome | Share → Add to Home Screen | Burger **Open in App** → short home-screen guide (no silent launch API) |
+| Desktop | Hidden | Hidden |
+
+### 17.4 Production requirement
+
+Native install and the service worker need a **production build on HTTPS**. Local `npm run dev` is fine for UI/layout checks but is not a full install test.
+
+### 17.5 localStorage keys
+
+| Key | Meaning |
+|---|---|
+| `eqc-pwa-installed` | App considered installed for menu / detection |
+| `eqc-pwa-dismissed-at` | User dismissed install prompt (cooldown ~3 days) |
+| `eqc-pwa-open-dismissed-at` | User dismissed iOS open guide |
+
+---
+
+## 18. Forms, accessibility, and agent SEO
 
 - Skip link `.skip-link` → `#main-content`  
 - `<main id="main-content">` wraps all pages  
@@ -939,11 +1005,11 @@ The green verification tick requires:
 
 ---
 
-## 18. GitHub: create repo and push code
+## 19. GitHub: create repo and push code
 
 This project may start without a remote. Use GitHub to store and to connect Vercel.
 
-### 18.1 First-time push
+### 19.1 First-time push
 
 In the project root:
 
@@ -968,7 +1034,7 @@ git remote add origin git@github.com:YOUR_USER/YOUR_REPO.git
 git push -u origin main
 ```
 
-### 18.2 Daily push
+### 19.2 Daily push
 
 ```bash
 git status
@@ -977,7 +1043,7 @@ git commit -m "Describe why the change was made"
 git push
 ```
 
-### 18.3 Do not commit
+### 19.3 Do not commit
 
 - `.env.local`  
 - `node_modules/`  
@@ -986,17 +1052,17 @@ git push
 
 `.env.example` **should** be committed so others know which keys exist.
 
-### 18.4 `.gitignore`
+### 19.4 `.gitignore`
 
 Keep standard Next.js ignores: `node_modules`, `.next`, `.env*.local` (except `.env.example`).
 
 ---
 
-## 19. Vercel deploy and custom domain DNS
+## 20. Vercel deploy and custom domain DNS
 
 Production is intended to run on **Vercel**, with the custom domain **easyquranclass.com** pointed at Vercel using DNS records at the original domain provider (GoDaddy, Namecheap, Cloudflare, etc.).
 
-### 19.1 Deploy the project
+### 20.1 Deploy the project
 
 1. Sign in at https://vercel.com with GitHub.  
 2. **Add New → Project** and import the GitHub repository.  
@@ -1018,7 +1084,7 @@ vercel
 vercel --prod
 ```
 
-### 19.2 Add the custom domain in Vercel
+### 20.2 Add the custom domain in Vercel
 
 1. Open the project → **Settings → Domains**.  
 2. Add `easyquranclass.com`.  
@@ -1030,7 +1096,7 @@ Recommended setup:
 - Apex `easyquranclass.com` → production  
 - `www.easyquranclass.com` → redirect to apex (Vercel can do this when both domains are added)
 
-### 19.3 Add Vercel DNS records at the domain provider
+### 20.3 Add Vercel DNS records at the domain provider
 
 Log in to the registrar where the domain was purchased (the “original domain provider”). Open DNS management.
 
@@ -1054,7 +1120,7 @@ If you use Vercel nameservers:
 
 If you keep the registrar’s nameservers, only add/edit the A/CNAME rows Vercel lists. Remove old A records that still point to a previous host (old VPS, another CDN, parked GoDaddy page, etc.) or the domain will split.
 
-### 19.4 Provider-specific notes
+### 20.4 Provider-specific notes
 
 **GoDaddy**
 
@@ -1072,11 +1138,11 @@ If you keep the registrar’s nameservers, only add/edit the A/CNAME rows Vercel
 - Either add the A/CNAME with proxy **DNS only** (grey cloud) unless you know you need orange-cloud proxy  
 - Or change nameservers as Vercel instructs  
 
-### 19.5 SSL
+### 20.5 SSL
 
 Vercel issues a Let’s Encrypt certificate automatically once DNS resolves. HTTPS will show valid after the domain status in Vercel is **Valid**.
 
-### 19.6 After DNS is valid
+### 20.6 After DNS is valid
 
 1. Set `NEXT_PUBLIC_SITE_URL=https://easyquranclass.com` on Vercel and redeploy.  
 2. Visit https://easyquranclass.com and https://easyquranclass.com/robots.txt  
@@ -1084,13 +1150,13 @@ Vercel issues a Let’s Encrypt certificate automatically once DNS resolves. HTT
 4. Submit the sitemap in Search Console  
 5. Send a test contact form and confirm the owner email  
 
-### 19.7 Preview vs production env
+### 20.7 Preview vs production env
 
 Preview deployments use `*.vercel.app`. Contact emails still send if SMTP vars are set on Preview. Restrict Preview SMTP if you do not want test mail hitting the owner inbox.
 
 ---
 
-## 20. Google Search Console verification
+## 21. Google Search Console verification
 
 1. Put the token in `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` (local + Vercel).  
 2. Deploy so https://easyquranclass.com HTML contains:
@@ -1105,11 +1171,19 @@ Localhost cannot complete verification.
 
 ---
 
-## 21. Common tasks and recipes
+## 22. Common tasks and recipes
 
 ### Change brand colour
 
 Update `--color-primary` in `src/variables.css` and `themeColor` in `layout.js` / `manifest.js`.
+
+### Change brand logo
+
+Replace `public/logo.jpg`, regenerate `icon-192.png` / `icon-512.png` / favicon / apple-touch if needed, bump `CACHE_NAME` in `public/sw.js`, and redeploy. Navbar, footer, and install dialog read `/logo.jpg`.
+
+### Test Install as App (PWA)
+
+Use a phone or DevTools mobile width on a **production HTTPS** URL. Confirm install popup / burger **Install as App**, then after install confirm burger **Open in App** with no auto open popup. Details: `documentation/features/app-feature.md`.
 
 ### Change homepage H1
 
@@ -1132,7 +1206,7 @@ Add `robots: { index: false, follow: false }` in that page’s `createPageMetada
 
 ---
 
-## 22. Troubleshooting
+## 23. Troubleshooting
 
 | Symptom | Likely cause | Fix |
 |---|---|---|
@@ -1145,6 +1219,9 @@ Add `robots: { index: false, follow: false }` in that page’s `createPageMetada
 | Urdu not sticking | `localStorage` blocked | Language defaults to English |
 | Surah 4–6 empty | Hard-coded coming soon | Edit `SurahPlayer.jsx` |
 | Vercel domain stays “Invalid” | Old A record still at registrar | Delete conflicting records; wait TTL |
+| Install app prompt never appears on phone | Dev server / no SW / desktop width | Test production HTTPS; width under 1200px; see `app-feature.md` |
+| “Open App” popup still shows when installed | Old deployed build | Deploy latest; open lives in burger only |
+| Burger shows Install after uninstall stuck | Stale localStorage | BIP should clear flag; else clear site data |
 | Images 404 | File not in `public/images` | Paths are `/images/...` from `public/` |
 | Metadata not updating | Cached production | Redeploy; hard refresh |
 
