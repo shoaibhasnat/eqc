@@ -5,7 +5,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 export default function PageFaq({
   title = 'Frequently Asked Questions',
-  subtitle = 'Direct answers about online Quran classes, Tajweed, and Easy Quran Class.',
+  subtitle = 'Direct answers about Quran learning, Tajweed, and Easy Quran Class.',
   faqs = [],
   pageTop = false,
 }) {

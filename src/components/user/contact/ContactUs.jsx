@@ -205,7 +205,7 @@ function ContactUs() {
       <ContactForm />
       <PageFaq
         title="Enrollment Questions"
-        subtitle="How to contact Easy Quran Class and start online Quran classes."
+        subtitle="How to contact Easy Quran Class and start learning the Quran."
         faqs={CONTACT_FAQS}
       />
       <MapSection /> 

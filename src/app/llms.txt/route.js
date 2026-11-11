@@ -7,13 +7,13 @@ const LLMS_TXT = `# ${SITE_NAME}
 Easy Quran Class helps students learn Quran online with qualified teachers. Core offerings include live Quran recitation, Tajweed, Tafsir, Arabic grammar, namaz/salah guidance, Surah playlists, and study notes for kids and adults.
 
 ## Primary Pages
-- [Home](${SITE_URL}/): Online Quran academy overview, lectures, Zakat calculator, and contact form
+- [Home](${SITE_URL}/): Quran learning overview, lectures, Zakat calculator, and contact form
 - [About](${SITE_URL}/about): Mission, vision, values, and why students choose Easy Quran Class
 - [Surah](${SITE_URL}/surah): All 114 Quran Surahs with recitation playlists and notes
 - [Lectures](${SITE_URL}/lectures): Arabic grammar, Tajweed, namaz, and short Islamic video lectures
 - [Notes](${SITE_URL}/notes): Arabic notes and namaz notes in PDF
 - [Contact](${SITE_URL}/contact): Address, phone, email, and inquiry form
-- [FAQ](${SITE_URL}/faq): Answers about online Quran classes, Tajweed, kids classes, and enrollment
+- [FAQ](${SITE_URL}/faq): Answers about Quran learning, Tajweed, kids, and how to get started
 
 ## Lecture Playlists
 - [Arabic Grammar Lectures](${SITE_URL}/lectures/grammar-lectures)
@@ -23,16 +23,16 @@ Easy Quran Class helps students learn Quran online with qualified teachers. Core
 
 ## Key Facts
 - Brand: Easy Quran Class
-- Type: Online Quran academy / Islamic education
+- Type: Online Quran learning platform / Islamic education
 - Audience: Kids, adults, beginners, and advancing students worldwide
 - Languages: English and Urdu
 - Location: 6K Commercial, Block K Valencia, Lahore, 54770, Pakistan
 - YouTube: ${SITE_YOUTUBE}
 
 ## Direct Answers
-- Easy Quran Class is an online Quran academy for kids and adults.
+- Easy Quran Class is a trusted Quran learning platform for kids and adults.
 - Students learn Quran recitation, Tajweed, Tafsir, Arabic grammar, and namaz.
-- Classes are live, teacher-led, and available worldwide.
+- Learning is live, teacher-led, and available worldwide.
 - Enrollment starts on the Contact page: ${SITE_URL}/contact
 - Phone: ${SITE_PHONE}
 - Email: ${SITE_EMAIL}

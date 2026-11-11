@@ -4,7 +4,7 @@
 **Live domain:** https://easyquranclass.com  
 **Repository folder:** `easyquranclass-next-website`  
 **Stack:** Next.js 16 (App Router) · React 19 · MUI 7 · Nodemailer  
-**Type:** Public website for an online Quran academy  
+**Type:** Public website for an online Quran learning platform  
 
 This document is the full operating and engineering guide for the website: how it is built, how every page works, how emails are sent, how SEO/AI files are generated, how to run it locally, how to push to GitHub, and how to deploy on Vercel with a custom domain.
 
@@ -40,24 +40,24 @@ This document is the full operating and engineering guide for the website: how i
 
 ## 1. Project overview
 
-Easy Quran Class is a marketing and learning website for an **online Quran academy**. Visitors can:
+Easy Quran Class is a marketing and learning website for an **online Quran learning platform**. Visitors can:
 
-- Learn about the academy (mission, vision, teachers, stats)
+- Learn about the platform (mission, vision, teachers, stats)
 - Browse **all 114 Surahs** with YouTube recitation playlists and PDF notes
 - Watch lecture playlists: Arabic grammar, Tajweed, namaz/salah, and short Islamic videos
 - Open Arabic and namaz notes as PDFs
 - Calculate Zakat on the homepage
 - Switch the UI between **English** and **Urdu**
-- Send an enrollment / inquiry message through a contact form that emails the academy owner via Gmail SMTP
+- Send an inquiry message through a contact form that emails the owner via Gmail SMTP
 
-The site is **not** a student LMS (no login, no payments, no class booking backend). Enrollment happens by phone, email, or the contact form.
+The site is **not** a student LMS (no login, no payments, no booking backend). People start by phone, email, or the contact form.
 
 **Brand details used in the product**
 
 | Field | Value |
 |---|---|
 | Brand | Easy Quran Class |
-| Type | Online Quran academy |
+| Type | Online Quran learning platform |
 | Location | Valencia Town, Block H, Lahore, Pakistan |
 | Phone | 0301 8477994 |
 | Public email | info@easyquranclass.com |
@@ -71,7 +71,7 @@ The site is **not** a student LMS (no login, no payments, no class booking backe
 ### For visitors
 
 1. Land on a branded homepage with a banner, intro lecture, lecture cards, “why choose us”, Zakat calculator, social links, FAQs, and a contact form.  
-2. Open About to read mission, vision, values, academy copy, and stats.  
+2. Open About to read mission, vision, values, platform copy, and stats.  
 3. Open Surah to search/filter 114 Surahs, then open a Surah player with videos, share, YouTube, and PDF.  
 4. Open Lectures to pick a playlist, then play videos in an in-page player.  
 5. Open Notes to view PDFs in a dialog.  
@@ -80,7 +80,7 @@ The site is **not** a student LMS (no login, no payments, no class booking backe
 8. Toggle English / Urdu. The choice is stored in `localStorage` as `websiteLanguage`.  
 9. On **mobile / tablet**, install the site as an app (PWA) or open it from the burger menu when already installed.  
 
-### For the academy owner
+### For the owner
 
 1. Receive branded HTML emails when someone submits the contact form.  
 2. Reply from Gmail using **Reply-To** (the visitor’s email).  
@@ -115,6 +115,7 @@ The site is **not** a student LMS (no login, no payments, no class booking backe
 - Branded HTML email to the owner inbox  
 - Skip-to-content link for accessibility  
 - **Install as App (PWA)** on phones and tablets: install popup, burger **Install as App** / **Open in App**, Web App Manifest, production service worker, brand logo icons  
+- Public copy avoids the words **class**, **classes**, and **academy**, except inside the brand name **Easy Quran Class**  
 
 ### Technical / SEO features
 
@@ -458,6 +459,22 @@ Typical edits:
 
 After save, the Next.js dev server hot-reloads. On Vercel, commit and push to redeploy.
 
+### Copy wording rule
+
+Visible text (JSON, FAQs, page titles, meta descriptions, emails, `llms.txt`) must **not** use “class”, “classes”, or “academy”.
+
+**Keep** the brand name exactly: **Easy Quran Class** (navbar, footer, emails, URLs, and phrases such as “What is Easy Quran Class?”).
+
+Use **platform**, **learning**, **lessons**, or **sessions** instead. Current homepage banner (`en.home.banner`):
+
+| Field | English |
+|---|---|
+| tagline | Online Quran Learning Platform |
+| title | Noor for all Human Beings till Qayamah |
+| description | A trusted platform to Learn and Understand the Holy Quran in an Easy way for all age groups. |
+
+The intro block heading is **Introduction to the Quran**. Its paragraph is empty on purpose and is not rendered. Update the Urdu keys in the same file so both languages stay aligned. Do not rename published YouTube video titles that already contain “کلاس”; those are the lecture names.
+
 ### Change lecture videos
 
 Edit `src/components/user/lectures/LecturesData.json`.
@@ -596,13 +613,13 @@ Navbar items (English): Home `/`, About `/about`, Surah `/surah`, Notes `/notes`
 
 **Files:** `src/app/page.js`, `src/components/user/home/HomeMain.jsx`
 
-**Metadata title:** `Easy Quran Class | Best Online Quran Academy`  
+**Metadata title:** `Easy Quran Class | Online Quran Learning Platform`  
 **Canonical:** `https://easyquranclass.com`
 
 **Section order**
 
-1. **Banner** — H1 from JSON, background `/images/home-banner.jpg`, CTA to `/contact`  
-2. **IntroSection** — chips, H2, intro paragraph, YouTube embed  
+1. **Banner** — tagline “Online Quran Learning Platform”, H1 “Noor for all Human Beings till Qayamah”, short description, background `/images/home-banner.jpg`, CTA to `/contact`  
+2. **IntroSection** — chips, H2 “Introduction to the Quran”, subtitle, YouTube embed. The description paragraph is blank and hidden.  
 3. **LecturesSection** — four lecture cards (grammar, Tajweed, short videos, namaz). “View Playlist” is a real link to `/lectures/<slug>`. PDF button opens Drive preview or a coming-soon dialog  
 4. **WhyChooseUs** — four benefit cards  
 5. **ZakatCalculator** — assets minus liabilities; if net ≥ nisab (default 5000), zakat = 2.5%  
@@ -623,7 +640,7 @@ Navbar items (English): Home `/`, About `/about`, Surah `/surah`, Notes `/notes`
 
 1. **VisionSection** — H1 “About Easy Quran Class”, intro paragraph, mission / vision / values cards  
 2. **WhyChooseUs** — same component as home  
-3. **QuranAcademy** — “Best Online Quran Academy” copy, Contact CTA, images + play button to a YouTube video  
+3. **QuranAcademy** — “Online Quran Learning Platform” copy, Contact CTA, images + play button to a YouTube video  
 4. **StatsSection** — counters (students, teachers, countries, years) using `react-countup`  
 5. **PageFaq** — `ABOUT_FAQS`
 
@@ -697,7 +714,7 @@ Two cards from JSON: Arabic Notes and Namaz Notes. Click opens `PDFDialog` with 
 
 **Working**
 
-1. H1 + academy description  
+1. H1 + platform description  
 2. Contact cards (address, phone, email, YouTube, website) — each is a link (`tel:`, `mailto:`, https)  
 3. Contact form (`id="contact-form"`, fields `contact-name`, `contact-email`, `contact-message`)  
 4. Enrollment FAQs  
@@ -733,7 +750,7 @@ There is **one** API route.
 {
   "name": "Ayesha Khan",
   "email": "ayesha@example.com",
-  "message": "I want online Quran classes for my child."
+  "message": "I want my child to learn the Quran."
 }
 ```
 
@@ -924,7 +941,7 @@ After deploy, submit this URL in Google Search Console and Bing Webmaster Tools.
 URL: `https://easyquranclass.com/llms.txt`  
 Content-Type: `text/plain; charset=utf-8`
 
-Markdown index of the academy: what it is, primary pages, lecture playlists, key facts, contact, sitemap/robots links.
+Markdown index of the platform: what it is, primary pages, lecture playlists, key facts, contact, sitemap/robots links.
 
 This is **not** an access gate. `robots.txt` is. `llms.txt` is a curated map for agents that choose to read it.
 
@@ -1187,7 +1204,7 @@ Use a phone or DevTools mobile width on a **production HTTPS** URL. Confirm inst
 
 ### Change homepage H1
 
-`WebsiteContent.json` → `en.home.banner.title` and `ur.home.banner.title`. Meta title is separate (`src/app/page.js`) and should stay keyword-focused.
+`WebsiteContent.json` → `en.home.banner.title` and `ur.home.banner.title`. Also update `tagline` and `description`. Follow the copy wording rule in section 9: keep **Easy Quran Class**, and do not add “class”, “classes”, or “academy” anywhere else. Meta title lives in `src/app/page.js`.
 
 ### Test contact email locally
 
@@ -1202,7 +1219,7 @@ Edit `src/lib/faqs.js` arrays (`HOME_FAQS`, `ABOUT_FAQS`, `CONTACT_FAQS`, `FAQ_P
 
 ### Stop indexing a page
 
-Add `robots: { index: false, follow: false }` in that page’s `createPageMetadata` call, or omit it from `sitemap.js`. Do not noindex important academy pages.
+Add `robots: { index: false, follow: false }` in that page’s `createPageMetadata` call, or omit it from `sitemap.js`. Do not noindex important pages.
 
 ---
 
@@ -1258,13 +1275,13 @@ Stop the other process or run `npx next dev -p 3001`.
 
 | Page | Title Google should show |
 |---|---|
-| Home | Easy Quran Class \| Best Online Quran Academy |
-| About | About Our Online Quran Academy \| Easy Quran Class |
-| Contact | Contact & Enroll in Quran Classes \| Easy Quran Class |
+| Home | Easy Quran Class \| Online Quran Learning Platform |
+| About | About Easy Quran Class \| Easy Quran Class |
+| Contact | Contact Easy Quran Class \| Easy Quran Class |
 | Surah list | All 114 Quran Surahs Online \| Easy Quran Class |
 | Lectures list | Tajweed, Namaz & Grammar Lectures \| Easy Quran Class |
 | Notes | Arabic Grammar & Namaz Notes PDF \| Easy Quran Class |
-| FAQ | FAQ for Online Quran Classes \| Easy Quran Class |
+| FAQ | FAQ \| Easy Quran Class |
 | Lecture detail | `{Playlist title} \| Easy Quran Class` |
 | Surah detail | `Surah {Name} ({Meaning}) Online \| Easy Quran Class` |
 

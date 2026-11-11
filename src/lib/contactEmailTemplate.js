@@ -62,7 +62,7 @@ export function buildContactEmail({
             <tr>
               <td style="background:linear-gradient(135deg, #20110A 0%, #4b2300 55%, #B8702F 100%); padding:36px 32px 28px; text-align:center;">
                 <p style="margin:0 0 10px; font-family:Arial, Helvetica, sans-serif; font-size:11px; letter-spacing:3px; text-transform:uppercase; color:#E6AE23; font-weight:700;">
-                  Online Quran Academy
+                  Online Quran Learning Platform
                 </p>
                 <h1 style="margin:0; font-family:Georgia, 'Times New Roman', serif; font-size:28px; line-height:1.25; color:#ffffff; font-weight:700;">
                   ${safeSiteName}

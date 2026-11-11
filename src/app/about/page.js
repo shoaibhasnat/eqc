@@ -4,11 +4,11 @@ import { ABOUT_FAQS } from '@/lib/faqs';
 import { aboutPageJsonLd, breadcrumbJsonLd, createPageMetadata, faqJsonLd } from '@/lib/seo';
 
 export const metadata = createPageMetadata({
-  title: 'About Our Online Quran Academy',
+  title: 'About Easy Quran Class',
   description:
-    'Easy Quran Class is an online Quran academy in Lahore teaching Quran recitation, Tajweed, Tafsir, and Arabic with qualified teachers for kids and adults worldwide.',
+    'Easy Quran Class is a trusted Quran learning platform in Lahore teaching Quran recitation, Tajweed, Tafsir, and Arabic with qualified teachers for all age groups.',
   path: '/about',
-  keywords: ['about Easy Quran Class', 'online Quran academy Lahore'],
+  keywords: ['about Easy Quran Class', 'Quran learning Lahore'],
 });
 
 export default function AboutPage() {

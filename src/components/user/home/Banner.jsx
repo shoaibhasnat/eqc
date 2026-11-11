@@ -27,7 +27,7 @@ const Banner = () => {
   return (
     <Box
       role="img"
-      aria-label="Easy Quran Class online Quran academy banner"
+      aria-label="Easy Quran Class banner"
       sx={{
         position: 'relative',
         width: '100%',

@@ -24,7 +24,7 @@ const AboutQuranAcademy = () => {
   // Get aboutUsSection content from JSON
   const aboutUsData = content?.about?.aboutUsSection || {};
   const tagline = aboutUsData.tagline || 'About Us';
-  const title = aboutUsData.title || 'Best Online Quran Academy';
+  const title = aboutUsData.title || 'Online Quran Learning Platform';
   const description = aboutUsData.description || '';
   const ctaBtnText = aboutUsData.ctaBtnText || 'Contact Us';
   

@@ -4,11 +4,11 @@ import { HOME_FAQS } from '@/lib/faqs';
 import { breadcrumbJsonLd, courseJsonLd, createPageMetadata, faqJsonLd, videoJsonLd } from '@/lib/seo';
 
 export const metadata = createPageMetadata({
-  title: 'Easy Quran Class | Best Online Quran Academy',
+  title: 'Easy Quran Class | Online Quran Learning Platform',
   description:
-    'Learn Quran online with qualified teachers. Easy Quran Class offers live Quran, Tajweed, Tafsir, Arabic grammar, and namaz classes for kids and adults worldwide.',
+    'A trusted platform to learn and understand the Holy Quran in an easy way for all age groups. Easy Quran Class offers Tajweed, Tafsir, Arabic grammar, and namaz guidance.',
   path: '/',
-  keywords: ['best online Quran academy', 'learn Quran online', 'online Quran classes for kids'],
+  keywords: ['online Quran learning platform', 'learn Quran online', 'Quran learning for kids'],
   absoluteTitle: true,
 });
 

@@ -11,27 +11,26 @@ export const SITE_MAPS_URL = 'https://maps.app.goo.gl/Q9tB9Fr11x1nABYD9';
 export const SITE_MAPS_EMBED_URL =
   'https://www.google.com/maps?q=31.3949388,74.2594727&z=16&output=embed';
 export const SITE_DESCRIPTION =
-  'Easy Quran Class is an online Quran academy offering live Quran, Tajweed, Tafsir, Arabic grammar, and namaz classes for kids and adults worldwide.';
+  'Easy Quran Class is a trusted platform to learn and understand the Holy Quran, with Tajweed, Tafsir, Arabic grammar, and namaz guidance for all age groups.';
 
 export const CORE_KEYWORDS = [
   'Easy Quran Class',
-  'online Quran classes',
   'learn Quran online',
-  'best online Quran academy',
-  'Quran classes for kids',
-  'Quran classes for adults',
-  'online Tajweed classes',
+  'online Quran learning platform',
+  'Quran learning for kids',
+  'Quran learning for adults',
+  'learn Tajweed online',
   'Quran teacher online',
-  'Tafsir classes online',
+  'Tafsir learning online',
   'Arabic grammar for Quran',
   'namaz lectures',
-  'online Islamic classes',
-  'Quran academy Lahore',
+  'online Islamic learning',
+  'Quran learning Lahore',
   'learn Quran with Tajweed',
-  'online Quran academy Pakistan',
+  'Quran learning Pakistan',
   'Noorani Qaida online',
-  'one to one Quran classes',
-  'online Quran academy for beginners',
+  'one to one Quran learning',
+  'Quran learning for beginners',
 ];
 
 export const LECTURE_SLUGS = [
@@ -95,7 +94,7 @@ export function createPageMetadata({
           url: absoluteUrl('/images/home-banner.jpg'),
           width: 1200,
           height: 630,
-          alt: 'Easy Quran Class online Quran academy banner',
+          alt: 'Easy Quran Class Quran learning banner',
         },
       ],
     },
@@ -125,7 +124,7 @@ export function organizationJsonLd() {
     '@id': `${SITE_URL}/#organization`,
     name: SITE_NAME,
     legalName: SITE_NAME,
-    alternateName: ['EQC', 'Easy Quran Academy'],
+    alternateName: ['EQC', 'Easy Quran Class'],
     url: SITE_URL,
     logo: {
       '@type': 'ImageObject',
@@ -240,7 +239,7 @@ export function videoJsonLd() {
   return {
     '@type': 'VideoObject',
     name: 'Introduction to Easy Quran Class',
-    description: 'An introductory lecture about Easy Quran Class, an online Quran academy for kids and adults.',
+    description: 'An introductory lecture about Easy Quran Class, a trusted Quran learning platform for kids and adults.',
     thumbnailUrl: [absoluteUrl('/images/home-banner.jpg')],
     embedUrl: 'https://www.youtube.com/embed/pGw_108LeME',
     publisher: { '@id': `${SITE_URL}/#organization` },

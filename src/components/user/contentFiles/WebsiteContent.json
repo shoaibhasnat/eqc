@@ -2,9 +2,9 @@
     "en": {
         "home": {
             "banner": {
-                "tagline": "ONLINE QURAN ACADEMY",
-                "title": "Quran Pak For All Person Of World",
-                "description": "Online Quran Academy is a trusted global platform for learning the Holy Quran with certified tutors. We deliver interactive one-to-one online classes, complete Tajweed training, and personalized guidance for learners of all levels.", 
+                "tagline": "Online Quran Learning Platform",
+                "title": "Noor for all Human Beings till Qayamah",
+                "description": "A trusted platform to Learn and Understand the Holy Quran in an Easy way for all age groups.", 
                 "ctaBtnText": "Contact Us"
             },
             "introSection": {
@@ -22,9 +22,9 @@
                         "label": "Authentic Sources"
                     }
                 ],
-                "title": "Introduction to Quran Class",
+                "title": "Introduction to the Quran",
                 "subtitle": "An introductory lecture by Muhammad Amjad Chaudhry",
-                "description": "Easy Quran Class is an online Quran academy that teaches Quran recitation, Tajweed, Tafsir, and Arabic to kids and adults through live classes you can join from anywhere.",
+                "description": "",
                 "youtubeIframeLink": "https://www.youtube.com/embed/pGw_108LeME?si=wdg8Ekg3YAOGi3gr"
             },
             "ourLectures": {
@@ -264,7 +264,7 @@
                 }
             ],
             "additionalInfo":{
-                "copyrightText": " Easy Quran Class © 2025 Quran For All Academy. Made With Love For The Ummah.",
+                "copyrightText": " Easy Quran Class © 2025 Quran For All. Made With Love For The Ummah.",
                 "quoteText": "Seek knowledge from the cradle to the grave"
             },
             "sectionTitles": {
@@ -299,7 +299,7 @@
 
             "contactInfo":{
                 "heading": "Easy Quran Class",
-                "description": "Learn Quran in Quranic language — Your trusted online Quran academy for authentic Islamic education.",
+                "description": "Learn Quran in Quranic language — Your trusted platform for authentic Islamic education.",
                 "contactItems": [
                     {
                         "icon": "LocationOnRoundedIcon",
@@ -348,7 +348,7 @@
         "about":{
             "visionSection": {
                 "heading": "About Easy Quran Class",
-                "intro": "Easy Quran Class is an online Quran academy that helps kids and adults learn Quran recitation, Tajweed, Tafsir, Arabic grammar, and namaz with qualified teachers.",
+                "intro": "Easy Quran Class helps kids and adults learn Quran recitation, Tajweed, Tafsir, Arabic grammar, and namaz with qualified teachers.",
                 "cards": [
                     {
                         "title": "Our Mission",
@@ -378,12 +378,12 @@
                     },
                     {
                         "title": "Personalized Learning",
-                        "desc": "One-on-one and group classes tailored for every student's pace, age, and level.",
+                        "desc": "One-on-one and group learning tailored for every student's pace, age, and level.",
                         "icon": "PersonRoundedIcon"
                     },
                     {
                         "title": "Flexible & Interactive",
-                        "desc": "Join classes from anywhere, anytime — interact, ask questions, and enjoy guided recitation.",
+                        "desc": "Join from anywhere, anytime — interact, ask questions, and enjoy guided recitation.",
                         "icon": "SelfImprovementRoundedIcon"
                     },
                     {
@@ -396,8 +396,8 @@
 
             "aboutUsSection":{
                 "tagline": "About Us",
-                "title": "Best Online Quran Academy",
-                "description": "Online Quran Academy is a trusted platform where children and adults can learn the Holy Quran from the comfort of their home. Our qualified teachers provide personalized classes designed to help each student read, recite, and understand the Quran correctly. We focus on creating a positive and supportive learning environment, ensuring that every learner progresses at their own pace. From basic Noorani Qaida to advanced Tajweed and Tafseer, we offer complete Quranic education for everyone. Join us and let your family grow spiritually with expert guidance.",
+                "title": "Online Quran Learning Platform",
+                "description": "A trusted platform where children and adults can learn the Holy Quran from the comfort of their home. Our qualified teachers provide personalized guidance designed to help each student read, recite, and understand the Quran correctly. We focus on creating a positive and supportive learning environment, ensuring that every learner progresses at their own pace. From basic Noorani Qaida to advanced Tajweed and Tafseer, we offer complete Quranic education for everyone. Join us and let your family grow spiritually with expert guidance.",
                 "ctaBtnText": "Contact Us"
             },
 
@@ -436,9 +436,9 @@
     "ur": {
         "home": {
             "banner": {
-                "tagline": "آن لائن قرآن اکیڈمی",
-                "title": "قرآن پاک تمام دنیا کے لوگوں کے لیے",
-                "description": "آن لائن قرآن اکیڈمی قرآن پاک سیکھنے کے لیے ایک قابل اعتماد عالمی پلیٹ فارم ہے جس میں سرٹیفائیڈ ٹیوٹرز موجود ہیں۔ ہم تمام سطحوں کے طلباء کے لیے انٹرایکٹو ایک سے ایک آن لائن کلاسز، مکمل تجوید کی تربیت، اور ذاتی رہنمائی فراہم کرتے ہیں۔",
+                "tagline": "آن لائن قرآن سیکھنے کا پلیٹ فارم",
+                "title": "قیامت تک تمام انسانوں کے لیے نور",
+                "description": "ہر عمر کے لوگوں کے لیے قرآن پاک کو آسان طریقے سے سیکھنے اور سمجھنے کا ایک قابل اعتماد پلیٹ فارم۔",
                 "ctaBtnText": "ہم سے رابطہ کریں"
             },
             "introSection": {
@@ -456,9 +456,9 @@
                         "label": "مستند ذرائع"
                     }
                 ],
-                "title": "قرآن کلاس کا تعارف",
+                "title": "قرآن کا تعارف",
                 "subtitle": "محمد امجد چوہدری کی تعارفی تقریر",
-                "description": "ایزی قرآن کلاس ایک آن لائن قرآن اکیڈمی ہے جہاں بچے اور بڑے زندہ کلاسز کے ذریعے قرآن، تجوید، تفسیر اور عربی سیکھتے ہیں۔",
+                "description": "",
                 "youtubeIframeLink": "https://www.youtube.com/embed/pGw_108LeME?si=wdg8Ekg3YAOGi3gr"
             },
             "ourLectures": {
@@ -707,7 +707,7 @@
                 }
             ],
             "additionalInfo":{
-                "copyrightText": "ایزی قرآن کلاس © 2025 قرآن فار آل اکیڈمی۔ امت کے لیے محبت کے ساتھ بنایا گیا۔",
+                "copyrightText": "ایزی قرآن کلاس © 2025 قرآن فار آل۔ امت کے لیے محبت کے ساتھ بنایا گیا۔",
                 "quoteText": "گہوارے سے قبر تک علم حاصل کرو"
             },
             "sectionTitles": {
@@ -719,7 +719,7 @@
         "about":{
             "visionSection": {
                 "heading": "ایزی قرآن کلاس کے بارے میں",
-                "intro": "ایزی قرآن کلاس ایک آن لائن قرآن اکیڈمی ہے جہاں بچے اور بڑے تجوید، تفسیر، عربی گرامر اور نماز کے ساتھ قرآن سیکھتے ہیں۔",
+                "intro": "ایزی قرآن کلاس بچوں اور بڑوں کو تجوید، تفسیر، عربی گرامر اور نماز کے ساتھ قرآن سکھانے میں مدد کرتا ہے۔",
                 "cards": [
                     {
                         "title": "ہمارا مشن",
@@ -749,12 +749,12 @@
                     },
                     {
                         "title": "ذاتی تعلیم",
-                        "desc": "ہر طالب علم کی رفتار، عمر، اور سطح کے مطابق ایک سے ایک اور گروپ کلاسز۔",
+                        "desc": "ہر طالب علم کی رفتار، عمر، اور سطح کے مطابق ایک سے ایک اور گروپ سیکھنا۔",
                         "icon": "PersonRoundedIcon"
                     },
                     {
                         "title": "لچکدار اور انٹرایکٹو",
-                        "desc": "کہیں سے بھی، کسی بھی وقت کلاسز میں شامل ہوں — بات چیت کریں، سوالات پوچھیں، اور رہنمائی شدہ تلاوت سے لطف اٹھائیں۔",
+                        "desc": "کہیں سے بھی، کسی بھی وقت شامل ہوں — بات چیت کریں، سوالات پوچھیں، اور رہنمائی شدہ تلاوت سے لطف اٹھائیں۔",
                         "icon": "SelfImprovementRoundedIcon"
                     },
                     {
@@ -767,8 +767,8 @@
 
             "aboutUsSection":{
                 "tagline": "ہمارے بارے میں",
-                "title": "بہترین آن لائن قرآن اکیڈمی",
-                "description": "آن لائن قرآن اکیڈمی ایک قابل اعتماد پلیٹ فارم ہے جہاں بچے اور بڑے اپنے گھر کے آرام سے قرآن پاک سیکھ سکتے ہیں۔ ہمارے قابل اساتذہ ذاتی کلاسز فراہم کرتے ہیں جو ہر طالب علم کو قرآن کو صحیح طریقے سے پڑھنے، تلاوت کرنے، اور سمجھنے میں مدد کرنے کے لیے ڈیزائن کی گئی ہیں۔ ہم ایک مثبت اور معاون تعلیمی ماحول بنانے پر توجہ دیتے ہیں، یہ یقینی بناتے ہوئے کہ ہر سیکھنے والا اپنی رفتار سے ترقی کرے۔ بنیادی نورانی قاعدہ سے لے کر اعلیٰ تجوید اور تفسیر تک، ہم سب کے لیے مکمل قرآنی تعلیم پیش کرتے ہیں۔ ہمارے ساتھ شامل ہوں اور ماہر رہنمائی کے ساتھ اپنے خاندان کو روحانی طور پر بڑھنے دیں۔",
+                "title": "آن لائن قرآن سیکھنے کا پلیٹ فارم",
+                "description": "ایک قابل اعتماد پلیٹ فارم ہے جہاں بچے اور بڑے اپنے گھر کے آرام سے قرآن پاک سیکھ سکتے ہیں۔ ہمارے قابل اساتذہ ذاتی رہنمائی فراہم کرتے ہیں جو ہر طالب علم کو قرآن کو صحیح طریقے سے پڑھنے، تلاوت کرنے، اور سمجھنے میں مدد کرنے کے لیے ڈیزائن کی گئی ہے۔ ہم ایک مثبت اور معاون تعلیمی ماحول بنانے پر توجہ دیتے ہیں، یہ یقینی بناتے ہوئے کہ ہر سیکھنے والا اپنی رفتار سے ترقی کرے۔ بنیادی نورانی قاعدہ سے لے کر اعلیٰ تجوید اور تفسیر تک، ہم سب کے لیے مکمل قرآنی تعلیم پیش کرتے ہیں۔ ہمارے ساتھ شامل ہوں اور ماہر رہنمائی کے ساتھ اپنے خاندان کو روحانی طور پر بڑھنے دیں۔",
                 "ctaBtnText": "ہم سے رابطہ کریں"
             },
 
@@ -808,7 +808,7 @@
 
             "contactInfo":{
                 "heading": "Easy Quran Class",
-                "description": "قرآن کی زبان میں قرآن سیکھیں — مستند اسلامی تعلیم کے لیے آپ کا قابل اعتماد آن لائن قرآن اکیڈمی۔",
+                "description": "قرآن کی زبان میں قرآن سیکھیں — مستند اسلامی تعلیم کے لیے آپ کا قابل اعتماد پلیٹ فارم۔",
                 "contactItems": [
                     {
                         "icon": "LocationOnRoundedIcon",

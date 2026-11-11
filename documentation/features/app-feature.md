@@ -160,8 +160,9 @@ Always verify install on a **production HTTPS** URL (Vercel preview or `easyqura
 ## 8. Operator notes
 
 - Changing the logo: replace `public/logo.jpg`, regenerate sized PNG/ICO icons if needed, bump `CACHE_NAME` in `public/sw.js` so clients drop old icons.  
-- Changing app name: `SITE_NAME` / manifest `name` and `short_name`.  
+- Changing app name: `SITE_NAME` / manifest `name` and `short_name`. Keep the product name **Easy Quran Class**.  
 - Theme colour: `theme_color` in `manifest.js` and `viewport.themeColor` in `layout.js` (brand `#B8702F`).  
+- Copy inside the installed app is the same website. Do not use “class”, “classes”, or “academy” in new UI strings. The only allowed “Class” is the brand **Easy Quran Class**. Prefer “platform”, “learning”, “lessons”, or “sessions”. Homepage banner: tagline **Online Quran Learning Platform**, heading **Noor for all Human Beings till Qayamah**.  
 
 ---
 

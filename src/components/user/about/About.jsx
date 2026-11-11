@@ -18,7 +18,7 @@ function About() {
     <StatsSection/>
     <PageFaq
       title="About Easy Quran Class"
-      subtitle="Easy Quran Class is an online Quran academy for kids and adults who want to learn Quran, Tajweed, Tafsir, and namaz with qualified teachers."
+      subtitle="Easy Quran Class helps kids and adults learn Quran, Tajweed, Tafsir, and namaz with qualified teachers."
       faqs={ABOUT_FAQS}
     />
     </>

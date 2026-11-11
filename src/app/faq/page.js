@@ -4,11 +4,11 @@ import { FAQ_PAGE_FAQS } from '@/lib/faqs';
 import { breadcrumbJsonLd, createPageMetadata, faqJsonLd } from '@/lib/seo';
 
 export const metadata = createPageMetadata({
-  title: 'FAQ for Online Quran Classes',
+  title: 'FAQ',
   description:
-    'Answers about Easy Quran Class: how online Quran classes work, Quran classes for kids, Tajweed, Arabic grammar, namaz lectures, and how to enroll.',
+    'Answers about Easy Quran Class: how Quran learning works, learning for kids, Tajweed, Arabic grammar, namaz lectures, and how to get started.',
   path: '/faq',
-  keywords: ['online Quran classes FAQ', 'how to learn Quran online', 'Quran classes for kids FAQ'],
+  keywords: ['Easy Quran Class FAQ', 'how to learn Quran online', 'Quran learning for kids FAQ'],
 });
 
 export default function FaqPage() {
@@ -28,8 +28,8 @@ export default function FaqPage() {
       />
       <PageFaq
         pageTop
-        title="Quran Class FAQs"
-        subtitle="Clear answers for parents, beginners, and adults looking for the best online Quran academy."
+        title="Frequently Asked Questions"
+        subtitle="Clear answers for parents, beginners, and adults learning the Quran with Easy Quran Class."
         faqs={FAQ_PAGE_FAQS}
       />
     </>

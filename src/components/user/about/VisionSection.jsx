@@ -155,7 +155,7 @@ function VisionSection() {
                 }}
               >
                 {visionData.intro ||
-                  'Easy Quran Class is an online Quran academy teaching Quran recitation, Tajweed, Tafsir, and namaz to students worldwide.'}
+                  'Easy Quran Class guides students worldwide in Quran recitation, Tajweed, Tafsir, and namaz.'}
               </Typography>
             </Stack>
             <Stack 

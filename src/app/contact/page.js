@@ -4,11 +4,11 @@ import { CONTACT_FAQS } from '@/lib/faqs';
 import { SITE_ADDRESS, SITE_EMAIL, SITE_PHONE, breadcrumbJsonLd, createPageMetadata, faqJsonLd } from '@/lib/seo';
 
 export const metadata = createPageMetadata({
-  title: 'Contact & Enroll in Quran Classes',
+  title: 'Contact Easy Quran Class',
   description:
-    'Contact Easy Quran Class to enroll in online Quran, Tajweed, or namaz classes. Call 0301 8477994, email info@easyquranclass.com, or send a message from anywhere.',
+    'Contact Easy Quran Class to start Quran, Tajweed, or namaz learning. Call 0301 8477994, email info@easyquranclass.com, or send a message from anywhere.',
   path: '/contact',
-  keywords: ['contact Quran academy', 'enroll online Quran classes'],
+  keywords: ['contact Easy Quran Class', 'start Quran learning'],
 });
 
 export default function ContactPage() {

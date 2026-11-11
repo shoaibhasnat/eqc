@@ -7,7 +7,7 @@ import '../global.css';
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Easy Quran Class | Best Online Quran Academy',
+    default: 'Easy Quran Class | Online Quran Learning Platform',
     template: '%s | Easy Quran Class',
   },
   description: SITE_DESCRIPTION,
@@ -31,7 +31,7 @@ export const metadata = {
   openGraph: {
     type: 'website',
     url: SITE_URL,
-    title: 'Easy Quran Class | Best Online Quran Academy',
+    title: 'Easy Quran Class | Online Quran Learning Platform',
     description: SITE_DESCRIPTION,
     siteName: SITE_NAME,
     locale: 'en_US',
@@ -46,7 +46,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Easy Quran Class | Best Online Quran Academy',
+    title: 'Easy Quran Class | Online Quran Learning Platform',
     description: SITE_DESCRIPTION,
     images: ['/images/home-banner.jpg'],
   },

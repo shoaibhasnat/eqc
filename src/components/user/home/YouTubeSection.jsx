@@ -48,7 +48,7 @@ function YouTubeSection() {
               fontFamily: "'Poppins', sans-serif",
             }}
           >
-            Join Our <span style={{ color: "#ff0000" }}>Quran Class</span> on YouTube
+            Join Easy Quran Class on <span style={{ color: "#ff0000" }}>YouTube</span>
           </Typography>
           <Typography
             variant="subtitle1"
@@ -80,7 +80,7 @@ function YouTubeSection() {
             width="100%"
             height="480"
             src="https://www.youtube.com/embed/pGw_108LeME?si=wdg8Ekg3YAOGi3gr"
-            title="Join Class on YouTube"
+            title="Easy Quran Class on YouTube"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -105,7 +105,7 @@ function YouTubeSection() {
               fontFamily: "'Open Sans', sans-serif",
             }}
           >
-            Subscribe to our YouTube channel for regular Quran classes, tafsir sessions, and live Q&A discussions.
+            Subscribe to our YouTube channel for regular Quran learning, tafsir sessions, and live Q&A discussions.
           </Typography>
 
           <Button

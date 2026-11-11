@@ -510,7 +510,7 @@ function Footer() {
                     additionalInfo.copyrightText.replace('2025', new Date().getFullYear().toString())
                   ) : (
                     <>
-                      Easy Quran Class © {new Date().getFullYear()} Quran For All Academy. Made with{' '}
+                      Easy Quran Class © {new Date().getFullYear()} Quran For All. Made with{' '}
                       <Favorite
                         sx={{
                           fontSize: 16,
